@@ -1,7 +1,7 @@
 <!-- main header -->
 <header class="main-header header-one white-menu menu-absolute">
     <!--Header-Upper-->
-    <div class="header-upper py-30 rpy-0">
+    <div class="header-upper py-30 rpy-0 custom-s-bg" style="">
         <div class="container-fluid clearfix">
 
             <div class="header-inner rel d-flex align-items-center">

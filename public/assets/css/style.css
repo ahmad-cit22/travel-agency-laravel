@@ -58,10 +58,10 @@ body {
   font-family: var(--base-font);
   --base-font: 'Outfit', sans-serif;
   --heading-font: 'Outfit', sans-serif;
-  --primary-color: #63AB45;
-  --secondary-color: #F7921E;
-  --heading-color: #1C231F;
-  --base-color: #484848;
+  --primary-color: #35335a;
+  --secondary-color: #e5595b;
+  --heading-color: #110f1e;
+  --base-color: #1e1a34;
   --lighter-color: #F9F9F7;
   --border-color: #E9E9E9;
   --primary-rgb: 99, 171, 69;
@@ -3764,7 +3764,7 @@ h6, .h6, blockquote {
     background: white; }
 
 .main-header.white-menu.fixed-header .header-upper {
-  background: #222222; }
+  background: #110f1e; }
 
 .main-header.white-menu.header-one .main-menu .navbar-collapse {
   background: #232C26;
@@ -3817,7 +3817,7 @@ h6, .h6, blockquote {
   z-index: 99999;
   overflow-y: auto;
   visibility: hidden;
-  background-color: #222222;
+  background-color: #110f1e;
   border-left: 1px solid #231b26;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
