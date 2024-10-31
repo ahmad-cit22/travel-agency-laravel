@@ -58,9 +58,9 @@ body {
   font-family: var(--base-font);
   --base-font: 'Outfit', sans-serif;
   --heading-font: 'Outfit', sans-serif;
-  --primary-color: #35335a;
+  --primary-color: #1e1a34;
   --secondary-color: #e5595b;
-  --heading-color: #1C231F;
+  --heading-color: #241f3e;
   --base-color: #1e1a34;
   --lighter-color: #F9F9F7;
   --border-color: #E9E9E9;
@@ -3764,10 +3764,10 @@ h6, .h6, blockquote {
     background: white; }
 
 .main-header.white-menu.fixed-header .header-upper {
-  background: #110f1e; }
+  background: #1e1a34; }
 
 .main-header.white-menu.header-one .main-menu .navbar-collapse {
-  background: #232C26;
+  background: #231f46e7;
   border-color: rgba(255, 255, 255, 0.1); }
 
 /* Menu Sidebar */
@@ -4043,6 +4043,7 @@ h6, .h6, blockquote {
 
 .main-hero-image {
   height: 790px;
+  /* width: 100% !important; */
   margin-top: -8%;
   position: relative;
   border-radius: 20px; }
@@ -4458,7 +4459,7 @@ h6, .h6, blockquote {
 .destination-item {
   color: #92A498;
   margin-bottom: 30px;
-  background: #232C26;
+  background: #1b1831;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.1); }
   .destination-item .image {

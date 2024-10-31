@@ -1,10 +1,4 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Ravelo - Travel & Tour Booking HTML Template
-    Template URI: https://webtend.net/demo/html/ravelo/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
-
     Note: This is Main JS File.
 -----------------------------------------------------------------------------------
 	CSS INDEX
@@ -33,7 +27,7 @@
     ## Nice Select
     ## AOS Animation
     ## Preloader
-    
+
 -----------------------------------------------------------------------------------*/
 
 (function ($) {
@@ -58,8 +52,8 @@
             }
         }
         headerStyle();
-        
-        
+
+
         // ## Dropdown menu
         var mobileWidth = 992;
         var navcollapse = $('.navigation li.dropdown');
@@ -70,7 +64,7 @@
                 $(this).children('.megamenu').stop(true, false, true).slideToggle(300);
             }
         });
-        
+
         // ## Submenu Dropdown Toggle
         if ($('.main-header .navigation li.dropdown ul').length) {
             $('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="far fa-angle-down"></span></div>');
@@ -80,21 +74,21 @@
                 $(this).prev('ul').slideToggle(500);
                 $(this).prev('.megamenu').slideToggle(800);
             });
-            
+
             //Disable dropdown parent link
             $('.navigation li.dropdown > a').on('click', function (e) {
                 e.preventDefault();
             });
         }
-        
+
         //Submenu Dropdown Toggle
         if ($('.main-header .main-menu').length) {
             $('.main-header .main-menu .navbar-toggle').click(function () {
                 $(this).prev().prev().next().next().children('li.dropdown').hide();
             });
         }
-        
-         
+
+
         // ## Menu Hidden Sidebar Content Toggle
         if($('.menu-sidebar').length){
             //Show Form
@@ -112,14 +106,14 @@
                 $(this).next('ul').slideToggle(500);
             });
         }
-         
-        
+
+
         // ## Search Box
 		$('.nav-search > button').on('click', function () {
 			$('.nav-search form').toggleClass('hide');
 		});
-        
-        
+
+
         // Hide Box Search WHEN CLICK OUTSIDE
 		if ($(window).width() > 767){
 			$('body').on('click', function (event) {
@@ -131,8 +125,8 @@
 				}
 			});
 		}
-        
-        
+
+
         // ## Sidebar Menu
         if ($('.sidebar-menu li.dropdown ul').length) {
             $('.sidebar-menu li.dropdown').append('<div class="dropdown-btn"><span class="far fa-angle-down"></span></div>');
@@ -143,7 +137,7 @@
                 $(this).prev('.megamenu').slideToggle(800);
                 $(this).parent('li.dropdown').toggleClass('active');
             });
-            
+
             //Disable dropdown parent link
             $('.sidebar-menu li.dropdown > a').on('click', function (e) {
                 e.preventDefault();
@@ -151,8 +145,8 @@
                 $(this).parent('li.dropdown').toggleClass('active');
             });
         }
-        
-  
+
+
         // ## Video Popup
         if ($('.video-play').length) {
             $('.video-play').magnificPopup({
@@ -160,7 +154,7 @@
             });
         }
 
-        
+
         // ## Testimonial Slider
         if ($('.testimonials-active').length) {
             $('.testimonials-active').slick({
@@ -176,7 +170,7 @@
             });
         }
 
-        
+
         // ## Destination Carousel
         if ($('.destination-active').length) {
             $('.destination-active').slick({
@@ -218,8 +212,8 @@
                 ]
             });
         }
-        
-        
+
+
         // ## Client Logo Carousel
         if ($('.client-logo-active').length) {
             $('.client-logo-active').slick({
@@ -254,8 +248,8 @@
                 ]
             });
         }
-        
- 
+
+
         // ## Hot Deals Carousel
         if ($('.hot-deals-active').length) {
             $('.hot-deals-active').slick({
@@ -284,7 +278,7 @@
                 ]
             });
         }
-        
+
 
         // ## Gallery Slider
         if ($('.gallery-slider-active').length) {
@@ -321,8 +315,8 @@
                 ]
             });
         }
-        
-        
+
+
         // ## Product Slider
         if ($('.product-slider').length) {
             $('.product-slider').slick({
@@ -358,8 +352,8 @@
                 ]
             });
         }
-        
-        
+
+
         // ## Gallery Popup
         $('.gallery a').magnificPopup({
             type: 'image',
@@ -368,9 +362,9 @@
                 navigateByImgClick: true,
             },
         });
-        
-        
-        // ## Instagram Gallery 
+
+
+        // ## Instagram Gallery
         $('.instagram-item').magnificPopup({
             type: 'image',
             gallery: {
@@ -378,8 +372,8 @@
                 navigateByImgClick: true,
             },
         });
-        
-        
+
+
         // ## SkillBar
         if ($('.skillbar').length) {
             $('.skillbar').appear(function () {
@@ -390,12 +384,12 @@
                 });
             });
         }
-        
-        
+
+
          /* ## Fact Counter + Text Count - Our Success */
         if ($('.counter-text-wrap').length) {
             $('.counter-text-wrap').appear(function () {
-                
+
                 var $t = $(this),
                     n = $t.find(".count-text").attr("data-stop"),
                     r = parseInt($t.find(".count-text").attr("data-speed"), 10);
@@ -422,8 +416,8 @@
                 accY: 0
             });
         }
-        
-        
+
+
         // ## Destinations Filter
         $('.destinations-active').imagesLoaded(function () {
 			var items = $('.destinations-active').isotope({
@@ -444,8 +438,8 @@
 				event.preventDefault();
 			});
 		});
-        
-        
+
+
         // ## Price Range Fliter jQuery UI
         if ($('.price-slider-range').length) {
             $(".price-slider-range").slider({
@@ -460,8 +454,8 @@
             $("#price").val("$ " + $(".price-slider-range").slider("values", 0) +
                 " - $ " + $(".price-slider-range").slider("values", 1));
         }
-        
-        
+
+
         // ## Hover Content
         $('.hover-content').hover(
             function(){
@@ -470,8 +464,8 @@
                 $(this).find('.inner-content').slideUp();
             }
         );
-        
-        
+
+
         // ## Scroll to Top
         if ($('.scroll-to-target').length) {
             $(".scroll-to-target").on('click', function () {
@@ -483,19 +477,19 @@
 
             });
         }
-        
-        
+
+
         // ## Nice Select
         $('select').niceSelect();
-        
-        
+
+
         // ## AOS Animation
         AOS.init();
-        
- 
+
+
     });
-    
-    
+
+
     /* ==========================================================================
        When document is resize, do
     ========================================================================== */
@@ -548,7 +542,7 @@
             }
         }
         handlePreloader();
-        
+
     });
 
 })(window.jQuery);

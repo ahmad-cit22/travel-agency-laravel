@@ -2,17 +2,19 @@
 
 @section('content')
     <!-- Hero Area Start -->
-    <section class="hero-area bgc-black pt-200 rpt-120 rel z-2">
-        <div class="container-fluid">
-            <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj & Umrah</h1>
-            <div class="main-hero-image bgs-cover" style="object-fit: cover; background-image: url({{asset('assets/images/hero/pxfuel.jpg')}});">
-            </div>
+    <section class="hero-area bgc-black pt-200 pb-100 rpt-120 rel z-2"
+        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
+        <!-- Gradient Overlay -->
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #000); opacity: 0.7; z-index: 1;">
         </div>
-
+        <div class="container-fluid">
+            <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj &
+                Umrah</h1>
+        </div>
         @include('partials.search-filter')
     </section>
     <!-- Hero Area End -->
-
 
     <!-- Destinations Area start -->
     <section class="destinations-area bgc-black pt-100 pb-70 rel z-1">
@@ -21,9 +23,9 @@
                 <div class="col-lg-12">
                     <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Discover the World's Treasures with Ravelo</h2>
-                        <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span>
-                            most popular experience you’ll remember</p>
+                        <h2>Explore the Holy Sites of Hajj & Umrah</h2>
+                        <p>Join over <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> satisfied
+                            pilgrims from Bangladesh on a journey of a lifetime.</p>
                     </div>
                 </div>
             </div>
@@ -31,18 +33,17 @@
                 <div class="col-xxl-3 col-xl-4 col-md-6">
                     <div class="destination-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/visiting-place1.jpg" alt="Destination">
+                            <img src="assets/images/destinations/makkah.jpg" alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Tours, France</span>
-                            <h5><a href="destination-details.html">Brown Concrete Building Basilica St Martin</a>
-                            </h5>
-                            <span class="time">3 days 2 nights - Couple</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
+                            <span class="time">7 Days - Family Friendly</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$58.00</span>/per person</span>
+                            <span class="price"><span>$1500</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
@@ -51,18 +52,17 @@
                     <div class="destination-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
                         data-aos-offset="50">
                         <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <div class="ratting"><i class="fas fa-star"></i> 4.9</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/visiting-place2.jpg" alt="Destination">
+                            <img src="assets/images/destinations/madina.jpg" alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Wildest, Italy</span>
-                            <h5><a href="destination-details.html">Blue lake water view taken travel with
-                                    daytime</a></h5>
-                            <span class="time">3 days 2 nights - Couple</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Madinah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Prophet’s Mosque: Embrace Spiritual Peace</a></h5>
+                            <span class="time">5 Days - Pilgrim Package</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$63.00</span>/per person</span>
+                            <span class="price"><span>$1200</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
@@ -73,15 +73,15 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/visiting-place3.jpg" alt="Destination">
+                            <img src="assets/images/destinations/aarafat.jpg" alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome, Italy</span>
-                            <h5><a href="destination-details.html">Woman standing near Colosseum, Rome</a></h5>
-                            <span class="time">3 days 2 nights - Couple</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Arafat, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Day of Arafat: A Time for Prayer and Reflection</a></h5>
+                            <span class="time">1 Day - Guided Experience</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$42</span>/per person</span>
+                            <span class="price"><span>$300</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
@@ -92,15 +92,15 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/visiting-place4.jpg" alt="Destination">
+                            <img src="assets/images/destinations/mina.jpg" alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome, Italy</span>
-                            <h5><a href="destination-details.html">Woman standing near Colosseum, Rome</a></h5>
-                            <span class="time">3 days 2 nights - Couple</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mina, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Mina: The Journey of Sacrifice</a></h5>
+                            <span class="time">2 Days - Traditional Package</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$52.00</span>/per person</span>
+                            <span class="price"><span>$400</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
     <!-- Destinations Area end -->
 
 
-    <!-- About Us Area start -->
+    <!-- About Us Area Start -->
     <section class="about-us-area py-100 rpb-90 rel z-1">
         <div class="container">
             <div class="row align-items-center">
@@ -119,49 +119,43 @@
                     <div class="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500"
                         data-aos-offset="50">
                         <div class="section-title mb-25">
-                            <h2>Travel with Confidence Top Reasons to Choose Our Agency</h2>
+                            <h2>Why Choose Us for Your Hajj & Umrah Journey?</h2>
                         </div>
-                        <p>We go above and beyond to make your travel dreams reality hidden gems and must-see
-                            attractions</p>
+                        <p>With over a decade of experience, we are committed to making your spiritual journey a safe and
+                            comfortable experience. Our tailored packages cater to your needs, ensuring a memorable
+                            pilgrimage.</p>
                         <div class="divider counter-text-wrap mt-45 mb-55"><span>We have <span><span
-                                        class="count-text plus" data-speed="3000" data-stop="25">0</span>
-                                    Years</span> of experience</span></div>
+                                        class="count-text plus" data-speed="3000" data-stop="10">0</span>
+                                    Years</span> of service excellence</span></div>
                         <div class="row">
                             <div class="col-6">
                                 <div class="counter-item counter-text-wrap">
-                                    <span class="count-text k-plus" data-speed="3000" data-stop="3">0</span>
-                                    <span class="counter-title">Popular Destination</span>
+                                    <span class="count-text k-plus" data-speed="3000" data-stop="5">0</span>
+                                    <span class="counter-title">Popular Packages</span>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="counter-item counter-text-wrap">
-                                    <span class="count-text m-plus" data-speed="3000" data-stop="9">0</span>
-                                    <span class="counter-title">Satisfied Clients</span>
+                                    <span class="count-text m-plus" data-speed="3000" data-stop="3">0</span>
+                                    <span class="counter-title">Satisfied Pilgrims</span>
                                 </div>
                             </div>
                         </div>
-                        <a href="destination1.html" class="theme-btn mt-10 style-two">
-                            <span data-hover="Explore Destinations">Explore Destinations</span>
+                        <a href="packages.html" class="theme-btn mt-10 style-two">
+                            <span data-hover="Explore Packages">Explore Packages</span>
                             <i class="fal fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                     <div class="about-us-image">
-                        <div class="shape"><img src="assets/images/about/shape1.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape2.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape3.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape4.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape5.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape6.png" alt="Shape"></div>
-                        <div class="shape"><img src="assets/images/about/shape7.png" alt="Shape"></div>
-                        <img src="assets/images/about/about.png" alt="About">
+                        <img src="assets/images/about/hajj-umrah-about.jpg" alt="About Us">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Us Area end -->
+    <!-- About Us Area End -->
 
 
     <!-- Popular Destinations Area start -->

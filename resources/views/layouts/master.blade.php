@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Ravelo - Travel & Tour Booking HTML Template</title>
+    <title>Shatabdi Aviation | @yield('title', 'Your Hajj & Umrah Solution')</title>
+
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/images/logos/favicon.png" type="image/x-icon">
 
