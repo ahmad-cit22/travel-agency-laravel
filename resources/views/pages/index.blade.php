@@ -6,7 +6,7 @@
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
         <!-- Gradient Overlay -->
         <div
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #000); opacity: 0.7; z-index: 1;">
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #0e0e18); opacity: 0.7; z-index: 1;">
         </div>
         <div class="container-fluid">
             <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj &
@@ -25,7 +25,7 @@
                         data-aos-duration="1500" data-aos-offset="50">
                         <h2>Explore the Holy Sites of Hajj & Umrah</h2>
                         <p>Join over <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> satisfied
-                            pilgrims from Bangladesh on a journey of a lifetime.</p>
+                            pilgrims on a journey of a lifetime.</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,8 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/makkah.jpg" alt="Destination">
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                                alt="Destination">
                         </div>
                         <div class="content">
                             <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
@@ -49,62 +50,63 @@
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-md-6">
-                    <div class="destination-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="destination-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.9</div>
+                            <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/madina.jpg" alt="Destination">
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                                alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Madinah, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Prophet’s Mosque: Embrace Spiritual Peace</a></h5>
-                            <span class="time">5 Days - Pilgrim Package</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
+                            <span class="time">7 Days - Family Friendly</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$1200</span>/per person</span>
+                            <span class="price"><span>$1500</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-md-6">
-                    <div class="destination-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="destination-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/aarafat.jpg" alt="Destination">
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                                alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Arafat, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Day of Arafat: A Time for Prayer and Reflection</a></h5>
-                            <span class="time">1 Day - Guided Experience</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
+                            <span class="time">7 Days - Family Friendly</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$300</span>/per person</span>
+                            <span class="price"><span>$1500</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-md-6">
-                    <div class="destination-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="destination-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/mina.jpg" alt="Destination">
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                                alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mina, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Mina: The Journey of Sacrifice</a></h5>
-                            <span class="time">2 Days - Traditional Package</span>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
+                            <span class="time">7 Days - Family Friendly</span>
                         </div>
                         <div class="destination-footer">
-                            <span class="price"><span>$400</span>/per person</span>
+                            <span class="price"><span>$1500</span>/per person</span>
                             <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -149,7 +151,14 @@
                 </div>
                 <div class="col-xl-7 col-lg-6" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                     <div class="about-us-image">
-                        <img src="assets/images/about/hajj-umrah-about.jpg" alt="About Us">
+                        <div class="shape"><img src="assets/images/about/pray1.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/pray.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/shalat.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/pray1.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/pray.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/pray1.png" alt="Shape"></div>
+                        <div class="shape"><img src="assets/images/about/shalat.png" alt="Shape"></div>
+                        <img src="assets/images/about/about2.png" alt="About Us" width="70%">
                     </div>
                 </div>
             </div>
@@ -182,77 +191,105 @@
                                     <img src="assets/images/destinations/destination1.jpg" alt="Destination">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Thailand beach</a></h6>
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
                                     <span class="time">5352+ tours & 856+ Activity</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-delay="100"
-                                data-aos-duration="1500" data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination2.jpg" alt="Destination">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Parga, Greece</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-delay="200"
-                                data-aos-duration="1500" data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination3.jpg" alt="Destination">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Castellammare del Golfo, Italy</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
                             <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination4.jpg" alt="Destination">
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Reserve of Canada, Canada</a></h6>
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
                                     <span class="time">5352+ tours & 856+ Activity</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-delay="100"
-                                data-aos-duration="1500" data-aos-offset="50">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination5.jpg" alt="Destination">
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Dubai united states</a></h6>
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
                                     <span class="time">5352+ tours & 856+ Activity</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-delay="200"
-                                data-aos-duration="1500" data-aos-offset="50">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination6.jpg" alt="Destination">
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Milos, Greece</a></h6>
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
+                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
+                                <div class="image">
+                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                </div>
+                                <div class="content">
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
+                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
+                                <div class="image">
+                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                </div>
+                                <div class="content">
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
+                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
+                                <div class="image">
+                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                </div>
+                                <div class="content">
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
+                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
+                                data-aos-offset="50">
+                                <div class="image">
+                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                </div>
+                                <div class="content">
+                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
                                     <span class="time">5352+ tours & 856+ Activity</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>

@@ -62,8 +62,8 @@ body {
   --secondary-color: #e5595b;
   --heading-color: #241f3e;
   --base-color: #1e1a34;
-  --lighter-color: #F9F9F7;
-  --border-color: #E9E9E9;
+  --lighter-color: #f7f6fd;
+  --border-color: #e6e5ea;
   --primary-rgb: 99, 171, 69;
   --secondary-rgb: 247, 146, 30; }
 
@@ -901,7 +901,7 @@ a.theme-btn {
     top: 0;
     left: 0;
     opacity: 0.95;
-    background-color: #1D231F; }
+    background: linear-gradient(to top, #241f3e, #0e0e18); }
 
 /* Backgruond Size */
 .bgs-cover {
@@ -8209,7 +8209,7 @@ blockquote {
 /* Footer Bottom */
 .footer-bottom {
   position: relative;
-  background: #222924; }
+  background: #18152d; }
   .footer-bottom .copyright-text a {
     color: var(--secondary-color); }
   .footer-bottom .scroll-top {
