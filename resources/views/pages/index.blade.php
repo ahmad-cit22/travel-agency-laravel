@@ -311,24 +311,24 @@
                     <div class="features-content-part mb-55" data-aos="fade-left" data-aos-duration="1500"
                         data-aos-offset="50">
                         <div class="section-title mb-60">
-                            <h2>The Ultimate Travel Experience Features That Set Our Agency Apart</h2>
+                            <h2>Exclusive Hajj Booking Features That Make Us Stand Out</h2>
                         </div>
                         <div class="features-customer-box">
-                            <div class="image">
-                                <img src="assets/images/features/features-box.jpg" alt="Features">
+                            <div class="image" style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
+                                <img src="assets/images/features/pxfuel2.jpg" alt="Features" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="content">
                                 <div class="feature-authors mb-15">
-                                    <img src="assets/images/features/feature-author1.jpg" alt="Author">
-                                    <img src="assets/images/features/feature-author2.jpg" alt="Author">
-                                    <img src="assets/images/features/feature-author3.jpg" alt="Author">
-                                    <span>4k+</span>
+                                    <img src="assets/images/features/feature-author8.jpg" alt="Author">
+                                    <img src="assets/images/features/feature-author8.jpg" alt="Author">
+                                    <img src="assets/images/features/feature-author8.jpg" alt="Author">
+                                    <span>10k+</span>
                                 </div>
-                                <h6>850K+ Happy Customer</h6>
+                                <h6>850K+ Satisfied Pilgrims</h6>
                                 <div class="divider style-two counter-text-wrap my-25"><span><span class="count-text plus"
                                             data-speed="3000" data-stop="25">0</span>
                                         Years</span></div>
-                                <p>We pride ourselves offering personalized itineraries</p>
+                                <p>We offer personalized itineraries for a memorable pilgrimage</p>
                             </div>
                         </div>
                     </div>
@@ -339,15 +339,15 @@
                             <div class="feature-item">
                                 <div class="icon"><i class="flaticon-tent"></i></div>
                                 <div class="content">
-                                    <h5><a href="tour-details.html">Tent Camping</a></h5>
-                                    <p>Tent camping is wonderful way to connect with nature</p>
+                                    <h5><a href="hajj-details.html">Spiritual Guidance</a></h5>
+                                    <p>Receive expert guidance to enhance your Hajj experience</p>
                                 </div>
                             </div>
                             <div class="feature-item">
                                 <div class="icon"><i class="flaticon-tent"></i></div>
                                 <div class="content">
-                                    <h5><a href="tour-details.html">Kayaking</a></h5>
-                                    <p>Kayaking is a thrilling outdoor activity that adventure</p>
+                                    <h5><a href="hajj-details.html">Comfortable Accommodations</a></h5>
+                                    <p>Stay in comfort with our carefully selected accommodations</p>
                                 </div>
                             </div>
                         </div>
@@ -355,15 +355,15 @@
                             <div class="feature-item mt-20">
                                 <div class="icon"><i class="flaticon-tent"></i></div>
                                 <div class="content">
-                                    <h5><a href="tour-details.html">Mountain Biking</a></h5>
-                                    <p>Mountain biking is exhilarating sport that physical fitness</p>
+                                    <h5><a href="hajj-details.html">Seamless Transportation</a></h5>
+                                    <p>Enjoy hassle-free transportation arrangements throughout your journey</p>
                                 </div>
                             </div>
                             <div class="feature-item">
                                 <div class="icon"><i class="flaticon-tent"></i></div>
                                 <div class="content">
-                                    <h5><a href="tour-details.html">Fishing & Boat</a></h5>
-                                    <p>Fishing and boat bring joy quintessential activities that</p>
+                                    <h5><a href="hajj-details.html">Group Packages</a></h5>
+                                    <p>Join our group packages for a fulfilling and communal experience</p>
                                 </div>
                             </div>
                         </div>
@@ -382,9 +382,8 @@
                 <div class="col-lg-12">
                     <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Discover the World's Class Top Hotel</h2>
-                        <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span>
-                            most popular experience you’ll remember</p>
+                        <h2>Discover the Top Class Hotels of Makkah & Madinah</h2>
+                        <p>Most popular experience you’ll remember</p>
                     </div>
                 </div>
             </div>
@@ -398,33 +397,8 @@
                             <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Ao Nang, Thailand</span>
-                            <h5><a href="destination-details.html">The brown bench near swimming pool Hotel</a>
-                            </h5>
-                            <ul class="list-style-one">
-                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
-                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
-                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
-                                <li><i class="fal fa-router"></i> Internet</li>
-                            </ul>
-                            <div class="destination-footer">
-                                <span class="price"><span>$85.00</span>/per night</span>
-                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-delay="50"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel2.jpg" alt="Hotel">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Kigali, Rwanda</span>
-                            <h5><a href="destination-details.html">Green trees and body of water Marriott Hotel</a>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
                             </h5>
                             <ul class="list-style-one">
                                 <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
@@ -442,9 +416,15 @@
                 <div class="col-xxl-6 col-xl-8 col-lg-10">
                     <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">
+                        <div class="image">
+                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
+                        </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Ao Nang, Thailand</span>
-                            <h5><a href="#">Painted house surrounded with trees Hotel</a></h5>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
+                            </h5>
                             <ul class="list-style-one">
                                 <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
                                 <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
@@ -455,20 +435,21 @@
                                 <span class="price"><span>$85.00</span>/per night</span>
                                 <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                             </div>
-                        </div>
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel3.jpg" alt="Hotel">
                         </div>
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-delay="50"
-                        data-aos-duration="1500" data-aos-offset="50">
+                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
+                        <div class="image">
+                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
+                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
+                        </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Ao Nang, Thailand</span>
-                            <h5><a href="#">house pool Jungle Pool Indonesia Hotel</a></h5>
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
+                            </h5>
                             <ul class="list-style-one">
                                 <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
                                 <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
@@ -480,10 +461,30 @@
                                 <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-8 col-lg-10">
+                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel4.jpg" alt="Hotel">
+                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
+                            </h5>
+                            <ul class="list-style-one">
+                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
+                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
+                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
+                                <li><i class="fal fa-router"></i> Internet</li>
+                            </ul>
+                            <div class="destination-footer">
+                                <span class="price"><span>$85.00</span>/per night</span>
+                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -498,51 +499,6 @@
     </section>
     <!-- Hotel Area end -->
 
-
-    <!-- Mobile App Area start -->
-    <section class="mobile-app-area py-100 rel z-1">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="mobile-app-content rmb-55" data-aos="fade-left" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="section-title mb-30">
-                            <h2>We Are Available On the Store Get Our Mobile Apps Very Easily</h2>
-                        </div>
-                        <p>We go above and beyond to make your travel dreams a reality. Trust us to handle the
-                            details so you can creating unforgettable memories. Explore the world with confidence
-                        </p>
-                        <ul class="list-style-two mt-35 mb-30">
-                            <li>Experience Agency</li>
-                            <li>Professional Team</li>
-                            <li>Low Cost Travel</li>
-                            <li>Online Support 24/7</li>
-                        </ul>
-                        <div class="google-play-app-store">
-                            <a href="#"><img src="assets/images/mobile-app/g-play.jpg" alt="Google Play"></a>
-                            <a href="#"><img src="assets/images/mobile-app/a-store.jpg" alt="App Store"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="mobile-app-images">
-                        <div class="bg"><img src="assets/images/mobile-app/phone-bg.png" alt="BG">
-                        </div>
-                        <div class="images">
-                            <img src="assets/images/mobile-app/phone2.png" alt="Phone" data-aos="fade-down-left"
-                                data-aos-duration="1500" data-aos-offset="50">
-                            <img src="assets/images/mobile-app/phone.png" alt="Phone">
-                            <img src="assets/images/mobile-app/phone3.png" alt="Phone" data-aos="fade-up-right"
-                                data-aos-duration="1500" data-aos-offset="50">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Mobile App Area end -->
-
-
     <!-- Testimonials Area start -->
     <section class="testimonials-area rel z-1">
         <div class="container">
@@ -550,7 +506,7 @@
                 <div class="row">
                     <div class="col-lg-5 rel" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                         <div class="testimonial-left-image rmb-55"
-                            style="background-image: url(assets/images/testimonials/testimonial-left.jpg);"></div>
+                            style="background-image: url(assets/images/destinations/hotel1.jpg);"></div>
                     </div>
                     <div class="col-lg-7">
                         <div class="testimonial-right-content" data-aos="fade-left" data-aos-duration="1500"
@@ -618,7 +574,7 @@
 
 
     <!-- CTA Area start -->
-    <section class="cta-area pt-100 rel z-1">
+    {{-- <section class="cta-area pt-100 rel z-1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-4 col-md-6" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-offset="50">
@@ -655,7 +611,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- CTA Area end -->
 
 
@@ -676,9 +632,9 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation with
-                                    Ravelo Travel Agency</a></h5>
+                            <a href="blog.html" class="category">Hajj</a>
+                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Hajj with Shatabdi
+                                    Aviation</a></h5>
                             <ul class="blog-meta">
                                 <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a>
                                 </li>
@@ -686,7 +642,7 @@
                             </ul>
                         </div>
                         <div class="image">
-                            <img src="assets/images/blog/blog1.jpg" alt="Blog">
+                            <img src="assets/images/features/pxfuel2.jpg" alt="Blog" style="border-radius: 20px;">
                         </div>
                         <a href="blog-details.html" class="theme-btn">
                             <span data-hover="Book Now">Read More</span>
@@ -695,12 +651,11 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="blog-item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="blog-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Unforgettable Adventures Travel Agency Bucket List
-                                    Experiences</a></h5>
+                            <a href="blog.html" class="category">Hajj</a>
+                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Hajj with Shatabdi
+                                    Aviation</a></h5>
                             <ul class="blog-meta">
                                 <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a>
                                 </li>
@@ -708,7 +663,7 @@
                             </ul>
                         </div>
                         <div class="image">
-                            <img src="assets/images/blog/blog2.jpg" alt="Blog">
+                            <img src="assets/images/features/pxfuel2.jpg" alt="Blog" style="border-radius: 20px;">
                         </div>
                         <a href="blog-details.html" class="theme-btn">
                             <span data-hover="Book Now">Read More</span>
@@ -717,12 +672,11 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
-                    <div class="blog-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="blog-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Exploring Culture and way Cuisine Travel Agency's they
-                                    Best Foodie Destinations</a></h5>
+                            <a href="blog.html" class="category">Hajj</a>
+                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Hajj with Shatabdi
+                                    Aviation</a></h5>
                             <ul class="blog-meta">
                                 <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a>
                                 </li>
@@ -730,7 +684,7 @@
                             </ul>
                         </div>
                         <div class="image">
-                            <img src="assets/images/blog/blog3.jpg" alt="Blog">
+                            <img src="assets/images/features/pxfuel2.jpg" alt="Blog" style="border-radius: 20px;">
                         </div>
                         <a href="blog-details.html" class="theme-btn">
                             <span data-hover="Book Now">Read More</span>

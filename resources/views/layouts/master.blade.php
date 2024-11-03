@@ -12,7 +12,7 @@
     <title>Shatabdi Aviation | @yield('title', 'Your Hajj & Umrah Solution')</title>
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/logos/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logos/favicon1.png" type="image/x-icon">
 
     @include('includes.styles')
 
