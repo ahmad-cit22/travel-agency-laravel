@@ -1,6 +1,6 @@
 <!-- footer area start -->
 <footer class="main-footer bgs-cover overlay rel z-1 pb-25"
-    style="background-image: url(assets/images/backgrounds/pxfuel2.jpg);">
+    style="background-image: url(assets/images/backgrounds/pxfuel3.jpg);">
     <div class="container">
         <div class="footer-top pt-100 pb-30">
             <div class="row justify-content-between">
@@ -50,7 +50,7 @@
                             <li><a href="destination-details.html">Hajj Booking</a></li>
                             <li><a href="destination-details.html">Umrah Booking</a></li>
                             <li><a href="destination-details.html">Hotel Booking</a></li>
-                            <li><a href="destination-details.html">Transport Services</a></li>
+                            <li><a href="destination-details.html">Vehicle Booking</a></li>
                         </ul>
                     </div>
                 </div>

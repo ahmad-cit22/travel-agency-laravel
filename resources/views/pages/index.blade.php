@@ -11,12 +11,16 @@
         <div class="container-fluid">
             <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj &
                 Umrah</h1>
+            {{-- <p class="hero-subtitle">
+                Find the best deals on Umrah packages from the UK, including flights, accommodation, and visas. Book now and make your
+                journey to Makkah and Madinah a memorable one!
+            </p> --}}
         </div>
         @include('partials.search-filter')
     </section>
     <!-- Hero Area End -->
 
-    <!-- Destinations Area start -->
+    <!-- Packages Area start -->
     <section class="destinations-area bgc-black pt-100 pb-70 rel z-1">
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -202,9 +206,8 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center counter-text-wrap mb-70" data-aos="fade-up"
                             data-aos-duration="1500" data-aos-offset="50">
-                            <h2>Explore Popular Destinations</h2>
-                            <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most
-                                popular experience</p>
+                            <h2>Meet Our Expert Hajj Guides</h2>
+                            <p>Get the most out of your Hajj experience with our <span class="count-text plus" data-speed="3000" data-stop="30">0</span> expert guides</p>
                         </div>
                     </div>
                 </div>
@@ -215,11 +218,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -229,11 +232,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -243,11 +246,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -257,11 +260,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -271,11 +274,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -285,11 +288,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -299,11 +302,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -313,11 +316,11 @@
                                 data-aos-offset="50">
                                 <div class="image">
                                     <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/destinations/destination1.jpg" alt="Destination">
+                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
                                 </div>
                                 <div class="content">
-                                    <h6><a href="destination-details.html">Makkah, Saudi Arabia</a></h6>
-                                    <span class="time">5352+ tours & 856+ Activity</span>
+                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+                                    <span class="time">Expert in Hajj & Umrah</span>
                                     <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
                                 </div>
                             </div>

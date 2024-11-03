@@ -17,32 +17,40 @@
 
     <div class="navbar-collapse collapse clearfix">
         <ul class="navigation clearfix">
-            <li class="dropdown current"><a href="#">Home</a>
+            <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{ route('home') }}">Home</a>
                 <ul>
-                    <li><a href="index.html">Travel Agency</a></li>
+                    {{-- <li><a href="index.html">Travel Agency</a></li>
                     <li><a href="index2.html">City Tou</a></li>
-                    <li><a href="index3.html">Tour Package</a></li>
+                    <li><a href="index3.html">Tour Package</a></li> --}}
                 </ul>
             </li>
-            <li><a href="about.html">About</a></li>
-            <li class="dropdown"><a href="#">Tours</a>
+            <li><a href="{{ route('about') }}">About</a></li>
+            <li class=""><a href="{{ route('packages') }}">Tours</a>
                 <ul>
-                    <li><a href="tour-list.html">Tour List</a></li>
+                    {{-- <li><a href="tour-list.html">Tour List</a></li>
                     <li><a href="tour-grid.html">Tour Grid</a></li>
                     <li><a href="tour-sidebar.html">Tour Sidebar</a></li>
                     <li><a href="tour-details.html">Tour Details</a></li>
-                    <li><a href="tour-guide.html">Tour Guide</a></li>
+                    <li><a href="tour-guide.html">Tour Guide</a></li> --}}
                 </ul>
             </li>
-            <li class="dropdown"><a href="#">Destinations</a>
+            <li class="dropdown"><a href="#">Hotels</a>
                 <ul>
-                    <li><a href="destination1.html">Destination 01</a></li>
+                    {{-- <li><a href="destination1.html">Destination 01</a></li>
                     <li><a href="destination2.html">Destination 01</a></li>
-                    <li><a href="destination-details.html">Destination Details</a></li>
+                    <li><a href="destination-details.html">Destination Details</a></li> --}}
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#">Islamic Shop</a>
+                <ul>
+                    {{-- <li><a href="destination1.html">Destination 01</a></li>
+                    <li><a href="destination2.html">Destination 01</a></li>
+                    <li><a href="destination-details.html">Destination Details</a></li> --}}
                 </ul>
             </li>
             <li class="dropdown"><a href="#">Pages</a>
                 <ul>
+                    <li><a href="{{ route('register') }}">Register</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="faqs.html">faqs</a></li>
                     <li class="dropdown"><a href="#">Gallery</a>
