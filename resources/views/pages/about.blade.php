@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-3" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
-                    <span class="subtitle mb-35">About Company</span>
+                    <span class="subtitle mb-35">About Shatabdi</span>
                 </div>
                 <div class="col-xl-9">
                     <div class="about-page-content" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -37,7 +37,7 @@
                             <div class="col-lg-8 pe-lg-5 me-lg-5">
                                 <div class="section-title mb-25">
                                     <h2>
-                                        Experience and Professional Tours & Travel Agency in the
+                                        Experience and Professional Hajj & Umrah Agency in the
                                         World
                                     </h2>
                                 </div>
@@ -51,20 +51,19 @@
                             </div>
                             <div class="col-md-8">
                                 <p>
-                                    We specialize in crafting unforgettable city experiences
-                                    for travelers seeking discover the heart and soul of urban
-                                    landscapes. Our expertly guided tours take journey through
-                                    vibrant streets, historic landmarks, and hidden gems of
-                                    each city.
+                                    We specialize in crafting unforgettable Hajj & Umrah experiences
+                                    for pilgrims seeking discover the heart and soul of the holy
+                                    cities. Our expertly guided tours take journey through
+                                    Makkah, Madinah and other holy sites.
                                 </p>
                                 <ul class="list-style-two mt-35">
                                     <li>Experience Agency</li>
                                     <li>Professional Team</li>
-                                    <li>Low Cost Travel</li>
+                                    <li>Low Cost Hajj & Umrah</li>
                                     <li>Online Support 24/7</li>
                                 </ul>
                                 <a href="about.html" class="theme-btn style-three mt-30">
-                                    <span data-hover="Explore Tours">Explore Tours</span>
+                                    <span data-hover="Explore Packages">Explore Packages</span>
                                     <i class="fal fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -82,13 +81,13 @@
             <div class="row align-items-center">
                 <div class="col-xl-4 col-md-6">
                     <div class="about-feature-image" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <img src="assets/images/about/about-feature1.jpg" alt="About" />
+                        <img src="assets/images/hero/pxfuel1.jpg" alt="About" />
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="about-feature-image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
                         data-aos-offset="50">
-                        <img src="assets/images/about/about-feature2.jpg" alt="About" />
+                        <img src="assets/images/hero/pxfuel.jpg" alt="About" />
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-8">
@@ -100,13 +99,12 @@
                                     <i class="flaticon-award-symbol"></i>
                                 </div>
                                 <h5>
-                                    <a href="destination-details.html">We Are Award Winning Company</a>
+                                    <a href="destination-details.html">Trusted by Pilgrims</a>
                                 </h5>
                             </div>
                             <div class="content">
                                 <p>
-                                    At Pinnacle Business Solutions commitment to excellence
-                                    and innovation earned
+                                    Our dedication to providing exceptional Hajj experiences has earned us the trust of pilgrims worldwide.
                                 </p>
                             </div>
                         </div>
@@ -114,13 +112,12 @@
                             <div class="icon-title">
                                 <div class="icon"><i class="flaticon-tourism"></i></div>
                                 <h5>
-                                    <a href="destination-details.html">5000+ Popular tour destinations</a>
+                                    <a href="destination-details.html">Comprehensive Packages</a>
                                 </h5>
                             </div>
                             <div class="content">
                                 <p>
-                                    Our team of experts is dedicate developing cutting-edge
-                                    strategies drive success
+                                    We offer a variety of packages tailored to meet the needs of Hajj pilgrims.
                                 </p>
                             </div>
                         </div>
@@ -139,37 +136,35 @@
                     <div class="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-25">
                             <h2>
-                                Travel with Confidence Top Reasons to Choose Our Agency
+                                Embark on a Journey of Faith: Why Choose Shatabdi Aviation?
                             </h2>
                         </div>
                         <p>
-                            We work closely with our clients to understand challenges and
-                            objectives, providing customized solutions to enhance
-                            efficiency boost profitability, and foster sustainable growth.
+                            We are dedicated to providing a deeply spiritual and fulfilling Hajj experience, with personalized service and expert guidance every step of the way.
                         </p>
                         <div class="row pt-25">
                             <div class="col-6">
                                 <div class="counter-item counter-text-wrap">
-                                    <span class="count-text k-plus" data-speed="3000" data-stop="3">0</span>
-                                    <span class="counter-title">Popular Destination</span>
+                                    <span class="count-text k-plus" data-speed="3000" data-stop="5">0</span>
+                                    <span class="counter-title">Hajj Pilgrimages</span>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="counter-item counter-text-wrap">
-                                    <span class="count-text m-plus" data-speed="3000" data-stop="9">0</span>
-                                    <span class="counter-title">Satisfied Clients</span>
+                                    <span class="count-text m-plus" data-speed="3000" data-stop="12">0</span>
+                                    <span class="counter-title">Satisfied Pilgrims</span>
                                 </div>
                             </div>
                         </div>
                         <a href="destination-details.html" class="theme-btn mt-10 style-two">
-                            <span data-hover="Explore Destinations">Explore Destinations</span>
+                            <span data-hover="Explore Packages">Explore Guides</span>
                             <i class="fal fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                     <div class="about-us-page">
-                        <img src="assets/images/about/about-page.jpg" alt="About" />
+                        <img src="assets/images/about/about3.webp" alt="About" style="border-radius: 20px;" />
                     </div>
                 </div>
             </div>
@@ -184,11 +179,11 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center counter-text-wrap mb-50" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Meet Our Experience Travel Guides</h2>
+                        <h2>Meet Our Expert Hajj & Umrah Guides</h2>
                         <p>
-                            One site
+                            With over
                             <span class="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span>
-                            most popular experience you’ll remember
+                            pilgrims served, we have the experience to provide a safe and comfortable Hajj & Umrah journey
                         </p>
                     </div>
                 </div>
@@ -197,10 +192,10 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="team-item hover-content" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">
-                        <img src="assets/images/team/guide1.jpg" alt="Guide" />
+                        <img src="assets/images/guides/guide-2.webp" alt="Hajj Guide" />
                         <div class="content">
-                            <h6>John L. Simmons</h6>
-                            <span class="designation">Co-founder</span>
+                            <h6>Sheikh H. Al-Farsi</h6>
+                            <span class="designation">Hajj Guide</span>
                             <div class="social-style-one inner-content">
                                 <a href="contact.html"><i class="fab fa-twitter"></i></a>
                                 <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
@@ -211,12 +206,12 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="team-item hover-content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
+                    <div class="team-item hover-content" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">
-                        <img src="assets/images/team/guide2.jpg" alt="Guide" />
+                        <img src="assets/images/guides/guide-2.webp" alt="Hajj Guide" />
                         <div class="content">
-                            <h6>Andrew K. Manley</h6>
-                            <span class="designation">Senior Guide</span>
+                            <h6>Sheikh H. Al-Farsi</h6>
+                            <span class="designation">Hajj Guide</span>
                             <div class="social-style-one inner-content">
                                 <a href="contact.html"><i class="fab fa-twitter"></i></a>
                                 <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
@@ -227,12 +222,12 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="team-item hover-content" data-aos="fade-up" data-aos-delay="100"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <img src="assets/images/team/guide3.jpg" alt="Guide" />
+                    <div class="team-item hover-content" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
+                        <img src="assets/images/guides/guide-2.webp" alt="Hajj Guide" />
                         <div class="content">
-                            <h6>Drew J. Bridges</h6>
-                            <span class="designation">Travel Guide</span>
+                            <h6>Sheikh H. Al-Farsi</h6>
+                            <span class="designation">Hajj Guide</span>
                             <div class="social-style-one inner-content">
                                 <a href="contact.html"><i class="fab fa-twitter"></i></a>
                                 <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
@@ -243,12 +238,12 @@
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="team-item hover-content" data-aos="fade-up" data-aos-delay="150"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <img src="assets/images/team/guide4.jpg" alt="Guide" />
+                    <div class="team-item hover-content" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
+                        <img src="assets/images/guides/guide-2.webp" alt="Hajj Guide" />
                         <div class="content">
-                            <h6>Byron F. Simpson</h6>
-                            <span class="designation">Travel Guide</span>
+                            <h6>Sheikh H. Al-Farsi</h6>
+                            <span class="designation">Hajj Guide</span>
                             <div class="social-style-one inner-content">
                                 <a href="contact.html"><i class="fab fa-twitter"></i></a>
                                 <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
