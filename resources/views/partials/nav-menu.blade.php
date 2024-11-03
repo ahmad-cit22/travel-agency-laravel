@@ -25,7 +25,7 @@
                 </ul>
             </li>
             <li><a href="{{ route('about') }}">About</a></li>
-            <li class=""><a href="{{ route('packages') }}">Tours</a>
+            <li class=""><a href="{{ route('packages') }}">Packages</a>
                 <ul>
                     {{-- <li><a href="tour-list.html">Tour List</a></li>
                     <li><a href="tour-grid.html">Tour Grid</a></li>
