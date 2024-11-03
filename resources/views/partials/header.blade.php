@@ -8,9 +8,13 @@
                 <div class="logo-outer">
                     {{-- <img src="assets/images/logos/logo-s.png" alt="Logo"
                                 title="Logo"> --}}
-                    <div class="logo"><a href="index.html">
-                        <h2 class="text-white">Shatabdi</h2>
-                    </a></div>
+                    <div class="logo">
+                        <a href="{{ route('home') }}">
+                            {{-- <h2 class="text-white">Shatabdi</h2> --}}
+                            <img src="assets/images/logos/Logo-light.png" alt="Logo"
+                                title="Logo" style="max-width: 200px;">
+                        </a>
+                    </div>
                 </div>
 
                 <div class="nav-outer mx-lg-auto ps-xxl-5 clearfix">

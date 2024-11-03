@@ -1,13 +1,13 @@
 <!-- footer area start -->
 <footer class="main-footer bgs-cover overlay rel z-1 pb-25"
-    style="background-image: url(assets/images/backgrounds/footer.jpg);">
+    style="background-image: url(assets/images/backgrounds/pxfuel2.jpg);">
     <div class="container">
         <div class="footer-top pt-100 pb-30">
             <div class="row justify-content-between">
                 <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-text">
                         <div class="footer-logo mb-25">
-                            <a href="index.html"><img src="assets/images/logos/logo.png" alt="Logo"></a>
+                            <a href="index.html"><img src="assets/images/logos/Logo-light.png" alt="Logo" title="Logo" width="70%"></a>
                         </div>
                         <p>We curate bespoke itineraries tailored to your preferences, ensuring every trip is
                             seamless and enriching hidden gems beaten</p>
@@ -46,11 +46,11 @@
                             <h5>Services</h5>
                         </div>
                         <ul class="list-style-three">
-                            <li><a href="destination-details.html">Best Tour Guide</a></li>
-                            <li><a href="destination-details.html">Tour Booking</a></li>
+                            <li><a href="destination-details.html">Best Hajj Guides</a></li>
+                            <li><a href="destination-details.html">Hajj Booking</a></li>
+                            <li><a href="destination-details.html">Umrah Booking</a></li>
                             <li><a href="destination-details.html">Hotel Booking</a></li>
-                            <li><a href="destination-details.html">Ticket Booking</a></li>
-                            <li><a href="destination-details.html">Rental Services</a></li>
+                            <li><a href="destination-details.html">Transport Services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,6 @@
                         <ul class="list-style-three">
                             <li><a href="about.html">About Company</a></li>
                             <li><a href="blog.html">Community Blog</a></li>
-                            <li><a href="contact.html">Jobs and Careers</a></li>
                             <li><a href="blog.html">latest News Blog</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
                         </ul>
@@ -76,11 +75,11 @@
                             <h5>Destinations</h5>
                         </div>
                         <ul class="list-style-three">
-                            <li><a href="destination-details.html">African Safaris</a></li>
-                            <li><a href="destination-details.html">Alaska & Canada</a></li>
-                            <li><a href="destination-details.html">South America</a></li>
-                            <li><a href="destination-details.html">Middle East</a></li>
-                            <li><a href="destination-details.html">South America</a></li>
+                            <li><a href="destination-details.html">Makkah</a></li>
+                            <li><a href="destination-details.html">Madinah</a></li>
+                            <li><a href="destination-details.html">Jeddah</a></li>
+                            <li><a href="destination-details.html">Mecca</a></li>
+                            <li><a href="destination-details.html">Medina</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,11 +90,11 @@
                             <h5>Categories</h5>
                         </div>
                         <ul class="list-style-three">
-                            <li><a href="contact.html">Adventure</a></li>
-                            <li><a href="contact.html">Hiking & Trekking</a></li>
-                            <li><a href="contact.html">Cycling Tours</a></li>
-                            <li><a href="contact.html">Family Tours</a></li>
-                            <li><a href="contact.html">Wildlife Tours</a></li>
+                            <li><a href="contact.html">Hajj</a></li>
+                            <li><a href="contact.html">Umrah</a></li>
+                            <li><a href="contact.html">Islamic Tours</a></li>
+                            <li><a href="contact.html">Halal Travel</a></li>
+                            <li><a href="contact.html">Islamic Shop</a></li>
                         </ul>
                     </div>
                 </div>
@@ -106,13 +105,12 @@
                             <h5>Get In Touch</h5>
                         </div>
                         <ul class="list-style-one">
-                            <li><i class="fal fa-map-marked-alt"></i> 578 Level, D-block 45 Street Melbourne,
-                                Australia</li>
+                            <li><i class="fal fa-map-marked-alt"></i> লায়লা প্লাজা, হাউজ নং- ২৭/১/এ (৬ষষ্ঠ তলা), মিরপুর রোড, শ্যামলী, ঢাকা-১২০৭</li>
                             <li><i class="fal fa-envelope"></i> <a
-                                    href="mailto:supportrevelo@gmail.com">supportrevelo@gmail.com</a></li>
+                                    href="mailto:shatabdiaviation@gmail.com">shatabdiaviation@gmail.com</a></li>
                             <li><i class="fal fa-clock"></i> Mon - Fri, 08am - 05pm</li>
-                            <li><i class="fal fa-phone-volume"></i> <a href="callto:+88012334588">+880 (123)
-                                    345 88</a></li>
+                            <li><i class="fal fa-phone-volume"></i> <a href="callto:+88012334588">+880 1303
+                                    468 401</a></li>
                         </ul>
                     </div>
                 </div>
@@ -131,8 +129,6 @@
                     <ul class="footer-bottom-nav">
                         <li><a href="about.html">Terms</a></li>
                         <li><a href="about.html">Privacy Policy</a></li>
-                        <li><a href="about.html">Legal notice</a></li>
-                        <li><a href="about.html">Accessibility</a></li>
                     </ul>
                 </div>
             </div>

@@ -23,7 +23,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Explore the Holy Sites of Hajj & Umrah</h2>
+                        <h2>Explore the best packages of Hajj & Umrah</h2>
                         <p>Join over <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> satisfied
                             pilgrims on a journey of a lifetime.</p>
                     </div>
@@ -35,17 +35,24 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination111.jpg' }}"
                                 alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <div class="tour-info d-flex justify-content-between align-items-center" style="font-size: 0.8rem;">
+                                <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                                <span class="tour-date"><i class="fal fa-calendar-alt"></i> Date: 15th Aug 2024</span>
+                            </div>
                             <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
-                            <span class="time">7 Days - Family Friendly</span>
+                            <span class="time"><i class="fal fa-clock"></i> 7 Days</span>
+                            <div class="seats-info d-flex justify-content-between align-items-center mt-4">
+                                <span class="seats-available"><i class="fal fa-chair"></i> Total Seats: 30</span>
+                                <span class="booked"><i class="fas fa-user-check"></i> Booked: 20</span>
+                            </div>
                         </div>
                         <div class="destination-footer">
                             <span class="price"><span>$1500</span>/per person</span>
-                            <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -54,17 +61,24 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination111.jpg' }}"
                                 alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <div class="tour-info d-flex justify-content-between align-items-center" style="font-size: 0.8rem;">
+                                <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                                <span class="tour-date"><i class="fal fa-calendar-alt"></i> Date: 15th Aug 2024</span>
+                            </div>
                             <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
-                            <span class="time">7 Days - Family Friendly</span>
+                            <span class="time"><i class="fal fa-clock"></i> 7 Days</span>
+                            <div class="seats-info d-flex justify-content-between align-items-center mt-4">
+                                <span class="seats-available"><i class="fal fa-chair"></i> Total Seats: 30</span>
+                                <span class="booked"><i class="fas fa-user-check"></i> Booked: 20</span>
+                            </div>
                         </div>
                         <div class="destination-footer">
                             <span class="price"><span>$1500</span>/per person</span>
-                            <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -73,17 +87,24 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination111.jpg' }}"
                                 alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <div class="tour-info d-flex justify-content-between align-items-center" style="font-size: 0.8rem;">
+                                <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                                <span class="tour-date"><i class="fal fa-calendar-alt"></i> Date: 15th Aug 2024</span>
+                            </div>
                             <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
-                            <span class="time">7 Days - Family Friendly</span>
+                            <span class="time"><i class="fal fa-clock"></i> 7 Days</span>
+                            <div class="seats-info d-flex justify-content-between align-items-center mt-4">
+                                <span class="seats-available"><i class="fal fa-chair"></i> Total Seats: 30</span>
+                                <span class="booked"><i class="fas fa-user-check"></i> Booked: 20</span>
+                            </div>
                         </div>
                         <div class="destination-footer">
                             <span class="price"><span>$1500</span>/per person</span>
-                            <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -92,21 +113,27 @@
                         <div class="image">
                             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
                             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination1.jpg' }}"
+                            <img src="{{ asset('assets/images/destinations') . '/' . 'destination111.jpg' }}"
                                 alt="Destination">
                         </div>
                         <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                            <div class="tour-info d-flex justify-content-between align-items-center" style="font-size: 0.8rem;">
+                                <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
+                                <span class="tour-date"><i class="fal fa-calendar-alt"></i> Date: 15th Aug 2024</span>
+                            </div>
                             <h5><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
-                            <span class="time">7 Days - Family Friendly</span>
+                            <span class="time"><i class="fal fa-clock"></i> 7 Days</span>
+                            <div class="seats-info d-flex justify-content-between align-items-center mt-4">
+                                <span class="seats-available"><i class="fal fa-chair"></i> Total Seats: 30</span>
+                                <span class="booked"><i class="fas fa-user-check"></i> Booked: 20</span>
+                            </div>
                         </div>
                         <div class="destination-footer">
                             <span class="price"><span>$1500</span>/per person</span>
-                            <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now <i class="fal fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -506,13 +533,13 @@
                 <div class="row">
                     <div class="col-lg-5 rel" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                         <div class="testimonial-left-image rmb-55"
-                            style="background-image: url(assets/images/destinations/hotel1.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/pxfuel2.jpg);"></div>
                     </div>
                     <div class="col-lg-7">
                         <div class="testimonial-right-content" data-aos="fade-left" data-aos-duration="1500"
                             data-aos-offset="50">
                             <div class="section-title mb-55">
-                                <h2><span>5280</span> Global Clients Say About Us Services</h2>
+                                <h2><span>5280</span> Pilgrims Say About Us Services</h2>
                             </div>
                             <div class="testimonials-active">
                                 <div class="testimonial-item">
@@ -527,15 +554,14 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our trip was absolutely a perfect, thanks this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
-                                        <div class="image"><img src="assets/images/testimonials/author.jpg"
+                                        <div class="image"><img src="assets/images/testimonials/author1.jpg"
                                                 alt="Author"></div>
                                         <div class="content">
                                             <h5>Randall V. Vasquez</h5>
-                                            <span>Graphics Designer</span>
                                         </div>
                                     </div>
                                 </div>
@@ -551,15 +577,14 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our trip was absolutely a perfect, thanks this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
-                                        <div class="image"><img src="assets/images/testimonials/author.jpg"
+                                        <div class="image"><img src="assets/images/testimonials/author1.jpg"
                                                 alt="Author"></div>
                                         <div class="content">
                                             <h5>Randall V. Vasquez</h5>
-                                            <span>Graphics Designer</span>
                                         </div>
                                     </div>
                                 </div>
