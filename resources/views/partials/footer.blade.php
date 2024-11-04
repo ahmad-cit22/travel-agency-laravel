@@ -1,3 +1,51 @@
+<!-- Newsletter Area start -->
+<section class="take-appointment bgc-primary py-100 rel z-1"
+    style="
+          background-image: url(assets/images/newsletter/newsletter-bg-lines.png);
+        ">
+    <div class="container container-1500">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="section-title text-center counter-text-wrap mb-70" data-aos="fade-up" data-aos-duration="1500"
+                    data-aos-offset="50">
+                    <h2 class=" text-white">Take appointment for consultation</h2>
+                    <p class="text-white">Over <span class="count-text plus bgc-secondary" data-speed="3000"
+                            data-stop="34500">0</span> pilgrims have trusted us for their Hajj journey, join us for a truly unforgettable experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="comment-form" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50" style="border-width: 0px !important;">
+            <form class="mb-15" action="#">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" class="form-control" required />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" class="form-control" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <button type="submit" class="theme-btn style-two bgc-secondary" style="width: auto !important; margin-right: 10px;">
+                        <span data-hover="Send Message">Send Message</span>
+                        <i class="fal fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Area end -->
+
 <!-- footer area start -->
 <footer class="main-footer bgs-cover overlay rel z-1 pb-25"
     style="background-image: url(assets/images/backgrounds/pxfuel3.jpg);">
@@ -7,7 +55,8 @@
                 <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-text">
                         <div class="footer-logo mb-25">
-                            <a href="index.html"><img src="assets/images/logos/Logo-light.png" alt="Logo" title="Logo" width="70%"></a>
+                            <a href="{{ route('home') }}"><img src="assets/images/logos/Logo-light.png" alt="Logo"
+                                    title="Logo" width="70%"></a>
                         </div>
                         <p>We curate bespoke itineraries tailored to your preferences, ensuring every trip is
                             seamless and enriching hidden gems beaten</p>
@@ -21,26 +70,6 @@
                 </div>
                 <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
                     data-aos-offset="50">
-                    <div class="section-title counter-text-wrap mb-35">
-                        <h2>Subscribe Newsletter</h2>
-                        <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most
-                            popular experience you’ll remember</p>
-                    </div>
-                    <form class="newsletter-form mb-50" action="#">
-                        <input id="news-email" type="email" placeholder="Email Address" required>
-                        <button type="submit" class="theme-btn bgc-secondary style-two">
-                            <span data-hover="Subscribe">Subscribe</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="widget-area pt-95 pb-45">
-        <div class="container">
-            <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2">
-                <div class="col col-small" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-links">
                         <div class="footer-title">
                             <h5>Services</h5>
@@ -54,6 +83,12 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="widget-area pt-95 pb-45">
+        <div class="container">
+            <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-2">
                 <div class="col col-small" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
                     data-aos-offset="50">
                     <div class="footer-widget footer-links">
@@ -105,7 +140,8 @@
                             <h5>Get In Touch</h5>
                         </div>
                         <ul class="list-style-one">
-                            <li><i class="fal fa-map-marked-alt"></i> লায়লা প্লাজা, হাউজ নং- ২৭/১/এ (৬ষষ্ঠ তলা), মিরপুর রোড, শ্যামলী, ঢাকা-১২০৭</li>
+                            <li><i class="fal fa-map-marked-alt"></i> লায়লা প্লাজা, হাউজ নং- ২৭/১/এ (৬ষষ্ঠ তলা), মিরপুর
+                                রোড, শ্যামলী, ঢাকা-১২০৭</li>
                             <li><i class="fal fa-envelope"></i> <a
                                     href="mailto:shatabdiaviation@gmail.com">shatabdiaviation@gmail.com</a></li>
                             <li><i class="fal fa-clock"></i> Mon - Fri, 08am - 05pm</li>
@@ -122,7 +158,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="copyright-text text-center text-lg-start">
-                        <p>@Copy 2024 <a href="{{route('home')}}">{{ env('APP_NAME') }}</a>, All rights reserved</p>
+                        <p>@Copy 2024 <a href="{{ route('home') }}">{{ env('APP_NAME') }}</a>, All rights reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-7 text-center text-lg-end">

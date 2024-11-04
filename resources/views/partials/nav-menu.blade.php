@@ -2,8 +2,8 @@
 <nav class="main-menu navbar-expand-lg">
     <div class="navbar-header">
         <div class="mobile-logo">
-            <a href="index.html">
-                <img src="assets/images/logos/logo.png" alt="Logo" title="Logo">
+            <a href="{{ route('home') }}">
+                <img src="assets/images/logos/logo.png" alt="Logo" title="Logo" style="max-width: 160px;">
             </a>
         </div>
 

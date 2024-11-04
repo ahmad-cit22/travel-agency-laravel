@@ -4205,7 +4205,7 @@ blockquote {
 }
 @media only screen and (max-width: 991px) {
     .main-header .logo-outer {
-        display: none;
+        display: none !important;
     }
 }
 .main-header .logo {
@@ -5202,19 +5202,19 @@ blockquote {
     z-index: 2;
     color: white;
     font-weight: 700;
-    font-size: 170px;
+    font-size: 140px;
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 @media only screen and (max-width: 1599px) {
     .hero-title {
-        font-size: 150px;
+        font-size: 130px;
     }
 }
 @media only screen and (max-width: 1299px) {
     .hero-title {
-        font-size: 120px;
+        font-size: 110px;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -5619,7 +5619,6 @@ blockquote {
     justify-content: flex-end;
     /* margin-left: 30px;
     margin-right: 30px; */
-    
 }
 @media only screen and (max-width: 991px) {
     .page-banner-area {

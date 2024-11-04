@@ -17,18 +17,18 @@
                     </div>
                 </div>
 
-                <div class="nav-outer mx-lg-auto ps-xxl-5 clearfix">
+                <div class="nav-outer mx-lg-auto ps-xxl-5 clearfix py-10 py-md-0">
                     @include('partials.nav-menu')
                 </div>
 
                 <!-- Nav Search -->
-                <div class="nav-search">
+                {{-- <div class="nav-search">
                     <button class="far fa-search"></button>
                     <form action="#" class="hide">
                         <input type="text" placeholder="Search" class="searchbox" required="">
                         <button type="submit" class="searchbutton far fa-search"></button>
                     </form>
-                </div>
+                </div> --}}
 
                 <!-- Menu Button -->
                 <div class="menu-btns py-10">
@@ -37,7 +37,7 @@
                         <i class="fal fa-arrow-right"></i>
                     </a>
                     <!-- menu sidbar -->
-                    <div class="menu-sidebar">
+                    <div class="menu-sidebar d-none d-md-block">
                         <button class="bg-transparent">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>

@@ -16,7 +16,9 @@
                 journey to Makkah and Madinah a memorable one!
             </p> --}}
         </div>
-        @include('partials.search-filter')
+        <div class="d-none d-md-block">
+            @include('partials.search-filter')
+        </div>
     </section>
     <!-- Hero Area End -->
 
