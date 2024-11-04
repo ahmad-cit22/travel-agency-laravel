@@ -8,7 +8,7 @@
 
         <!--Appointment Form-->
         <div class="appointment-form">
-            <form method="post" action="https://webtendtheme.net/html/2024/ravelo/contact.html">
+            <form method="post" action="">
                 <div class="form-group">
                     <input type="text" name="text" value="" placeholder="Name" required>
                 </div>

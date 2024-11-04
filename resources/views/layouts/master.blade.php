@@ -47,6 +47,4 @@
 
 </body>
 
-<!-- Mirrored from webtendtheme.net/html/2024/ravelo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Oct 2024 10:34:24 GMT -->
-
 </html>
