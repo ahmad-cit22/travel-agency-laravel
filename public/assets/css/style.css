@@ -5253,7 +5253,6 @@ blockquote {
     z-index: 99999999 !important;
 }
 
-
 .main-hero-image {
     height: 790px;
     /* width: 100% !important; */
@@ -10708,4 +10707,21 @@ blockquote .blockquote-footer:before {
 }
 .footer-bottom-nav li {
     margin: 0 13px 5px;
+}
+
+.facility-icon {
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 5px 8px;
+}
+
+.facility-icon-unavailable {
+    color: #777;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: 2px solid #777;
+    padding: 5px 8px;
+    opacity: 0.5;
 }

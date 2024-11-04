@@ -25,7 +25,7 @@
     @include('partials.search-filter')
     <!-- Page Banner End -->
 
-    <!-- Tour Grid Area start -->
+    <!-- Package Grid Area start -->
     <section class="tour-grid-page py-100 rel z-1">
         <div class="container">
             <div class="row">
@@ -608,5 +608,5 @@
             </div>
         </div>
     </section>
-    <!-- Tour Grid Area end -->
+    <!-- Package Grid Area end -->
 @endsection
