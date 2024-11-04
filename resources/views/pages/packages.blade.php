@@ -25,7 +25,7 @@
     {{-- @include('partials.search-filter') --}}
     <!-- Page Banner End -->
 
-    {{-- <!-- Tour Grid Area start -->
+    <!-- Tour Grid Area start -->
     <section class="tour-grid-page py-100 rel z-1">
         <div class="container">
             <div class="row">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
 
-                        <div class="widget widget-activity" data-aos="fade-up" data-aos-duration="1500"
+                        {{-- <div class="widget widget-activity" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
                             <h6 class="widget-title">By Activities</h6>
                             <ul class="radio-filter">
@@ -73,10 +73,9 @@
                                     <label for="activity6">Smoking Allowed <span>28</span></label>
                                 </li>
                             </ul>
-                        </div>
+                        </div> --}}
 
-                        <div class="widget widget-reviews" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
+                        <div class="widget widget-reviews" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                             <h6 class="widget-title">By Reviews</h6>
                             <ul class="radio-filter">
                                 <li>
@@ -143,7 +142,7 @@
                             </ul>
                         </div>
 
-                        <div class="widget widget-languages" data-aos="fade-up" data-aos-duration="1500"
+                        {{-- <div class="widget widget-languages" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
                             <h6 class="widget-title">By Languages</h6>
                             <ul class="radio-filter">
@@ -173,7 +172,7 @@
                                     <label for="language6">French</label>
                                 </li>
                             </ul>
-                        </div>
+                        </div> --}}
 
                         <div class="widget widget-duration" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
@@ -203,7 +202,7 @@
                             </ul>
                         </div>
 
-                        <div class="widget widget-tour" data-aos="fade-up" data-aos-duration="1500"
+                        {{-- <div class="widget widget-tour" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
                             <h6 class="widget-title">Popular Tours</h6>
                             <div class="destination-item tour-grid style-three bgc-lighter">
@@ -243,10 +242,10 @@
                                     </h6>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
-                    <div class="widget widget-cta mt-30" data-aos="fade-up" data-aos-duration="1500"
+                    {{-- <div class="widget widget-cta mt-30" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">
                         <div class="content text-white">
                             <span class="h6">Explore The World</span>
@@ -262,7 +261,7 @@
                         <div class="cta-shape">
                             <img src="assets/images/widgets/cta-shape2.png" alt="Shape" />
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-lg-9">
                     <div class="shop-shorter rel z-3 mb-20">
@@ -293,14 +292,14 @@
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
-                                        <span class="badge bgc-pink">Featured</span>
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list1.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                                Indonesia</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -310,84 +309,14 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Bay Cruise trip by Boat's in Bali, Indonesia</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="50" data-aos-offset="50">
-                                    <div class="image">
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list2.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="100" data-aos-offset="50">
-                                    <div class="image">
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list3.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                                Indonesia</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Bay Cruise lake trip by Boat in Bali, Indonesia</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -399,13 +328,14 @@
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list4.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -415,86 +345,14 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="50" data-aos-offset="50">
-                                    <div class="image">
-                                        <span class="badge bgc-pink">Featured</span>
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list5.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="100" data-aos-offset="50">
-                                    <div class="image">
-                                        <span class="badge">10% Off</span>
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list6.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                                Indonesia</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Bay Cruise lake trip by Boat in Bali, Indonesia</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -506,14 +364,14 @@
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
-                                        <span class="badge">10% Off</span>
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list7.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -523,85 +381,14 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="50" data-aos-offset="50">
-                                    <div class="image">
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list8.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
-                                            <a href="tour-details.html" class="theme-btn style-two style-three">
-                                                <i class="fal fa-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="100" data-aos-offset="50">
-                                    <div class="image">
-                                        <span class="badge bgc-pink">Featured</span>
-                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list9.jpg" alt="Tour List" />
-                                    </div>
-                                    <div class="content">
-                                        <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                                Indonesia</span>
-                                            <div class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <h6>
-                                            <a href="tour-details.html">Bay Cruise lake trip by Boat in Bali, Indonesia</a>
-                                        </h6>
-                                        <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
-                                        </ul>
-                                        <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -613,13 +400,14 @@
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list10.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -629,14 +417,14 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -646,16 +434,16 @@
                             </div>
                             <div class="col-xl-4 col-md-6">
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="50" data-aos-offset="50">
+                                    data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
-                                        <span class="badge">10% Off</span>
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list11.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome,
-                                                Italy</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -665,14 +453,14 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Buenos Aires, Calafate & Ushuaia, Rome, Italy</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -682,15 +470,16 @@
                             </div>
                             <div class="col-xl-4 col-md-6">
                                 <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
-                                    data-aos-duration="1500" data-aos-delay="100" data-aos-offset="50">
+                                    data-aos-duration="1500" data-aos-offset="50">
                                     <div class="image">
+                                        <span class="badge bgc-pink">Hajj Special</span>
                                         <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                        <img src="assets/images/destinations/tour-list12.jpg" alt="Tour List" />
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
                                     </div>
                                     <div class="content">
                                         <div class="destination-header">
-                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                                Indonesia</span>
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
                                             <div class="ratting">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -700,14 +489,86 @@
                                             </div>
                                         </div>
                                         <h6>
-                                            <a href="tour-details.html">Bay Cruise lake trip by Boat in Bali, Indonesia</a>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
                                         </h6>
                                         <ul class="blog-meta">
-                                            <li><i class="far fa-clock"></i> 3 days 2 nights</li>
-                                            <li><i class="far fa-user"></i> 5-8 guest</li>
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
                                         </ul>
                                         <div class="destination-footer">
-                                            <span class="price"><span>$58.00</span>/person</span>
+                                            <span class="price"><span>$1500.00</span>/person</span>
+                                            <a href="tour-details.html" class="theme-btn style-two style-three">
+                                                <i class="fal fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
+                                    data-aos-duration="1500" data-aos-offset="50">
+                                    <div class="image">
+                                        <span class="badge bgc-pink">Hajj Special</span>
+                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="destination-header">
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
+                                            <div class="ratting">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h6>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
+                                        </h6>
+                                        <ul class="blog-meta">
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
+                                        </ul>
+                                        <div class="destination-footer">
+                                            <span class="price"><span>$1500.00</span>/person</span>
+                                            <a href="tour-details.html" class="theme-btn style-two style-three">
+                                                <i class="fal fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up"
+                                    data-aos-duration="1500" data-aos-offset="50">
+                                    <div class="image">
+                                        <span class="badge bgc-pink">Hajj Special</span>
+                                        <a href="#" class="heart"><i class="fas fa-heart"></i></a>
+                                        <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="destination-header">
+                                            <span class="location"><i class="fal fa-map-marker-alt"></i> Mecca,
+                                                Saudi Arabia</span>
+                                            <div class="ratting">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <h6>
+                                            <a href="tour-details.html">Spiritual Journey: Hajj Pilgrimage Package</a>
+                                        </h6>
+                                        <ul class="blog-meta">
+                                            <li><i class="far fa-clock"></i> 10 days 9 nights</li>
+                                            <li><i class="far fa-user"></i> 20-30 pilgrims</li>
+                                        </ul>
+                                        <div class="destination-footer">
+                                            <span class="price"><span>$1500.00</span>/person</span>
                                             <a href="tour-details.html" class="theme-btn style-two style-three">
                                                 <i class="fal fa-arrow-right"></i>
                                             </a>
@@ -750,7 +611,7 @@
     <!-- Tour Grid Area end -->
 
     <!-- Newsletter Area start -->
-    <section class="newsletter-three bgc-primary py-100 rel z-1"
+    {{-- <section class="newsletter-three bgc-primary py-100 rel z-1"
         style="
           background-image: url(assets/images/newsletter/newsletter-bg-lines.png);
         ">
@@ -790,6 +651,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Newsletter Area end --> --}}
+    </section> --}}
+    <!-- Newsletter Area end -->
 @endsection

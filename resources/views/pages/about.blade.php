@@ -331,7 +331,7 @@
     <div class="video-area pt-25 rel z-1">
         <div class="container">
             <div class="video-wrap" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="50">
-                <img src="assets/images/video/video-bg.jpg" alt="Video" />
+                <img src="assets/images/video/pxfuel3.jpg" alt="Video" />
                 <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play" tabindex="-1"><i
                         class="fas fa-play"></i></a>
             </div>

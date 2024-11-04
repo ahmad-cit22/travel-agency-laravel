@@ -12,6 +12,8 @@
 <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
 <!-- Image Loader -->
 <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+<!-- Jquery UI -->
+<script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
 <!-- Skillbar -->
 <script src="{{ asset('assets/js/skill.bars.jquery.min.js') }}"></script>
 <!-- Isotope -->
