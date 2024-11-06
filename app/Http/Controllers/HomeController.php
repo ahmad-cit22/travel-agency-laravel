@@ -21,6 +21,11 @@ class HomeController extends Controller
         return view('pages.contact');
     }
 
+    public function not_found_page()
+    {
+        return view('pages.404');
+    }
+
     public function packages()
     {
         return view('pages.packages');

@@ -21,6 +21,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');
 
 
 Route::get('/dashboard', function () {
