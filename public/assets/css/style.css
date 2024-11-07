@@ -59,12 +59,13 @@ body {
     font-family: var(--base-font);
     --base-font: "Outfit", sans-serif;
     --heading-font: "Outfit", sans-serif;
-    --primary-color: #0f2c21;
+    --primary-color: #102f23;
     --secondary-color: #e5595b;
     --heading-color: #13402c;
     --base-color: #0f2c21;
-    --lighter-color: #f3f3f6;
+    --lighter-color: #eaf6f0;
     --border-color: #e6e5ea;
+    --darker-primary-color: #0d271d;
     --primary-rgb: 99, 171, 69;
     --secondary-rgb: 247, 146, 30;
 }
@@ -4898,7 +4899,7 @@ blockquote {
 }
 
 .main-header.white-menu.header-one .main-menu .navbar-collapse {
-    background: #231f46e7;
+    background: var(--primary-color);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -4954,8 +4955,8 @@ blockquote {
     z-index: 99999;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #110f1e;
-    border-left: 1px solid #231b26;
+    background-color: var(--darker-primary-color);
+    border-left: 1px solid var(--heading-color);
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -5821,7 +5822,7 @@ blockquote {
 .destination-item {
     color: #92a498;
     margin-bottom: 30px;
-    background: #1b1831;
+    background: var(--primary-color);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -10682,7 +10683,7 @@ blockquote .blockquote-footer:before {
 /* Footer Bottom */
 .footer-bottom {
     position: relative;
-    background: #18152d;
+    background: var(--darker-primary-color);
 }
 .footer-bottom .copyright-text a {
     color: var(--secondary-color);
