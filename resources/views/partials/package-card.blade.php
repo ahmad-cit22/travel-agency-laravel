@@ -17,7 +17,7 @@
                         class="img-fluid rounded-circle mb-3" width="50" style="height: 50px; object-fit: cover;">
                     <div class="guide-content ms-3">
                         <p class="text-white mb-0"><a href="destination-details.html">Muhammad Ali</a></p>
-                        <p>Guide</p>
+                        <p>Dhanmondi, Dhaka</p>
                     </div>
                 </div>
                 <span class="time"><i class="fal fa-clock mr-2"></i> 7 Days</span>
