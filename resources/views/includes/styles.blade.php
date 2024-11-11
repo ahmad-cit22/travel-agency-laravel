@@ -14,7 +14,7 @@
 <!-- jQuery UI -->
 <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.min.css') }}">
 <!-- Animate -->
-{{-- <link rel="stylesheet" href="{{ asset('assets/css/aos.css') }}"> --}}
+<link rel="stylesheet" href="{{ asset('assets/css/aos.css') }}">
 <!-- Slick -->
 <link rel="stylesheet" href="{{ asset('assets/css/slick.min.css') }}">
 <!-- Main Style -->

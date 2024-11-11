@@ -18,13 +18,8 @@
     <div class="navbar-collapse collapse clearfix">
         <ul class="navigation clearfix">
             <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{ route('home') }}">Home</a>
-                <ul>
-                    {{-- <li><a href="index.html">Travel Agency</a></li>
-                    <li><a href="index2.html">City Tou</a></li>
-                    <li><a href="index3.html">Tour Package</a></li> --}}
-                </ul>
             </li>
-            <li><a href="{{ route('about') }}">About</a></li>
+            <li class=""><a href="{{ route('about') }}">About</a></li>
             <li class=""><a href="{{ route('packages') }}">Packages</a>
                 <ul>
                     {{-- <li><a href="tour-list.html">Tour List</a></li>

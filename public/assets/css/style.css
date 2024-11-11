@@ -4559,7 +4559,7 @@ blockquote {
 
 @media only screen and (min-width: 992px) {
     .main-header.header-one .main-menu .navbar-collapse .navigation > li:hover {
-        background: var(--primary-color);
+        background: var(--darker-primary-color);
     }
     .main-header.header-one
         .main-menu
