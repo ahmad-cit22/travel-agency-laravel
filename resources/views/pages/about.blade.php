@@ -4,9 +4,7 @@
     <!-- Page Banner Start -->
     <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        <div
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #0e0e18); opacity: 0.7; z-index: 1;">
-        </div>
+        @include('partials.gradient-overlay')
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -104,7 +102,8 @@
                             </div>
                             <div class="content">
                                 <p>
-                                    Our dedication to providing exceptional Hajj experiences has earned us the trust of pilgrims worldwide.
+                                    Our dedication to providing exceptional Hajj experiences has earned us the trust of
+                                    pilgrims worldwide.
                                 </p>
                             </div>
                         </div>
@@ -140,7 +139,8 @@
                             </h2>
                         </div>
                         <p>
-                            We are dedicated to providing a deeply spiritual and fulfilling Hajj experience, with personalized service and expert guidance every step of the way.
+                            We are dedicated to providing a deeply spiritual and fulfilling Hajj experience, with
+                            personalized service and expert guidance every step of the way.
                         </p>
                         <div class="row pt-25">
                             <div class="col-6">
@@ -372,7 +372,8 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this
+                                        travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
@@ -395,7 +396,8 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this
+                                        travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">

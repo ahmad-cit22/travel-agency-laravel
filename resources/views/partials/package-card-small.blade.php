@@ -2,7 +2,6 @@
     <div class="destination-item tour-grid style-three bgc-lighter" data-aos="fade-up" data-aos-duration="1500"
         data-aos-offset="50">
         <div class="image">
-            <span class="badge bgc-pink">Hajj Special</span>
             <a href="#" class="heart"><i class="fas fa-heart"></i></a>
             <img src="assets/images/destinations/destination111.jpg" alt="Hajj Tour" />
             <div class="ratting"><i class="fas fa-star"></i> 5.0</div>
@@ -18,17 +17,18 @@
                 <a href="tour-details.html">Masjid al-Haram: The Heart of Hajj</a>
             </h6>
             <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-between" style="font-size: 0.8rem;">
                     <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
                         class="img-fluid rounded-circle" width="50" style="height: 50px; object-fit: cover;">
                     <div class="guide-content ms-3">
-                        <p class=""><a href="destination-details.html">Muhammad Ali</a></p>
+                        <p class="my-0"><a href="destination-details.html">Muhammad Ali</a></p>
+                        <span style="font-size: 0.7rem">Dhanmondi, Dhaka</span>
                     </div>
                 </div>
-                <span class="time"><i class="fal fa-clock mr-2"></i> 7 Days</span>
+                <span class="time" style="font-size: 0.8rem;"><i class="fal fa-clock mr-2"></i> 7 Days</span>
             </div>
 
-            <div class="seats-info d-flex align-items-start justify-content-between mt-3 mb-3 p-2 border border-2 rounded bgc-white m-auto"
+            <div class="seats-info d-flex align-items-start justify-content-between mt-3 mb-3 p-2 border-2 rounded bgc-white m-auto"
                 style="width: 80%; border-radius: 30px !important; border-color: var(--heading-color) !important;">
                 <div class="seat-status d-flex align-items-center justify-content-between"
                     style="border-right: 1px solid; width: 50%;">
@@ -45,11 +45,11 @@
                 </div>
             </div>
 
-            <div class="facilities d-flex align-items-center justify-content-between"
+            {{-- <div class="facilities d-flex align-items-center justify-content-between"
                 style="gap: 10px; margin-top: 48px;">
                 <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Flight">
                     <span class="facility-icon">
-                        <i class="fal fa-plane"></i>
+                        <i class="fal fa-plane text-success"></i>
                     </span>
                 </span>
                 <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Transport">
@@ -72,10 +72,10 @@
                         <i class="fal fa-hotel"></i>
                     </span>
                 </span>
-            </div>
+            </div> --}}
         </div>
         <div class="destination-footer">
-            <span class="price" style="color: var(--heading-color)"><span>$1500</span>/person</span>
+            <span class="price" style="color: var(--heading-color)"><span class="text-success">$1500</span>/person</span>
             <a href="#" class=" theme-btn bgc-secondary text-center" style="padding: 6px !important;">
                 <i class="fal fa-angle-right"></i></a>
         </div>

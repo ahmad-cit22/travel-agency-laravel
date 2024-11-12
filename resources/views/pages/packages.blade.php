@@ -4,9 +4,7 @@
     <!-- Page Banner Start -->
     <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        <div
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #0e0e18); opacity: 0.7; z-index: 1;">
-        </div>
+        @include('partials.gradient-overlay')
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -22,7 +20,9 @@
             </div>
         </div>
     </section>
-    @include('partials.search-filter')
+    <div class="container container-1400 mt-150">
+        @include('partials.search-filter')
+    </div>
     <!-- Page Banner End -->
 
     <!-- Package Grid Area start -->
@@ -30,220 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-10 rmb-75">
-                    <div class="shop-sidebar">
-                        <div class="widget widget-filter" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <h6 class="widget-title">Filter by Price</h6>
-                            <div class="price-filter-wrap">
-                                <div class="price-slider-range"></div>
-                                <div class="price">
-                                    <span>Price </span>
-                                    <input type="text" id="price" readonly />
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- <div class="widget widget-activity" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <h6 class="widget-title">By Activities</h6>
-                            <ul class="radio-filter">
-                                <li>
-                                    <input class="form-check-input" type="radio" checked name="ByActivities"
-                                        id="activity1" />
-                                    <label for="activity1">Sea Beach <span>18</span></label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByActivities" id="activity2" />
-                                    <label for="activity2">Car Parking <span>29</span></label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByActivities" id="activity3" />
-                                    <label for="activity3">Laundry Service <span>23</span></label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByActivities" id="activity4" />
-                                    <label for="activity4">Outdoor Seating <span>25</span></label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByActivities" id="activity5" />
-                                    <label for="activity5">Reservations <span>26</span></label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByActivities" id="activity6" />
-                                    <label for="activity6">Smoking Allowed <span>28</span></label>
-                                </li>
-                            </ul>
-                        </div> --}}
-
-                        <div class="widget widget-reviews" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <h6 class="widget-title">By Reviews</h6>
-                            <ul class="radio-filter">
-                                <li>
-                                    <input class="form-check-input" type="radio" checked name="ByReviews"
-                                        id="review1" />
-                                    <label for="review1">
-                                        <span class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByReviews" id="review2" />
-                                    <label for="review2">
-                                        <span class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half-alt white"></i>
-                                        </span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByReviews" id="review3" />
-                                    <label for="review3">
-                                        <span class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star-half-alt white"></i>
-                                        </span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByReviews" id="review4" />
-                                    <label for="review4">
-                                        <span class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star-half-alt white"></i>
-                                        </span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByReviews" id="review5" />
-                                    <label for="review5">
-                                        <span class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star white"></i>
-                                            <i class="fas fa-star-half-alt white"></i>
-                                        </span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-
-                        {{-- <div class="widget widget-languages" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <h6 class="widget-title">By Languages</h6>
-                            <ul class="radio-filter">
-                                <li>
-                                    <input class="form-check-input" type="radio" checked name="ByLanguages"
-                                        id="language1" />
-                                    <label for="language1">American</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByLanguages" id="language2" />
-                                    <label for="language2">English</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByLanguages" id="language3" />
-                                    <label for="language3">German</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByLanguages" id="language4" />
-                                    <label for="language4">Japanese</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByLanguages" id="language5" />
-                                    <label for="language5">Vietnamese</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="ByLanguages" id="language6" />
-                                    <label for="language6">French</label>
-                                </li>
-                            </ul>
-                        </div> --}}
-
-                        <div class="widget widget-duration" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <h6 class="widget-title">Duration</h6>
-                            <ul class="radio-filter">
-                                <li>
-                                    <input class="form-check-input" type="radio" checked name="Duration"
-                                        id="duration1" />
-                                    <label for="duration1">0 - 2 hours</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="Duration" id="duration2" />
-                                    <label for="duration2">2 - 4 hours</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="Duration" id="duration3" />
-                                    <label for="duration3">4 - 8 hours</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="Duration" id="duration4" />
-                                    <label for="duration4">Fulda (+8 hours)</label>
-                                </li>
-                                <li>
-                                    <input class="form-check-input" type="radio" name="Duration" id="duration5" />
-                                    <label for="duration5">Multi days</label>
-                                </li>
-                            </ul>
-                        </div>
-
-                        {{-- <div class="widget widget-tour" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <h6 class="widget-title">Popular Tours</h6>
-                            <div class="destination-item tour-grid style-three bgc-lighter">
-                                <div class="image">
-                                    <span class="badge">10% Off</span>
-                                    <img src="assets/images/widgets/tour1.jpg" alt="Tour" />
-                                </div>
-                                <div class="content">
-                                    <div class="destination-header">
-                                        <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                            Indonesia</span>
-                                        <div class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <span>(4.8)</span>
-                                        </div>
-                                    </div>
-                                    <h6>
-                                        <a href="tour-details.html">Relinking Beach, Bali, Indonesia</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="destination-item tour-grid style-three bgc-lighter">
-                                <div class="image">
-                                    <img src="assets/images/widgets/tour1.jpg" alt="Tour" />
-                                </div>
-                                <div class="content">
-                                    <div class="destination-header">
-                                        <span class="location"><i class="fal fa-map-marker-alt"></i> Bali,
-                                            Indonesia</span>
-                                        <div class="ratting">
-                                            <i class="fas fa-star"></i>
-                                            <span>(4.8)</span>
-                                        </div>
-                                    </div>
-                                    <h6>
-                                        <a href="tour-details.html">Relinking Beach, Bali, Indonesia</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div> --}}
-                    </div>
+                    @include('partials.shop-sidebar')
 
                     {{-- <div class="widget widget-cta mt-30" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">

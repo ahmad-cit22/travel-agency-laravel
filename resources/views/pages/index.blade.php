@@ -4,10 +4,7 @@
     <!-- Hero Area Start -->
     <section class="hero-area bgc-black pt-200 pb-100 rpt-120 rel z-2"
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        <!-- Gradient Overlay -->
-        <div
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, var(--primary-color), var(--heading-color)); opacity: 0.7; z-index: 1;">
-        </div>
+        @include('partials.gradient-overlay')
         <div class="container-fluid">
             <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj &
                 Umrah</h1>
@@ -17,7 +14,9 @@
             </p> --}}
         </div>
         <div class="d-none d-md-block">
-            @include('partials.search-filter')
+            <div class="container container-1400 mt-250">
+                @include('partials.search-filter')
+            </div>
         </div>
     </section>
     <!-- Hero Area End -->
@@ -41,6 +40,12 @@
                 @include('partials.package-card')
                 @include('partials.package-card')
             </div>
+            <div class="text-center mt-40">
+                <a href="destination2.html" class="theme-btn style-four">
+                    <span data-hover="Explore More Packages">Explore More Packages</span>
+                    <i class="fal fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
     </section>
     <!-- Destinations Area end -->
@@ -51,16 +56,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-6">
-                    <div class="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500"
-                        data-aos-offset="50">
+                    <div class="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                         <div class="section-title mb-25">
                             <h2>Why Choose Us for Your Hajj & Umrah Journey?</h2>
                         </div>
                         <p>With over a decade of experience, we are committed to making your spiritual journey a safe and
                             comfortable experience. Our tailored packages cater to your needs, ensuring a memorable
                             pilgrimage.</p>
-                        <div class="divider counter-text-wrap mt-45 mb-55"><span>We have <span><span
-                                        class="count-text plus" data-speed="3000" data-stop="10">0</span>
+                        <div class="divider counter-text-wrap mt-45 mb-55"><span>We have <span><span class="count-text plus"
+                                        data-speed="3000" data-stop="10">0</span>
                                     Years</span> of service excellence</span></div>
                         <div class="row">
                             <div class="col-6">
@@ -109,124 +113,20 @@
                         <div class="section-title text-center counter-text-wrap mb-70" data-aos="fade-up"
                             data-aos-duration="1500" data-aos-offset="50">
                             <h2>Meet Our Expert Hajj Guides</h2>
-                            <p>Get the most out of your Hajj experience with our <span class="count-text plus" data-speed="3000" data-stop="30">0</span> expert guides</p>
+                            <p>Get the most out of your Hajj experience with our <span class="count-text plus"
+                                    data-speed="3000" data-stop="30">0</span> expert guides</p>
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500"
-                                data-aos-offset="50">
-                                <div class="image">
-                                    <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                                    <img src="assets/images/guides/guide-1.jpg" alt="Guide">
-                                </div>
-                                <div class="content">
-                                    <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
-                                    <span class="time">Expert in Hajj & Umrah</span>
-                                    <a href="#" class="more"><i class="fas fa-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                        @include('partials.guide-card')
+                    </div>
+                    <div class="text-center mt-40">
+                        <a href="destination2.html" class="theme-btn style-three">
+                            <span data-hover="Explore More Guides">Explore More Guides</span>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -246,8 +146,10 @@
                             <h2>Exclusive Hajj Booking Features That Make Us Stand Out</h2>
                         </div>
                         <div class="features-customer-box">
-                            <div class="image" style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
-                                <img src="assets/images/features/pxfuel2.jpg" alt="Features" style="object-fit: cover; width: 100%; height: 100%;">
+                            <div class="image"
+                                style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
+                                <img src="assets/images/features/pxfuel2.jpg" alt="Features"
+                                    style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="content">
                                 <div class="feature-authors mb-15">
@@ -459,7 +361,8 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this
+                                        travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
@@ -482,7 +385,8 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                     </div>
-                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this travel
+                                    <div class="text">"Our Hajj experience was absolutely a perfect, thanks to this
+                                        travel
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">

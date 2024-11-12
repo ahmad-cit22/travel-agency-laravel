@@ -19,8 +19,8 @@
         <ul class="navigation clearfix">
             <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{ route('home') }}">Home</a>
             </li>
-            <li class=""><a href="{{ route('about') }}">About</a></li>
-            <li class=""><a href="{{ route('packages') }}">Packages</a>
+            <li class="{{ Request::routeIs('about') ? 'current' : '' }}"><a href="{{ route('about') }}">About</a></li>
+            <li class="{{ Request::routeIs('packages') ? 'current' : '' }}"><a href="{{ route('packages') }}">Packages</a>
                 <ul>
                     {{-- <li><a href="tour-list.html">Tour List</a></li>
                     <li><a href="tour-grid.html">Tour Grid</a></li>
@@ -36,7 +36,7 @@
                     <li><a href="destination-details.html">Destination Details</a></li> --}}
                 </ul>
             </li>
-            <li class=""><a href="#">Islamic Shop</a>
+            <li class="{{ Request::routeIs('shop') ? 'current' : '' }}"><a href="{{ route('shop') }}">Islamic Shop</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
                     <li><a href="destination2.html">Destination 01</a></li>

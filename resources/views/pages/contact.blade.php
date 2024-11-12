@@ -4,9 +4,7 @@
     <!-- Page Banner Start -->
     <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        <div
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #241f3e, #0e0e18); opacity: 0.7; z-index: 1;">
-        </div>
+        @include('partials.gradient-overlay')
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -35,7 +33,8 @@
                         <div class="section-title mb-30">
                             <h2>Reach Out to Our Hajj Experts</h2>
                         </div>
-                        <p>Our devoted team is here to guide you through every step of your Hajj journey, ensuring a smooth and fulfilling experience.</p>
+                        <p>Our devoted team is here to guide you through every step of your Hajj journey, ensuring a smooth
+                            and fulfilling experience.</p>
                         <div class="features-team-box mt-40">
                             <h6>85+ Dedicated Hajj Guides</h6>
                             <div class="feature-authors">
@@ -87,8 +86,8 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="contact-info-item" data-aos="fade-up" data-aos-duration="1500"
-                                data-aos-offset="50" data-aos-delay="100">
+                            <div class="contact-info-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50"
+                                data-aos-delay="100">
                                 <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                                 <div class="content">
                                     <h5>Main Office Address</h5>
@@ -111,8 +110,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="comment-form bgc-lighter z-1 rel mb-30 rmb-55">
-                        <form id="contactForm" class="contactForm" name="contactForm"
-                            action="" method="post"
+                        <form id="contactForm" class="contactForm" name="contactForm" action="" method="post"
                             data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                             <div class="section-title">
                                 <h2>Connect with Us</h2>
@@ -180,13 +178,16 @@
                         data-aos-offset="50">
                         <div class="row">
                             <div class="col-12">
-                                <img src="assets/images/contact/contact1.jpg" alt="Contact" style="border-radius: 20px !important">
+                                <img src="assets/images/contact/contact1.jpg" alt="Contact"
+                                    style="border-radius: 20px !important">
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/contact/contact2.jpg" alt="Contact" style="border-radius: 20px !important" height="300">
+                                <img src="assets/images/contact/contact2.jpg" alt="Contact"
+                                    style="border-radius: 20px !important" height="300">
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/contact/contact3.jpg" alt="Contact" style="border-radius: 20px !important" height="300">
+                                <img src="assets/images/contact/contact3.jpg" alt="Contact"
+                                    style="border-radius: 20px !important" height="300">
                             </div>
                         </div>
                     </div>
