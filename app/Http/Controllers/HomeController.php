@@ -35,4 +35,9 @@ class HomeController extends Controller
     {
         return view('pages.packages');
     }
+
+    public function package_details($id)
+    {
+        return view('pages.package-details');
+    }
 }

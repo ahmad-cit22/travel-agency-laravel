@@ -59,13 +59,13 @@ body {
     font-family: var(--base-font);
     --base-font: "Outfit", sans-serif;
     --heading-font: "Outfit", sans-serif;
-    --primary-color: #102f23;
+    --primary-color: #102f19;
     --secondary-color: #e5595b;
-    --heading-color: #13402c;
-    --base-color: #0f2c21;
-    --lighter-color: #eaf6f0;
-    --border-color: #e6e5ea;
-    --darker-primary-color: #0d271d;
+    --heading-color: #13401e;
+    --base-color: #0f2c18;
+    --lighter-color: #eaf6ed;
+    --border-color: #e5eae6;
+    --darker-primary-color: #0d2715;
     --primary-rgb: 99, 171, 69;
     --secondary-rgb: 247, 146, 30;
 }
@@ -1103,7 +1103,11 @@ a.theme-btn.style-four:hover {
     top: 0;
     left: 0;
     opacity: 0.95;
-    background: linear-gradient(to top, var(--primary-color), var(--heading-color));
+    background: linear-gradient(
+        to top,
+        var(--primary-color),
+        var(--heading-color)
+    );
 }
 
 /* Backgruond Size */
@@ -4895,7 +4899,7 @@ blockquote {
 }
 
 .main-header.white-menu.fixed-header .header-upper {
-    background: #13412d;
+    background: var(--heading-color);
 }
 
 .main-header.white-menu.header-one .main-menu .navbar-collapse {
@@ -10622,7 +10626,7 @@ blockquote .blockquote-footer:before {
     position: relative;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .footer-top:before {
         content: "";
         position: absolute;
@@ -10632,9 +10636,13 @@ blockquote .blockquote-footer:before {
         height: 100%;
         background: rgba(255, 255, 255, 0.1);
     }
-}
+} */
 .footer-top .section-title h2 {
     color: white;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
 }
 
 .newsletter-form {

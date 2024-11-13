@@ -1,5 +1,44 @@
 @extends('layouts.master')
 
+
+@push('custom-styles')
+    <style>
+        .destination-item.style-two .button-links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .destination-item.style-two .btn-learn-more,
+        .destination-item.style-two .btn-contact {
+            padding: 8px 16px;
+            font-size: 14px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            width: 48%;
+            /* Ensures buttons are aligned next to each other */
+        }
+
+        .destination-item.style-two .btn-learn-more {
+            background-color: #007bff;
+        }
+
+        .destination-item.style-two .btn-learn-more:hover {
+            background-color: #0056b3;
+        }
+
+        .destination-item.style-two .btn-contact {
+            background-color: #28a745;
+        }
+
+        .destination-item.style-two .btn-contact:hover {
+            background-color: #218838;
+        }
+    </style>
+@endpush
+
 @section('content')
     <!-- Hero Area Start -->
     <section class="hero-area bgc-black pt-200 pb-100 rpt-120 rel z-2"
@@ -104,7 +143,7 @@
     <!-- About Us Area End -->
 
 
-    <!-- Popular Destinations Area start -->
+    <!-- Guides start -->
     <section class="popular-destinations-area rel z-1">
         <div class="container-fluid">
             <div class="popular-destinations-wrap br-20 bgc-lighter pt-100 pb-70">
@@ -121,6 +160,11 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
                     </div>
                     <div class="text-center mt-40">
                         <a href="destination2.html" class="theme-btn style-three">
@@ -132,7 +176,7 @@
             </div>
         </div>
     </section>
-    <!-- Popular Destinations Area end -->
+    <!-- Guides end -->
 
 
     <!-- Features Area start -->
@@ -208,7 +252,6 @@
     </section>
     <!-- Features Area end -->
 
-
     <!-- Hotel Area start -->
     <section class="hotel-area bgc-black py-100 rel z-1">
         <div class="container-fluid">
@@ -222,106 +265,10 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
-                            </h5>
-                            <ul class="list-style-one">
-                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
-                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
-                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
-                                <li><i class="fal fa-router"></i> Internet</li>
-                            </ul>
-                            <div class="destination-footer">
-                                <span class="price"><span>$85.00</span>/per night</span>
-                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
-                            </h5>
-                            <ul class="list-style-one">
-                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
-                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
-                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
-                                <li><i class="fal fa-router"></i> Internet</li>
-                            </ul>
-                            <div class="destination-footer">
-                                <span class="price"><span>$85.00</span>/per night</span>
-                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
-                            </h5>
-                            <ul class="list-style-one">
-                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
-                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
-                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
-                                <li><i class="fal fa-router"></i> Internet</li>
-                            </ul>
-                            <div class="destination-footer">
-                                <span class="price"><span>$85.00</span>/per night</span>
-                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6 col-xl-8 col-lg-10">
-                    <div class="destination-item style-three" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="image">
-                            <div class="ratting"><i class="fas fa-star"></i> 4.8</div>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/hotel1.jpg" alt="Hotel">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Makkah, Saudi Arabia</span>
-                            <h5><a href="destination-details.html">Dar Al Ghufran Hotel</a>
-                            </h5>
-                            <ul class="list-style-one">
-                                <li><i class="fal fa-bed-alt"></i> 2 Bed room</li>
-                                <li><i class="fal fa-hat-chef"></i> 1 kitchen</li>
-                                <li><i class="fal fa-bath"></i> 2 Wash room</li>
-                                <li><i class="fal fa-router"></i> Internet</li>
-                            </ul>
-                            <div class="destination-footer">
-                                <span class="price"><span>$85.00</span>/per night</span>
-                                <a href="#" class="read-more">Book Now <i class="fal fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @include('partials.hotel-card')
+                @include('partials.hotel-card')
+                @include('partials.hotel-card')
+                @include('partials.hotel-card')
             </div>
             <div class="hotel-more-btn text-center mt-40">
                 <a href="destination2.html" class="theme-btn style-four">
@@ -405,7 +352,6 @@
         </div>
     </section>
     <!-- Testimonials Area end -->
-
 
     <!-- CTA Area start -->
     {{-- <section class="cta-area pt-100 rel z-1">

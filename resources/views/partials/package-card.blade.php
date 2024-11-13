@@ -10,7 +10,7 @@
                 <span class="location"><i class="fal fa-pray"></i> Hajj</span>
                 <span class="tour-date"><i class="fal fa-calendar-alt"></i> Date: 15th Aug 2024</span>
             </div>
-            <h5 class="mb-3"><a href="destination-details.html">Masjid al-Haram: The Heart of Hajj</a></h5>
+            <h5 class="mb-3"><a href="{{ route('packages.details', 1) }}">Masjid al-Haram: The Heart of Hajj</a></h5>
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center justify-content-between">
                     <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
@@ -74,7 +74,8 @@
         <div class="destination-footer">
             <span class="price"><span>$1500</span>/person</span>
             <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now
-                <i class="fal fa-angle-right"></i></a>
+                <i class="fal fa-angle-right"></i>
+            </a>
         </div>
     </div>
 </div>

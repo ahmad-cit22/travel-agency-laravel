@@ -10,11 +10,13 @@
                     data-aos-offset="50">
                     <h2 class=" text-white">Take appointment for consultation</h2>
                     <p class="text-white">Over <span class="count-text plus bgc-secondary" data-speed="3000"
-                            data-stop="34500">0</span> pilgrims have trusted us for their Hajj journey, join us for a truly unforgettable experience.</p>
+                            data-stop="34500">0</span> pilgrims have trusted us for their Hajj journey, join us for a
+                        truly unforgettable experience.</p>
                 </div>
             </div>
         </div>
-        <div class="comment-form" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50" style="border-width: 0px !important;">
+        <div class="comment-form" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50"
+            style="border-width: 0px !important;">
             <form class="mb-15" action="#">
                 <div class="row">
                     <div class="col-lg-6">
@@ -35,7 +37,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-end">
-                    <button type="submit" class="theme-btn style-two bgc-secondary" style="width: auto !important; margin-right: 10px;">
+                    <button type="submit" class="theme-btn style-two bgc-secondary"
+                        style="width: auto !important; margin-right: 10px;">
                         <span data-hover="Send Message">Send Message</span>
                         <i class="fal fa-arrow-right"></i>
                     </button>
@@ -52,11 +55,11 @@
     <div class="container">
         <div class="footer-top pt-100 pb-30">
             <div class="row justify-content-between">
-                <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-text">
                         <div class="footer-logo mb-25">
-                            <a href="{{ route('home') }}"><img src="assets/images/logos/Logo-light.png" alt="Logo"
-                                    title="Logo" width="70%"></a>
+                            <a href="{{ route('home') }}"><img src="assets/images/logos/logo-footer-light.png"
+                                    alt="Logo" title="Shatadbi Logo" width="30%"></a>
                         </div>
                         <p>We curate bespoke itineraries tailored to your preferences, ensuring every trip is
                             seamless and enriching hidden gems beaten</p>
@@ -68,7 +71,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
+                    data-aos-offset="50">
+                    <div class="footer-widget footer-links">
+                        <div class="footer-title">
+                            <h5>Company</h5>
+                        </div>
+                        <ul class="list-style-three">
+                            <li><a href="about.html">About Company</a></li>
+                            <li><a href="blog.html">Community Blog</a></li>
+                            <li><a href="blog.html">latest News Blog</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
                     data-aos-offset="50">
                     <div class="footer-widget footer-links">
                         <div class="footer-title">
@@ -89,20 +106,6 @@
     <div class="widget-area pt-95 pb-45">
         <div class="container">
             <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-2">
-                <div class="col col-small" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"
-                    data-aos-offset="50">
-                    <div class="footer-widget footer-links">
-                        <div class="footer-title">
-                            <h5>Company</h5>
-                        </div>
-                        <ul class="list-style-three">
-                            <li><a href="about.html">About Company</a></li>
-                            <li><a href="blog.html">Community Blog</a></li>
-                            <li><a href="blog.html">latest News Blog</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col col-small" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
                     data-aos-offset="50">
                     <div class="footer-widget footer-links">

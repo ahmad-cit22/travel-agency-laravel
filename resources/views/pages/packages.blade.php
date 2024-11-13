@@ -116,4 +116,39 @@
         </div>
     </section>
     <!-- Package Grid Area end -->
+
+    <!-- Guides start -->
+    <section class="popular-destinations-area rel z-1">
+        <div class="container-fluid">
+            <div class="popular-destinations-wrap br-20 bgc-lighter pt-100 pb-70">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center counter-text-wrap mb-70" data-aos="fade-up"
+                            data-aos-duration="1500" data-aos-offset="50">
+                            <h2>Meet Our Expert Hajj Guides</h2>
+                            <p>Get the most out of your Hajj experience with our <span class="count-text plus"
+                                    data-speed="3000" data-stop="30">0</span> expert guides</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                        @include('partials.guide-card')
+                    </div>
+                    <div class="text-center mt-40">
+                        <a href="destination2.html" class="theme-btn style-three">
+                            <span data-hover="Explore More Guides">Explore More Guides</span>
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Guides end -->
 @endsection

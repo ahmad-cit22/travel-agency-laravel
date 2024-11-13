@@ -14,7 +14,7 @@
                 </div>
             </div>
             <h6 class="mb-3">
-                <a href="tour-details.html">Masjid al-Haram: The Heart of Hajj</a>
+                <a href="{{ route('packages.details', 1) }}">Masjid al-Haram: The Heart of Hajj</a>
             </h6>
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center justify-content-between" style="font-size: 0.8rem;">
