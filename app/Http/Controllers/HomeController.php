@@ -45,4 +45,14 @@ class HomeController extends Controller
     {
         return view('pages.package-details');
     }
+
+    public function guides()
+    {
+        return view('pages.guides');
+    }
+
+    public function guide_details($id)
+    {
+        return view('pages.guide-details');
+    }
 }

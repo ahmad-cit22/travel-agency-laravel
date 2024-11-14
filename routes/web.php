@@ -22,6 +22,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
 Route::get('/packages/{id}', [HomeController::class, 'package_details'])->name('packages.details');
+Route::get('/guides', [HomeController::class, 'guides'])->name('guides');
+Route::get('/guides/{id}', [HomeController::class, 'guide_details'])->name('guides.details');
 Route::get('/islamic-shop', [HomeController::class, 'shop'])->name('shop');
 Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('shop.details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');

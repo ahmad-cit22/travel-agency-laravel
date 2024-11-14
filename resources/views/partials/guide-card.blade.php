@@ -4,7 +4,7 @@
             <img src="assets/images/guides/guide-1.jpg" alt="Guide">
         </div>
         <div class="content">
-            <h6><a href="destination-details.html">Sheikh Abdullah Adnan</a></h6>
+            <h6><a href="{{route('guides.details', 1)}}">Sheikh Abdullah Adnan</a></h6>
             <span class="time">Dhanmondi, Dhaka</span>
 
             <!-- Biography Section -->

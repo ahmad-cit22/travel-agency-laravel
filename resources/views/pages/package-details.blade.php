@@ -486,7 +486,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Explore more packages with Muhammad Ali</h2>
+                        <h2>Explore more packages</h2>
                     </div>
                 </div>
             </div>

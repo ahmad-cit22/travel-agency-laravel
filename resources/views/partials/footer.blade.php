@@ -1,7 +1,7 @@
 <!-- Newsletter Area start -->
 <section class="take-appointment bgc-primary py-100 rel z-1"
     style="
-          background-image: url(assets/images/newsletter/newsletter-bg-lines.png);
+          background-image: url({{ asset('assets/images/newsletter/newsletter-bg-lines.png') }});
         ">
     <div class="container container-1500">
         <div class="row justify-content-center">
@@ -51,14 +51,14 @@
 
 <!-- footer area start -->
 <footer class="main-footer bgs-cover overlay rel z-1 pb-25"
-    style="background-image: url(assets/images/backgrounds/pxfuel3.jpg);">
+    style="background-image: url({{ asset('assets/images/backgrounds/pxfuel3.jpg') }});">
     <div class="container">
         <div class="footer-top pt-100 pb-30">
             <div class="row justify-content-between">
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="footer-widget footer-text">
                         <div class="footer-logo mb-25">
-                            <a href="{{ route('home') }}"><img src="assets/images/logos/logo-footer-light.png"
+                            <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logos/logo-footer-light.png') }}"
                                     alt="Logo" title="Shatadbi Logo" width="30%"></a>
                         </div>
                         <p>We curate bespoke itineraries tailored to your preferences, ensuring every trip is
@@ -173,7 +173,7 @@
             </div>
             <!-- Scroll Top Button -->
             <button class="scroll-top scroll-to-target" data-target="html"><img
-                    src="assets/images/icons/scroll-up2.png" alt="Scroll  Up"></button>
+                    src="{{ asset('assets/images/icons/scroll-up2.png') }}" alt="Scroll  Up"></button>
         </div>
     </div>
 </footer>

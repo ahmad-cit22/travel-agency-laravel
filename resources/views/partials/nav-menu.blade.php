@@ -29,6 +29,7 @@
                     <li><a href="tour-guide.html">Tour Guide</a></li> --}}
                 </ul>
             </li>
+            <li class="{{ Request::routeIs('guides') ? 'current' : '' }}"><a href="{{ route('guides') }}">Guides</a></li>
             <li class=""><a href="#">Hotels</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
