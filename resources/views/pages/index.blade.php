@@ -87,7 +87,7 @@
             </div>
         </div>
     </section>
-    <!-- Destinations Area end -->
+    <!-- Packages Area end -->
 
 
     <!-- About Us Area Start -->

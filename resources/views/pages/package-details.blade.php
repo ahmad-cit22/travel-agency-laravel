@@ -36,15 +36,15 @@
                         <div class="section-title pb-5">
                             <h2>Holy Makkah Hajj Package</h2>
                         </div>
-                            <div class="d-flex align-items-center justify-content-start gap-1">
-                                <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
-                                    class="img-fluid rounded-circle mb-" width="50"
-                                    style="height: 50px; object-fit: cover;">
-                                <div class="guide-content ms-3">
-                                    <p class="mb-0"><a href="destination-details.html">Muhammad Ali</a></p>
-                                    <p class="mb-0 text-muted">Dhanmondi, Dhaka</p>
-                                </div>
+                        <div class="d-flex align-items-center justify-content-start gap-1">
+                            <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
+                                class="img-fluid rounded-circle mb-" width="50"
+                                style="height: 50px; object-fit: cover;">
+                            <div class="guide-content ms-3">
+                                <p class="mb-0"><a href="destination-details.html">Muhammad Ali</a></p>
+                                <p class="mb-0 text-muted">Dhanmondi, Dhaka</p>
                             </div>
+                        </div>
                         <br>
                         <div class="ratting">
                             <i class="fas fa-star"></i>
@@ -478,4 +478,31 @@
         </div>
     </section>
     <!-- Tour Details Area end -->
+
+    <!-- Packages Area start -->
+    <section class="destinations-area bgc-black pt-100 pb-70 rel z-1">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-offset="50">
+                        <h2>Explore more packages with Muhammad Ali</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                @include('partials.package-card')
+                @include('partials.package-card')
+                @include('partials.package-card')
+                @include('partials.package-card')
+            </div>
+            <div class="text-center mt-40">
+                <a href="destination2.html" class="theme-btn style-four">
+                    <span data-hover="Explore More Packages">Explore More Packages</span>
+                    <i class="fal fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Packages Area end -->
 @endsection
