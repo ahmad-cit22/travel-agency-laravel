@@ -21,6 +21,11 @@ class HomeController extends Controller
         return view('pages.shop');
     }
 
+    public function product_details($id)
+    {
+        return view('pages.product-details');
+    }
+
     public function contact()
     {
         return view('pages.contact');

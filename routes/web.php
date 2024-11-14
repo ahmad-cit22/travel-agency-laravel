@@ -23,6 +23,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
 Route::get('/packages/{id}', [HomeController::class, 'package_details'])->name('packages.details');
 Route::get('/islamic-shop', [HomeController::class, 'shop'])->name('shop');
+Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('shop.details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');
 

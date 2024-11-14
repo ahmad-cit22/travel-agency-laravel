@@ -16,7 +16,7 @@
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                         <li class="breadcrumb-item">Packages</li>
                         <li class="breadcrumb-item active">
-                            Relinking Beach in Nusa panada island, Bali, Indonesia
+                            Holy Makkah, Saudi Arabia
                         </li>
                     </ol>
                 </nav>
@@ -33,11 +33,19 @@
                 <div class="col-xl-6 col-lg-7">
                     <div class="tour-header-content mb-15" data-aos="fade-left" data-aos-duration="1500"
                         data-aos-offset="50">
-                        <span class="location d-inline-block mb-10"><i class="fal fa-map-marker-alt"></i> Bali,
-                            Indonesia</span>
                         <div class="section-title pb-5">
-                            <h2>Relinking Beach in Nusa panada island, Bali, Indonesia</h2>
+                            <h2>Holy Makkah Hajj Package</h2>
                         </div>
+                            <div class="d-flex align-items-center justify-content-start gap-1">
+                                <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
+                                    class="img-fluid rounded-circle mb-" width="50"
+                                    style="height: 50px; object-fit: cover;">
+                                <div class="guide-content ms-3">
+                                    <p class="mb-0"><a href="destination-details.html">Muhammad Ali</a></p>
+                                    <p class="mb-0 text-muted">Dhanmondi, Dhaka</p>
+                                </div>
+                            </div>
+                        <br>
                         <div class="ratting">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -50,7 +58,7 @@
                 <div class="col-xl-4 col-lg-5 text-lg-end" data-aos="fade-right" data-aos-duration="1500"
                     data-aos-offset="50">
                     <div class="tour-header-social mb-10">
-                        <a href="#"><i class="far fa-share-alt"></i>Share tours</a>
+                        <a href="#"><i class="far fa-share-alt"></i>Share Hajj Packages</a>
                         <a href="#"><i class="fas fa-heart bgc-secondary"></i>Wish list</a>
                     </div>
                 </div>
@@ -67,27 +75,24 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="tour-details-content">
-                        <h3>Explore Tours</h3>
-                        <p>Bali, Indonesia, is a tropical paradise renowned for its breathtaking beaches, vibrant culture,
-                            and lush landscapes. Located at the westernmost end of the Lesser Sunda Islands, Bali boasts a
-                            warm, tropical climate that makes it a year-round destination. Visitors are drawn to its
-                            picturesque beaches like Kuta, Seminyak, and Nusa Dua, ideal for surfing, sunbathing, and
-                            diving. The island's rich cultural heritage is evident in its numerous temples, including the
-                            iconic Tanah Lot and Uluwatu Temple, as well as in Ubud, the cultural heart of Bali, known for
-                            its traditional dance performances and art markets. Nature enthusiasts can explore the terraced
-                            rice paddies in Tegallalang, hike up Mount Batur, or visit the stunning waterfalls of Tegenungan
-                            and Gitgit. </p>
+                        <h3>Hajj Package</h3>
+                        <p>Performing Hajj is a once-in-a-lifetime experience that every Muslim should undertake. It is a
+                            journey that requires spiritual and physical preparation, and we are here to help you. Our Hajj
+                            packages are designed to make your journey as seamless and enjoyable as possible. We offer a
+                            range of packages to suit different budgets and preferences, and our experienced team will be
+                            with you every step of the way.
+                        </p>
                         <div class="row pb-55">
                             <div class="col-md-6">
                                 <div class="tour-include-exclude mt-30">
                                     <h5>Included and Excluded</h5>
                                     <ul class="list-style-one check mt-25">
-                                        <li><i class="far fa-check"></i> Pick and Drop Services</li>
-                                        <li><i class="far fa-check"></i> 1 Meal Per Day</li>
-                                        <li><i class="far fa-check"></i> Cruise Dinner & Music Event</li>
-                                        <li><i class="far fa-check"></i> Visit 7 Best Places in the City</li>
-                                        <li><i class="far fa-check"></i> Bottled Water on Buses</li>
-                                        <li><i class="far fa-check"></i> Transportation Luxury Tour Bus</li>
+                                        <li><i class="far fa-check"></i> Visa Application</li>
+                                        <li><i class="far fa-check"></i> Hotel Accommodation</li>
+                                        <li><i class="far fa-check"></i> Transportation</li>
+                                        <li><i class="far fa-check"></i> Food and Beverages</li>
+                                        <li><i class="far fa-check"></i> Travel Insurance</li>
+                                        <li><i class="far fa-check"></i> Umrah Guide</li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,68 +100,67 @@
                                 <div class="tour-include-exclude mt-30">
                                     <h5>Excluded</h5>
                                     <ul class="list-style-one mt-25">
-                                        <li><i class="far fa-times"></i> Gratuities</li>
-                                        <li><i class="far fa-times"></i> Hotel pickup and drop-off</li>
-                                        <li><i class="far fa-times"></i> Lunch, Food & Drinks</li>
-                                        <li><i class="far fa-times"></i> Optional upgrade to a glass</li>
-                                        <li><i class="far fa-times"></i> Additional Services</li>
-                                        <li><i class="far fa-times"></i> Insurance</li>
+                                        <li><i class="far fa-times"></i> International Flights</li>
+                                        <li><i class="far fa-times"></i> Tips</li>
+                                        <li><i class="far fa-times"></i> Any Additional Services</li>
+                                        <li><i class="far fa-times"></i> Travel Documents</li>
+                                        <li><i class="far fa-times"></i> Personal Expenses</li>
+                                        <li><i class="far fa-times"></i> Optional Upgrade</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <h3>Activities</h3>
+                    <h3>Hajj Activities</h3>
                     <div class="tour-activities mt-30 mb-45">
                         <div class="tour-activity-item">
                             <i class="flaticon-hiking"></i>
-                            <b>Hiking</b>
+                            <b>Tawaf</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-fishing"></i>
-                            <b>Fishing</b>
+                            <b>Sa'yee</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-man"></i>
-                            <b>Kayak shooting</b>
+                            <b>Umrah</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-kayak-1"></i>
-                            <b>Kayak</b>
+                            <b>Hajj</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-bonfire"></i>
-                            <b>Campfire</b>
+                            <b>Visiting the Holy Sites</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-flashlight"></i>
-                            <b>Night Exploring</b>
+                            <b>Prayer in the Holy Mosques</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-cycling"></i>
-                            <b>Biking</b>
+                            <b>Zam Zam Water</b>
                         </div>
                         <div class="tour-activity-item">
                             <i class="flaticon-meditation"></i>
-                            <b>Yoga</b>
+                            <b>Dua'a</b>
                         </div>
                     </div>
 
-                    <h3>Itinerary</h3>
+                    <h3>Hajj Itinerary</h3>
                     <div class="accordion-two mt-25 mb-60" id="faq-accordion-two">
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwoOne">
-                                    Day 1 - Arrive at campground
+                                    8th Dhul-Hijjah - Arrival in Makkah
                                 </button>
                             </h5>
                             <div id="collapseTwoOne" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-accordion-two">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Perform Umrah rituals, including Tawaf, Sa'yee, and Halq or Taqsir</p>
                                 </div>
                             </div>
                         </div>
@@ -164,16 +168,13 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwoTwo">
-                                    Day 2 - Wake up early and embark on a day hike
+                                    9th Dhul-Hijjah - Arafah
                                 </button>
                             </h5>
                             <div id="collapseTwoTwo" class="accordion-collapse collapse show"
                                 data-bs-parent="#faq-accordion-two">
                                 <div class="accordion-body">
-                                    <p>The early start ensures you can fully immerse yourself in the tranquility of nature
-                                        before the world fully awakens. As the morning light filters through the trees,
-                                        you'll experience the crisp, fresh air and the peaceful sounds of the forest. The
-                                        trail ahead offers both a physical challenge promise of breathtaking.</p>
+                                    <p>Spend the day in Arafah, performing Dua'a and praying</p>
                                 </div>
                             </div>
                         </div>
@@ -181,14 +182,13 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwoThree">
-                                    Day 3 - Join a guided ranger-led nature walk
+                                    10th Dhul-Hijjah - Staying in Mina
                                 </button>
                             </h5>
                             <div id="collapseTwoThree" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-accordion-two">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Stay in Mina, performing the rituals of Hajj</p>
                                 </div>
                             </div>
                         </div>
@@ -196,14 +196,13 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwoFour">
-                                    Day 4 - Take a break from hiking
+                                    11th Dhul-Hijjah - Staying in Mina
                                 </button>
                             </h5>
                             <div id="collapseTwoFour" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-accordion-two">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Stay in Mina, performing the rituals of Hajj</p>
                                 </div>
                             </div>
                         </div>
@@ -211,14 +210,13 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwoFive">
-                                    Day 5 - Pack a lunch and embark on a longer hike
+                                    12th Dhul-Hijjah - Departure from Makkah
                                 </button>
                             </h5>
                             <div id="collapseTwoFive" class="accordion-collapse collapse"
                                 data-bs-parent="#faq-accordion-two">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Perform Tawaf al-Wada'a, and depart from Makkah</p>
                                 </div>
                             </div>
                         </div>
@@ -230,29 +228,27 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne">
-                                    01_How do I book a tour or travel package?
+                                    What is the best way to prepare for Hajj?
                                 </button>
                             </h5>
                             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h5 class="accordion-header">
-                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                    02_What is included in the travel package?
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    What is the best way to prepare for Hajj?
                                 </button>
                             </h5>
-                            <div id="collapseTwo" class="accordion-collapse collapse show"
-                                data-bs-parent="#faq-accordion">
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>The early start ensures you can fully immerse yourself in the tranquility of nature
-                                        before the world fully awakens. As the morning light filters through the trees,
-                                        you'll experience the crisp, fresh air and the peaceful sounds of the forest. The
-                                        trail ahead offers both a physical challenge promise of breathtaking.</p>
+                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
                                 </div>
                             </div>
                         </div>
@@ -260,52 +256,16 @@
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree">
-                                    03_What is your cancellation and refund policy?
+                                    What is the best way to prepare for Hajj?
                                 </button>
                             </h5>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
+                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour">
-                                    04_Can I customize my tour or travel package?
-                                </button>
-                            </h5>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive">
-                                    05_What documents do I need to travel?
-                                </button>
-                            </h5>
-                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>To take a trivial example which undertakes laborious physical exercise except to
-                                        obtain some advantage pleasure annoying consequences</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3>Maps</h3>
-                    <div class="tour-map mt-30 mb-50">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
-                            style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <h3>Clients Reviews</h3>
@@ -322,133 +282,9 @@
                             </div>
                         </div>
                         <div class="right">
-                            <div class="ratting-item">
-                                <span class="title">Services</span>
-                                <span class="line"><span style="width: 80%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="ratting-item">
-                                <span class="title">Guides</span>
-                                <span class="line"><span style="width: 70%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="ratting-item">
-                                <span class="title">Price</span>
-                                <span class="line"><span style="width: 80%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="ratting-item">
-                                <span class="title">Safety</span>
-                                <span class="line"><span style="width: 80%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="ratting-item">
-                                <span class="title">Foods</span>
-                                <span class="line"><span style="width: 80%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="ratting-item">
-                                <span class="title">Hotels</span>
-                                <span class="line"><span style="width: 80%;"></span></span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3>Clients Comments</h3>
-                    <div class="comments mt-30 mb-60">
-                        <div class="comment-body" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <div class="author-thumb">
-                                <img src="assets/images/blog/comment-author1.jpg" alt="Author">
-                            </div>
-                            <div class="content">
-                                <h6>Lonnie B. Horwitz</h6>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
-                                <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
-                                    cultural exchanges, and the joy of exploration.</p>
-                                <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="comment-body comment-child" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
-                            <div class="author-thumb">
-                                <img src="assets/images/blog/comment-author2.jpg" alt="Author">
-                            </div>
-                            <div class="content">
-                                <h6>William G. Edwards</h6>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
-                                <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
-                                    cultural exchanges, and the joy of exploration.</p>
-                                <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="comment-body" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <div class="author-thumb">
-                                <img src="assets/images/blog/comment-author3.jpg" alt="Author">
-                            </div>
-                            <div class="content">
-                                <h6>Jaime B. Wilson</h6>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
-                                <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
-                                    cultural exchanges, and the joy of exploration.</p>
-                                <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
-                            </div>
+                            <h2 class="text-center text-white">
+                                Reviews
+                            </h2>
                         </div>
                     </div>
 
@@ -457,56 +293,7 @@
                         action="#" method="post" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <div class="comment-review-wrap">
                             <div class="comment-ratting-item">
-                                <span class="title">Services</span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="comment-ratting-item">
-                                <span class="title">Guides</span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="comment-ratting-item">
-                                <span class="title">Price</span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="comment-ratting-item">
-                                <span class="title">Safety</span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="comment-ratting-item">
-                                <span class="title">Foods</span>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                            <div class="comment-ratting-item">
-                                <span class="title">Hotels</span>
+                                <span class="title">Rating</span>
                                 <div class="ratting">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -563,24 +350,32 @@
 
                         <div class="widget widget-booking" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
-                            <h5 class="widget-title">Tour Booking</h5>
+                            <h5 class="widget-title">Hajj Booking</h5>
                             <form action="#">
                                 <div class="date mb-25">
                                     <b>From Date</b>
                                     <input type="date">
                                 </div>
+                                <div class="date mb-25">
+                                    <b>Return Date</b>
+                                    <input type="date">
+                                </div>
                                 <hr>
                                 <div class="time py-5">
+                                    <b>Departure/Return Location :</b>
+                                    <p class="mt-3">asdasdasd</p>
+                                </div>
+                                <div class="time py-5">
                                     <b>Time :</b>
-                                    <ul class="radio-filter">
-                                        <li>
+                                    <ul class="radio-filter pl-3">
+                                        {{-- <li>
                                             <input class="form-check-input" checked type="radio" name="time"
                                                 id="time1">
                                             <label for="time1">12:00</label>
-                                        </li>
+                                        </li> --}}
                                         <li>
-                                            <input class="form-check-input" type="radio" name="time"
-                                                id="time2">
+                                            <input class="form-check-input" type="radio" name="time" id="time2"
+                                                checked>
                                             <label for="time2">08:00</label>
                                         </li>
                                     </ul>
@@ -625,36 +420,57 @@
                                     <i class="fal fa-arrow-right"></i>
                                 </button>
                                 <div class="text-center">
-                                    <a href="contact.html">Need some help?</a>
+                                    <a href="contact.html">Cancellation Policy</a>
                                 </div>
                             </form>
+
+                            <div class="seats-info d-flex align-items-start justify-content-between mt-4 p-2 border rounded bgc-white m-auto"
+                                style="width: 80%; border-radius: 24px !important; border: 0px solid var(--base-color) !important;">
+                                <div class="seat-status d-flex align-items-center justify-content-between"
+                                    style="border-right: 2px solid; width: 50%;">
+                                    <div class="text-center m-auto">
+                                        <span class="badge bgc-black rounded-pill mb-1 px-3 py-1"
+                                            style="color: #fff">40</span>
+                                        <div class="text-muted small">Total Seats</div>
+                                    </div>
+                                </div>
+                                <div class="seat-status d-flex align-items-center justify-content-between"
+                                    style=" width: 50%;">
+                                    <div class="text-center m-auto">
+                                        <span class="badge bgc-secondary rounded-pill mb-1 px-3 py-1">20</span>
+                                        <div class="text-muted small">Booked</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="widget widget-contact" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
-                            <h5 class="widget-title">Need Help?</h5>
+                            <h5 class="widget-title">Need Help with Hajj?</h5>
                             <ul class="list-style-one">
                                 <li><i class="far fa-envelope"></i> <a
-                                        href="emilto:helpxample@gmail.com">helpxample@gmail.com</a></li>
-                                <li><i class="far fa-phone-volume"></i> <a href="callto:+000(123)45688">+000 (123) 456
+                                        href="mailto:hajjsupport@example.com">hajjsupport@example.com</a></li>
+                                <li><i class="far fa-phone-volume"></i> <a href="tel:+00012345688">+000 (123) 456
                                         88</a></li>
                             </ul>
                         </div>
 
-                        <div class="widget widget-cta" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                        {{-- <div class="widget widget-cta" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                             <div class="content text-white">
-                                <span class="h6">Explore The World</span>
-                                <h3>Best Tourist Place</h3>
-                                <a href="tour-grid.html" class="theme-btn style-two bgc-secondary">
-                                    <span data-hover="Explore Now">Explore Now</span>
+                                <span class="h6">Embark on Your Hajj Journey</span>
+                                <h3>Experience the Spiritual Voyage</h3>
+                                <a href="hajj-packages.html" class="theme-btn style-two bgc-secondary">
+                                    <span data-hover="Explore More">Explore More</span>
                                     <i class="fal fa-arrow-right"></i>
                                 </a>
                             </div>
                             <div class="image">
-                                <img src="assets/images/widgets/cta-widget.png" alt="CTA">
+                                <img src="{{ asset('assets/images/widgets/cta-widget.png') }}" alt="Hajj CTA">
                             </div>
-                            <div class="cta-shape"><img src="assets/images/widgets/cta-shape3.png" alt="Shape"></div>
-                        </div>
+                            <div class="cta-shape">
+                                <img src="{{ asset('assets/images/widgets/cta-shape3.png') }}" alt="Shape">
+                            </div>
+                        </div> --}}
 
                     </div>
                 </div>

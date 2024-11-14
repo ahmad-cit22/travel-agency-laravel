@@ -57,8 +57,8 @@
                     </li>
                     <li class="dropdown"><a href="#">products</a>
                         <ul>
-                            <li><a href="shop.html">Our Products</a></li>
-                            <li><a href="product-details.html">Product Details</a></li>
+                            <li><a href="{{ route('shop') }}">Our Products</a></li>
+                            <li><a href="{{ route('shop.details', 1) }}">Product Details</a></li>
                         </ul>
                     </li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
