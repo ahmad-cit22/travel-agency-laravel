@@ -15,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/testt', function () {
+    return view('pages.become-guide');
+})->name('testt');
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
@@ -27,6 +28,7 @@ Route::get('/guides/{id}', [HomeController::class, 'guide_details'])->name('guid
 Route::get('/islamic-shop', [HomeController::class, 'shop'])->name('shop');
 Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('shop.details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/booking/{id}', [HomeController::class, 'booking'])->name('booking');
 Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');
 
 
@@ -40,4 +42,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

@@ -11,7 +11,7 @@
                     <div class="logo">
                         <a href="{{ route('home') }}">
                             {{-- <h2 class="text-white">Shatabdi</h2> --}}
-                            <img src="assets/images/logos/Logo-light.png" alt="Logo"
+                            <img src="{{ asset('assets/images/logos/Logo-light.png') }}" alt="Logo"
                                 title="Logo" style="max-width: 200px;">
                         </a>
                     </div>

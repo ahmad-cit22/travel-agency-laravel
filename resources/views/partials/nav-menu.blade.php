@@ -20,7 +20,8 @@
             <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{ route('home') }}">Home</a>
             </li>
             <li class="{{ Request::routeIs('about') ? 'current' : '' }}"><a href="{{ route('about') }}">About</a></li>
-            <li class="{{ Request::routeIs('packages') ? 'current' : '' }}"><a href="{{ route('packages') }}">Packages</a>
+            <li class="{{ Request::routeIs('packages') ? 'current' : '' }}"><a
+                    href="{{ route('packages') }}">Packages</a>
                 <ul>
                     {{-- <li><a href="tour-list.html">Tour List</a></li>
                     <li><a href="tour-grid.html">Tour Grid</a></li>
@@ -29,7 +30,8 @@
                     <li><a href="tour-guide.html">Tour Guide</a></li> --}}
                 </ul>
             </li>
-            <li class="{{ Request::routeIs('guides') ? 'current' : '' }}"><a href="{{ route('guides') }}">Guides</a></li>
+            <li class="{{ Request::routeIs('guides') ? 'current' : '' }}"><a href="{{ route('guides') }}">Guides</a>
+            </li>
             <li class=""><a href="#">Hotels</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
@@ -46,8 +48,10 @@
             </li>
             <li class="dropdown"><a href="#">Pages</a>
                 <ul>
+                    <li><a href="{{ route('testt') }}">Test</a></li>
                     <li><a href="{{ route('register') }}">Register</a></li>
                     <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('booking', 1) }}">Booking Page</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="faqs.html">faqs</a></li>
                     <li class="dropdown"><a href="#">Gallery</a>

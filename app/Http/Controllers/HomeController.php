@@ -31,6 +31,11 @@ class HomeController extends Controller
         return view('pages.contact');
     }
 
+    public function booking($id)
+    {
+        return view('pages.booking');
+    }
+
     public function not_found_page()
     {
         return view('pages.404');

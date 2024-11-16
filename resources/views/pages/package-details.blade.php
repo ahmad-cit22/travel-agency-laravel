@@ -368,11 +368,6 @@
                                 <div class="time py-5">
                                     <b>Time :</b>
                                     <ul class="radio-filter pl-3">
-                                        {{-- <li>
-                                            <input class="form-check-input" checked type="radio" name="time"
-                                                id="time1">
-                                            <label for="time1">12:00</label>
-                                        </li> --}}
                                         <li>
                                             <input class="form-check-input" type="radio" name="time" id="time2"
                                                 checked>
@@ -401,19 +396,6 @@
                                     </li>
                                 </ul>
                                 <hr class="mb-25">
-                                <h6>Add Extra:</h6>
-                                <ul class="radio-filter pt-5">
-                                    <li>
-                                        <input class="form-check-input" checked type="radio" name="AddExtra"
-                                            id="add-extra1">
-                                        <label for="add-extra1">Add service per booking <span>$50</span></label>
-                                    </li>
-                                    <li>
-                                        <input class="form-check-input" type="radio" name="AddExtra" id="add-extra2">
-                                        <label for="add-extra2">Add service per personal <span>$24</span></label>
-                                    </li>
-                                </ul>
-                                <hr>
                                 <h6>Total: <span class="price">$74</span></h6>
                                 <button type="submit" class="theme-btn style-two w-100 mt-15 mb-5">
                                     <span data-hover="Book Now">Book Now</span>
