@@ -63,28 +63,33 @@
 
 
     <!-- Hotel Area start -->
-    <section class="hotel-area bgc-black py-100 rel z-1">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Discover the Top Class Hotels of Makkah & Madinah</h2>
-                        <p>Most popular experience you’ll remember</p>
+    <section class="hotel-area py-70 rel z-1">
+        <div class="container">
+            <div class="row justify-content-between align-items-center pb-40">
+                <div class="col-lg-9">
+                    <div class="section-title counter-text-wrap mb-15" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-offset="50">
+                        <h2>Discover the World's Class Top Hotel</h2>
+                        <p>One site <span class="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span>
+                            most popular experience you’ll remember</p>
                     </div>
                 </div>
+                <div class="col-lg-3 text-xl-end">
+                    <a href="tour-list.html" class="theme-btn style-two bgc-secondary mb-15">
+                        <span data-hover="Explore More Hotel">Explore More Hotel</span>
+                        <i class="fal fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row justify-content-center">
-                @include('partials.hotel-card')
-                @include('partials.hotel-card')
-                @include('partials.hotel-card')
-                @include('partials.hotel-card')
-            </div>
-            <div class="hotel-more-btn text-center mt-40">
-                <a href="destination2.html" class="theme-btn style-four">
-                    <span data-hover="Explore More Hotel">Explore More Hotel</span>
-                    <i class="fal fa-arrow-right"></i>
-                </a>
+                @include('partials.hotel-card-light')
+                @include('partials.hotel-card-light')
+                @include('partials.hotel-card-light')
+                @include('partials.hotel-card-light')
+                @include('partials.hotel-card-light')
+                @include('partials.hotel-card-light')
             </div>
         </div>
     </section>
@@ -102,8 +107,7 @@
                             <h2>Exclusive Hajj Booking Features That Make Us Stand Out</h2>
                         </div>
                         <div class="features-customer-box">
-                            <div class="image"
-                                style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
+                            <div class="image" style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
                                 <img src="assets/images/features/pxfuel2.jpg" alt="Features"
                                     style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
@@ -236,5 +240,4 @@
         </div>
     </section>
     <!-- Testimonials Area end -->
-
 @endsection

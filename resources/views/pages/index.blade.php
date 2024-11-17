@@ -272,7 +272,7 @@
             </div>
             <div class="hotel-more-btn text-center mt-40">
                 <a href="destination2.html" class="theme-btn style-four">
-                    <span data-hover="Explore More Hotel">Explore More Hotel</span>
+                    <span data-hover="Explore More Hotel">Explore More Hotels</span>
                     <i class="fal fa-arrow-right"></i>
                 </a>
             </div>
