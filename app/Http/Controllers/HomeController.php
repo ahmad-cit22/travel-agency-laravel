@@ -16,14 +16,14 @@ class HomeController extends Controller
         return view('pages.about');
     }
 
-    public function shop()
+    public function products()
     {
-        return view('pages.shop');
+        return view('pages.products.products');
     }
 
     public function product_details($id)
     {
-        return view('pages.product-details');
+        return view('pages.products.product-details');
     }
 
     public function contact()
@@ -43,21 +43,31 @@ class HomeController extends Controller
 
     public function packages()
     {
-        return view('pages.packages');
+        return view('pages.packages.packages');
     }
 
     public function package_details($id)
     {
-        return view('pages.package-details');
+        return view('pages.packages.package-details');
     }
 
     public function guides()
     {
-        return view('pages.guides');
+        return view('pages.guides.guides');
     }
 
     public function guide_details($id)
     {
-        return view('pages.guide-details');
+        return view('pages.guides.guide-details');
+    }
+
+    public function hotels()
+    {
+        return view('pages.hotels.hotels');
+    }
+
+    public function hotel_details($id)
+    {
+        return view('pages.hotels.hotel-details');
     }
 }
