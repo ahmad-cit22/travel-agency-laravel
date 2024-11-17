@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/testt', function () {
-    return view('pages.guide-register');
+    return view('pages.hotels');
 })->name('testt');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
