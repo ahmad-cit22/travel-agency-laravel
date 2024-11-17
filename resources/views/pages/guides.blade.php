@@ -41,9 +41,7 @@
 
 @section('content')
     <!-- Page Banner Start -->
-    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover">
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -109,8 +107,7 @@
                             <h2>Exclusive Hajj Booking Features That Make Us Stand Out</h2>
                         </div>
                         <div class="features-customer-box">
-                            <div class="image"
-                                style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
+                            <div class="image" style="border-radius: 20px; overflow: hidden; width: 300px; height: 300px;">
                                 <img src="assets/images/features/pxfuel2.jpg" alt="Features"
                                     style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
@@ -243,5 +240,4 @@
         </div>
     </section>
     <!-- Testimonials Area end -->
-
 @endsection

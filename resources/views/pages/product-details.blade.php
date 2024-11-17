@@ -2,9 +2,7 @@
 
 @section('content')
     <!-- Page Banner Start -->
-    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover">
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -178,74 +176,74 @@
                                 <img src="{{ asset('assets/images/blog/comment-author1.jpg') }}" alt="Author">
                             </div>
                             <div class="content"></div>
-                                <h6>Lonnie B. Horwitz</h6>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
-                                <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
-                                    cultural exchanges, and the joy of exploration.</p>
-                                <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
+                            <h6>Lonnie B. Horwitz</h6>
+                            <div class="ratting">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
+                            <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
+                                cultural exchanges, and the joy of exploration.</p>
+                            <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="comment-body" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="author-thumb">
+                            <img src="{{ asset('assets/images/blog/comment-author3.jpg') }}" alt="Author">
+                        </div>
+                        <div class="content">
+                            <h6>Jaime B. Wilson</h6>
+                            <div class="ratting">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
+                            <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
+                                cultural exchanges, and the joy of exploration.</p>
+                            <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <h5>Add A Reviews</h5>
+                <form id="comment-form" class="comment-form bgc-lighter z-1 rel mt-30" name="review-form" action="#"
+                    method="post" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                    <div class="row gap-20">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="full-name" name="full-name" class="form-control"
+                                    placeholder="Name" value="" required="">
                             </div>
                         </div>
-                        <div class="comment-body" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <div class="author-thumb">
-                                <img src="{{ asset('assets/images/blog/comment-author3.jpg') }}" alt="Author">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" id="email-address" name="email" class="form-control"
+                                    placeholder="Email" value="" required="">
                             </div>
-                            <div class="content">
-                                <h6>Jaime B. Wilson</h6>
-                                <div class="ratting">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                                <span class="time">Venice, Rome and Milan – 9 Days 8 Nights</span>
-                                <p>Tours and travels play a crucial role in enriching lives by offering unique experiences,
-                                    cultural exchanges, and the joy of exploration.</p>
-                                <a class="read-more" href="#">Reply <i class="far fa-angle-right"></i></a>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Comments" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group mb-0">
+                                <button type="submit" class="theme-btn bgc-secondary style-two">
+                                    <span data-hover="Submit reviews">Submit review</span>
+                                    <i class="fal fa-arrow-right"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
-
-                    <h5>Add A Reviews</h5>
-                    <form id="comment-form" class="comment-form bgc-lighter z-1 rel mt-30" name="review-form"
-                        action="#" method="post" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="row gap-20">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" id="full-name" name="full-name" class="form-control"
-                                        placeholder="Name" value="" required="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" id="email-address" name="email" class="form-control"
-                                        placeholder="Email" value="" required="">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Comments" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group mb-0">
-                                    <button type="submit" class="theme-btn bgc-secondary style-two">
-                                        <span data-hover="Submit reviews">Submit review</span>
-                                        <i class="fal fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                </form>
             </div>
+        </div>
         </div>
     </section>
     <!-- Product Details End -->

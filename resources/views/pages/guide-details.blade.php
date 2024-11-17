@@ -2,9 +2,7 @@
 
 @section('content')
     <!-- Page Banner Start -->
-    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover">
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -36,8 +34,7 @@
 
                         <div class="d-flex align-items-center justify-content-start gap-4">
                             <img src="{{ asset('assets/images/guides') . '/' . 'guide-1.jpg' }}" alt="Guide"
-                                class="img-fluid rounded-circle" width="150"
-                                style="height: 150px; object-fit: cover;">
+                                class="img-fluid rounded-circle" width="150" style="height: 150px; object-fit: cover;">
                             <div class="section-title pb-5">
                                 <h2>Muhammad Ali</h2>
                                 <p class="mb-0 text-muted">Dhanmondi, Dhaka</p>
@@ -74,21 +71,28 @@
                     </div>
                     <div class="tour-details-content mb-3" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <h3>Credentials</h3>
-                        <p>With over 10 years of experience guiding Hajj pilgrims, Muhammad Ali has an in-depth knowledge of the Hajj rituals and procedures. He is fluent in English, Arabic, and Bangla, and has assisted pilgrims from all over the world. He is dedicated to ensuring that his pilgrims have a safe, comfortable, and spiritually fulfilling experience.</p>
+                        <p>With over 10 years of experience guiding Hajj pilgrims, Muhammad Ali has an in-depth knowledge of
+                            the Hajj rituals and procedures. He is fluent in English, Arabic, and Bangla, and has assisted
+                            pilgrims from all over the world. He is dedicated to ensuring that his pilgrims have a safe,
+                            comfortable, and spiritually fulfilling experience.</p>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-check-circle text-success me-2"></i> Over 10 years of experience guiding Hajj pilgrims</li>
-                            <li><i class="fas fa-check-circle text-success me-2"></i> Fluent in English, Arabic, and Bangla</li>
-                            <li><i class="fas fa-check-circle text-success me-2"></i> In-depth knowledge of the Hajj rituals and procedures</li>
-                            <li><i class="fas fa-check-circle text-success me-2"></i> He has a strong network of contacts in the Hajj industry, allowing him to secure the best possible deals for his clients.</li>
-                            <li><i class="fas fa-check-circle text-success me-2"></i> He is dedicated to ensuring that his pilgrims have a safe, comfortable, and spiritually fulfilling experience.</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> Over 10 years of experience guiding
+                                Hajj pilgrims</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> Fluent in English, Arabic, and Bangla
+                            </li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> In-depth knowledge of the Hajj rituals
+                                and procedures</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> He has a strong network of contacts in
+                                the Hajj industry, allowing him to secure the best possible deals for his clients.</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i> He is dedicated to ensuring that his
+                                pilgrims have a safe, comfortable, and spiritually fulfilling experience.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-10 rmt-75">
                     <div class="blog-sidebar tour-sidebar">
 
-                        <div class="widget widget-booking" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
+                        <div class="widget widget-booking" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                             <h4 class="widget-title text-center">Guide Details</h4>
                             <form action="#">
                                 <div class="text-center mb-2">
@@ -98,13 +102,15 @@
                                 <hr>
                                 <div class="text-center mb-25">
                                     <h5>Language(s)</h5>
-                                    <p>English: <span><a href="#" title="asdasd"><i class="fas fa-check-circle text-success"></i></a></span></p>
+                                    <p>English: <span><a href="#" title="asdasd"><i
+                                                    class="fas fa-check-circle text-success"></i></a></span></p>
                                     <p>English: <span><i class="fas fa-check-circle text-success"></i></span></p>
                                 </div>
                                 <hr>
                                 <div class="time py-5 counter-text-wrap">
                                     <b>Total Tour Given :</b>
-                                    <p class="mt-3 badge bgc-black count-text plus" data-speed="3000" data-stop="100" style="font-size: 18px !important">0</p>
+                                    <p class="mt-3 badge bgc-black count-text plus" data-speed="3000" data-stop="100"
+                                        style="font-size: 18px !important">0</p>
                                 </div>
                                 <hr>
                                 <div class="text-center mb-2">
@@ -114,8 +120,7 @@
                             </form>
                         </div>
 
-                        <div class="widget widget-contact" data-aos="fade-up" data-aos-duration="1500"
-                            data-aos-offset="50">
+                        <div class="widget widget-contact" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                             <h5 class="widget-title">Need Help with Hajj?</h5>
                             <ul class="list-style-one">
                                 <li><i class="far fa-envelope"></i> <a

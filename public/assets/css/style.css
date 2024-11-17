@@ -5627,8 +5627,8 @@ blockquote {
     margin-right: 30px; */
     background-repeat: no-repeat;
     background-image: linear-gradient(
-            rgba(var(--primary-rgb), 0.7),
-            rgba(var(--heading-rgb), 0.5)
+            rgba(var(--primary-rgb), 0.8),
+            rgba(var(--heading-rgb), 0.7)
         ),
         url("../images/hero/pxfuel1.jpg");
     background-size: cover;

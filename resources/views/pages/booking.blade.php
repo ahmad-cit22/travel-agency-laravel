@@ -14,9 +14,7 @@
 
 @section('content')
     <!-- Page Banner Start -->
-    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover">
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -45,8 +43,10 @@
                         data-aos-duration="1500" data-aos-offset="50">
                         <h5 class="widget-title text-center mb-3">Booking Summary</h5>
                         <ul class="list-style-two">
-                            <li> <span class="me-2">Package:</span> <a class="" href="{{ route('packages.details', 1) }}">Holy Makkah Hajj</a></li>
-                            <li> <span class="me-2">Guide:</span> <a class="" href="{{ route('guides.details', 1) }}">Muhammad Ali</a></li>
+                            <li> <span class="me-2">Package:</span> <a class=""
+                                    href="{{ route('packages.details', 1) }}">Holy Makkah Hajj</a></li>
+                            <li> <span class="me-2">Guide:</span> <a class=""
+                                    href="{{ route('guides.details', 1) }}">Muhammad Ali</a></li>
                             <li> <span class="me-2">Departure:</span> Dhaka</li>
                             <li> <span class="me-2">Return:</span> Makkah</li>
                             <li> <span class="me-2">Seats:</span> 2 Adults</li>
