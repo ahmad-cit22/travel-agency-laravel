@@ -6,9 +6,7 @@
 
 @section('content')
     <!-- Page Banner Start -->
-    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover"
-        style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+    <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover">
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -151,327 +149,43 @@
     <!-- Guides end -->
 
 
-    <!-- Features Tours Area start -->
-    <section class="features-tour-area bgc-black text-white pt-100 pb-50 rel z-1">
-        <div class="container">
-            <div class="row justify-content-between align-items-center pb-25">
-                <div class="col-lg-6">
-                    <div class="section-title counter-text-wrap mb-20" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <h2>Discover Tours</h2>
-                        <p>One site <span class="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span>
-                            most popular experience</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <ul class="destinations-nav style-two mb-20">
-                        <li data-filter="*" class="active">Show All</li>
-                        <li data-filter=".beach">Beach</li>
-                        <li data-filter=".museum">Museum</li>
-                        <li data-filter=".park">Park</li>
-                        <li data-filter=".city">City</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row destinations-active justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-6 item beach park">
-                    <div class="destination-item style-four no-border" data-aos="flip-left" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="image">
-                            <span class="badge">10% Off</span>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/tour1.jpg" alt="Tour">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali, Indonesia</span>
-                            <h6><a href="tour-details.html">Relinking Beach in Nusa panada island, Bali, Indonesia</a></h6>
-                        </div>
-                        <div class="destination-footer">
-                            <span class="price"><span>$58.00</span>/person</span>
-                            <div class="ratting">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                        <a href="tour-details.html" class="theme-btn style-three">
-                            <span data-hover="Explore">Explore</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 item museum park city">
-                    <div class="destination-item style-four no-border" data-aos="flip-left" data-aos-delay="50"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/tour2.jpg" alt="Tour">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> New Zealand</span>
-                            <h6><a href="tour-details.html">Relinking Beach in Nusa panada island, Bali, Indonesia</a></h6>
-                        </div>
-                        <div class="destination-footer">
-                            <span class="price"><span>$58.00</span>/person</span>
-                            <div class="ratting">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                        <a href="tour-details.html" class="theme-btn style-three">
-                            <span data-hover="Explore">Explore</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 item beach city">
-                    <div class="destination-item style-four no-border" data-aos="flip-left" data-aos-delay="100"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <span class="badge bgc-pink">Featured</span>
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/tour3.jpg" alt="Tour">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Bali, Indonesia</span>
-                            <h6><a href="tour-details.html">Relinking Beach in Nusa panada island, Bali, Indonesia</a></h6>
-                        </div>
-                        <div class="destination-footer">
-                            <span class="price"><span>$58.00</span>/person</span>
-                            <div class="ratting">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <a href="tour-details.html" class="theme-btn style-three">
-                            <span data-hover="Explore">Explore</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 item beach museum">
-                    <div class="destination-item style-four no-border" data-aos="flip-left" data-aos-delay="150"
-                        data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <a href="#" class="heart"><i class="fas fa-heart"></i></a>
-                            <img src="assets/images/destinations/tour4.jpg" alt="Tour">
-                        </div>
-                        <div class="content">
-                            <span class="location"><i class="fal fa-map-marker-alt"></i> Rome, Italy</span>
-                            <h6><a href="tour-details.html">Relinking Beach in Nusa panada island, Bali, Indonesia</a></h6>
-                        </div>
-                        <div class="destination-footer">
-                            <span class="price"><span>$58.00</span>/person</span>
-                            <div class="ratting">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                        <a href="tour-details.html" class="theme-btn style-three">
-                            <span data-hover="Explore">Explore</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Features Tours Area end -->
-
-
-    <!-- Popular Activity Area start -->
-    <section class="popular-activity pt-100 pb-70 rel z-1">
-        <div class="container">
+    <!-- Packages Area start -->
+    <section class="destinations-area bgc-black pt-100 pb-70 rel z-1 mb-150">
+        <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
-                    <div class="section-title text-center counter-text-wrap mb-45" data-aos="fade-up"
+                    <div class="section-title text-white text-center counter-text-wrap mb-70" data-aos="fade-up"
                         data-aos-duration="1500" data-aos-offset="50">
-                        <h2>Explore Our Popular Activity</h2>
-                        <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most
-                            popular experience</p>
+                        <h2>Explore the best packages of Hajj & Umrah</h2>
+                        <p>Join over <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> satisfied
+                            pilgrims on a journey of a lifetime.</p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity1.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Mountain Trek</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity2.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Beach Snorkel</a></h5>
-                            <span class="time">320 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity3.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Explore Ruins</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity4.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Road Trip</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity5.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">City Cycling</a></h5>
-                            <span class="time">320 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity6.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">River Cruise</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity7.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Fishing</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity8.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Spa Treatment</a></h5>
-                            <span class="time">320 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="activity-item">
-                        <div class="image">
-                            <img src="assets/images/activities/activity9.png" alt="Activity">
-                        </div>
-                        <div class="content">
-                            <h5><a href="tour-details.html">Hiking Trekking</a></h5>
-                            <span class="time">258 tours</span>
-                        </div>
-                        <div class="right-btn">
-                            <a href="tour-details.html" class="more"><i class="fas fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+                @include('partials.package-card')
+                @include('partials.package-card')
+                @include('partials.package-card')
+                @include('partials.package-card')
+            </div>
+            <div class="text-center mt-40">
+                <a href="destination2.html" class="theme-btn style-four">
+                    <span data-hover="Explore More Packages">Explore More Packages</span>
+                    <i class="fal fa-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
-    <!-- Popular Activity Area end -->
+    <!-- Packages Area end -->
 
 
     <!-- CTA Area start -->
-    <section class="cta-area rel z-1">
+    <section class="cta-area rel z-1 mb-150">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-4 col-md-6" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-offset="50">
-                    <div class="cta-item" style="background-image: url(assets/images/cta/cta1.jpg);">
-                        <span class="category">Tent Camping</span>
-                        <h2>Explore the world best tourism</h2>
-                        <a href="tour-details.html" class="theme-btn style-two bgc-secondary">
-                            <span data-hover="Explore Tours">Explore Tours</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="zoom-in-down" data-aos-delay="50" data-aos-duration="1500"
-                    data-aos-offset="50">
-                    <div class="cta-item" style="background-image: url(assets/images/cta/cta2.jpg);">
-                        <span class="category">Sea Beach</span>
-                        <h2>World largest Sea Beach in Thailand</h2>
-                        <a href="tour-details.html" class="theme-btn style-two">
-                            <span data-hover="Explore Tours">Explore Tours</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-aos="zoom-in-down" data-aos-delay="100" data-aos-duration="1500"
-                    data-aos-offset="50">
-                    <div class="cta-item" style="background-image: url(assets/images/cta/cta3.jpg);">
-                        <span class="category">Water Falls</span>
-                        <h2>Largest Water falls Bali, Indonesia</h2>
-                        <a href="tour-details.html" class="theme-btn style-two bgc-secondary">
-                            <span data-hover="Explore Tours">Explore Tours</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+                @include('partials.cta-card')
+                @include('partials.cta-card')
+                @include('partials.cta-card')
             </div>
         </div>
     </section>

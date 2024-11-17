@@ -43,7 +43,10 @@
     <!-- Hero Area Start -->
     <section class="hero-area bgc-black pt-200 pb-100 rpt-120 rel z-2"
         style="background-color: #181622 !important; background-repeat: no-repeat; background-image: url({{ asset('assets/images/hero/pxfuel1.jpg') }}); background-size: cover;">
-        @include('partials.gradient-overlay')
+        <!-- Gradient Overlay -->
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, var(--primary-color), var(--heading-color)); opacity: 0.7; z-index: 1;">
+        </div>
         <div class="container-fluid">
             <h1 class="hero-title" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="50">Hajj &
                 Umrah</h1>
