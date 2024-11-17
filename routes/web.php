@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/testt', function () {
-    return view('pages.become-guide');
+    return view('pages.guide-register');
 })->name('testt');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -25,8 +25,8 @@ Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
 Route::get('/packages/{id}', [HomeController::class, 'package_details'])->name('packages.details');
 Route::get('/guides', [HomeController::class, 'guides'])->name('guides');
 Route::get('/guides/{id}', [HomeController::class, 'guide_details'])->name('guides.details');
-Route::get('/islamic-shop', [HomeController::class, 'shop'])->name('shop');
-Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('shop.details');
+Route::get('/islamic-shop', [HomeController::class, 'shop'])->name('products');
+Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('products.details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/booking/{id}', [HomeController::class, 'booking'])->name('booking');
 Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');

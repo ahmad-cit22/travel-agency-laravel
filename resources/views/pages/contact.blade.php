@@ -108,7 +108,7 @@
     <section class="contact-form-area py-70 rel z-1">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-8 m-auto">
                     <div class="comment-form bgc-lighter z-1 rel mb-30 rmb-55">
                         <form id="contactForm" class="contactForm" name="contactForm" action="" method="post"
                             data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
@@ -173,30 +173,11 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="contact-images-part" data-aos="fade-right" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="assets/images/contact/contact1.jpg" alt="Contact"
-                                    style="border-radius: 20px !important">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/images/contact/contact2.jpg" alt="Contact"
-                                    style="border-radius: 20px !important" height="300">
-                            </div>
-                            <div class="col-6">
-                                <img src="assets/images/contact/contact3.jpg" alt="Contact"
-                                    style="border-radius: 20px !important" height="300">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
     <!-- Contact Form Area end -->
-
 
     <!-- Contact Map Start -->
     <div class="contact-map">

@@ -9,22 +9,6 @@
             box-shadow: none;
             transition: border-color 0.3s ease-in-out;
         }
-
-        .form-control:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.8);
-        }
-
-        /* .theme-btn {
-            background: linear-gradient(90deg, #6a11cb, #2575fc);
-            color: #fff;
-            border: none;
-            transition: background 0.3s ease;
-        }
-
-        .theme-btn:hover {
-            background: linear-gradient(90deg, #2575fc, #6a11cb);
-        } */
     </style>
 @endpush
 

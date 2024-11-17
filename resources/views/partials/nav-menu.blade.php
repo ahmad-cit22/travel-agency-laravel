@@ -39,7 +39,7 @@
                     <li><a href="destination-details.html">Destination Details</a></li> --}}
                 </ul>
             </li>
-            <li class="{{ Request::routeIs('shop') ? 'current' : '' }}"><a href="{{ route('shop') }}">Islamic Shop</a>
+            <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Islamic Shop</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
                     <li><a href="destination2.html">Destination 01</a></li>
@@ -62,8 +62,8 @@
                     </li>
                     <li class="dropdown"><a href="#">products</a>
                         <ul>
-                            <li><a href="{{ route('shop') }}">Our Products</a></li>
-                            <li><a href="{{ route('shop.details', 1) }}">Product Details</a></li>
+                            <li><a href="{{ route('products') }}">Our Products</a></li>
+                            <li><a href="{{ route('products.details', 1) }}">Product Details</a></li>
                         </ul>
                     </li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
