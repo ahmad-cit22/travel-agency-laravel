@@ -121,6 +121,11 @@
                                 <i class="fal fa-arrow-right"></i>
                             </button>
                         </form>
+
+                        <p class="text-muted text-center mt-4">
+                            Already have an account? <a href="{{ route('login') }}">Login</a> <br>
+                            <a href="{{ route('register.guide') }}">Register as Guide</a>
+                        </p>
                     </div>
                 </div>
             </div>

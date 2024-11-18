@@ -6,7 +6,7 @@
         <div class="container">
             <div class="banner-inner text-white">
                 <h2 class="page-title mb-10" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
-                    Blog Details
+                    Ultimate Guide to Planning Your Dream Vacation
                 </h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center mb-20" data-aos="fade-right" data-aos-delay="200"
@@ -28,23 +28,22 @@
                     <div class="blog-details-content" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                         <a href="blog.html" class="category">Travel</a>
                         <ul class="blog-meta mb-30">
-                            <li><img src="assets/images/blog/admin.jpg" alt="Admin"> <a href="#">Reed A.
+                            <li><img src="{{ asset('assets/images/blog/admin.jpg') }}" alt="Admin"> <a href="#">Reed A.
                                     Johnson</a></li>
                             <li><i class="far fa-calendar-alt"></i> <a href="#">25 Feb 2024</a></li>
-                            <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
                         </ul>
                         <p>Tour and travel agency is a business that assists travelers with the planning, booking, and
                             execution of their travel experiences. This can include everything from transportation and
                             accommodation to guided tours, activities, to more. It sounds like you're looking for a
                             comprehensive guide or overview related to a tour and travel agency.</p>
                         <div class="image mt-40 mb-30" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <img src="assets/images/blog/blog-details.jpg" alt="Blog Details">
+                            <img src="{{ asset('assets/images/blog/blog1.jpg') }}" alt="Blog Details">
                         </div>
                         <h5>Services Offered by a Tour and Travel Agency</h5>
                         <p>Agency plays a pivotal role in crafting memorable experiences for travelers by offering wide
-                            range services tailored to individual preferences. Whether it's a family vacation, an adventure
-                            trip, or luxury getaway well-established travel agency can handle everything from flight
-                            bookings and accommodation to guided tours .</p>
+                            range of services tailored to individual preferences. Whether it's a family vacation, an
+                            adventure trip, or luxury getaway well-established travel agency can handle everything from
+                            flight bookings and accommodation to guided tours and activities.</p>
                         <ul class="list-style-two mt-30 mb-45" data-aos="fade-up" data-aos-duration="1500"
                             data-aos-offset="50">
                             <li>Assisting customers in booking domestic and international flights.</li>
@@ -58,13 +57,13 @@
                         <div class="row mb-10">
                             <div class="col-sm-6">
                                 <div class="image mb-30" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                                    <img src="assets/images/blog/blog-middle1.jpg" alt="Blog">
+                                    <img src="{{ asset('assets/images/blog/blog-middle1.jpg') }}" alt="Blog">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="image mb-30" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50"
                                     data-aos-delay="50">
-                                    <img src="assets/images/blog/blog-middle2.jpg" alt="Blog">
+                                    <img src="{{ asset('assets/images/blog/blog-middle1.jpg') }}" alt="Blog">
                                 </div>
                             </div>
                         </div>
@@ -96,12 +95,12 @@
 
                     <div class="tag-share mb-50">
                         <div class="item" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
-                            <h6>Tags </h6>
+                            {{-- <h6>Tags </h6>
                             <div class="tag-coulds">
                                 <a href="blog.html">Travel</a>
                                 <a href="blog.html">Hotel</a>
                                 <a href="blog.html">Tour</a>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="item" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
                             <h6>Share </h6>
@@ -113,87 +112,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="admin-comment bgc-lighter" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="comment-body">
-                            <div class="author-thumb">
-                                <img src="assets/images/blog/admin-comment.jpg" alt="Author">
-                            </div>
-                            <div class="content">
-                                <h4>Richard M. Fudge</h4>
-                                <p>The world is a book, and those who do not travel read only one page. Every journey we
-                                    undertake is a chapter filled with lessons, experiences, and stories.</p>
-                                <div class="social-icons">
-                                    <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="contact.html"><i class="fab fa-twitter"></i></a>
-                                    <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="contact.html"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="next-prev-blog pt-70 pb-15">
-                        <div class="item" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
-                            <div class="image">
-                                <img src="assets/images/blog/prev-post.jpg" alt="News">
-                            </div>
-                            <div class="content">
-                                <h6><a href="blog-details.html">Unique Destinations an tolded Stories ways</a></h6>
-                                <span class="date"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
-                            </div>
-                        </div>
-                        <div class="item" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="50">
-                            <div class="image">
-                                <img src="assets/images/blog/next-post.jpg" alt="News">
-                            </div>
-                            <div class="content">
-                                <h6><a href="blog-details.html">Immersive Experiences from Around Globe</a></h6>
-                                <span class="date"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form id="comment-form" class="comment-form bgc-lighter z-1 rel mt-25" name="review-form"
-                        action="#" method="post" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <h5>Leave A Comments</h5>
-                        <p>Your email address will not be published. Required fields are marked *</p>
-                        <div class="row gap-20 mt-30">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" id="full-name" name="full-name" class="form-control"
-                                        placeholder="Name" value="" required="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" id="email-address" name="email" class="form-control"
-                                        placeholder="Email" value="" required="">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Message" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group mb-0">
-                                    <ul class="radio-filter mb-25">
-                                        <li>
-                                            <input class="form-check-input" type="radio" name="terms-condition"
-                                                id="terms-condition">
-                                            <label for="terms-condition">Save my name, email, and website in this browser
-                                                for the next time I comment.</label>
-                                        </li>
-                                    </ul>
-                                    <button type="submit" class="theme-btn style-two">
-                                        <span data-hover="Send Comments">Send Comments</span>
-                                        <i class="fal fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
 
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-10 rmt-75">

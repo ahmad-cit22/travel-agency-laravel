@@ -104,11 +104,14 @@
                                         <label for="zip">Zip Code</label>
                                     </div>
                                 </div>
+
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <label for="profilePicture" class="form-label">Profile Picture</label>
-                                        <input type="file" name="profile_picture" class="form-control"
-                                            id="profilePicture" required>
+                                        <input type="checkbox" name="terms" class="" id="terms" required>
+                                        <label class="form-check-label" for="terms">
+                                            I agree with the <a href="#" class="text-secondary">Terms and
+                                                Conditions</a>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
@@ -118,6 +121,11 @@
                                 <i class="fal fa-arrow-right"></i>
                             </button>
                         </form>
+
+                        <p class="text-muted text-center mt-4">
+                            Already have an account? <a href="{{ route('login') }}">Login</a> <br>
+                            <a href="{{ route('register.hajji') }}">Register as Hajji</a>
+                        </p>
                     </div>
                 </div>
             </div>

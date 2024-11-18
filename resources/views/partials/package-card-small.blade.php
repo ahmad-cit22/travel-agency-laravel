@@ -44,35 +44,6 @@
                     </div>
                 </div>
             </div>
-
-            {{-- <div class="facilities d-flex align-items-center justify-content-between"
-                style="gap: 10px; margin-top: 48px;">
-                <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Flight">
-                    <span class="facility-icon">
-                        <i class="fal fa-plane text-success"></i>
-                    </span>
-                </span>
-                <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Transport">
-                    <span class="facility-icon-unavailable">
-                        <i class="fal fa-car"></i>
-                    </span>
-                </span>
-                <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Food">
-                    <span class="facility-icon">
-                        <i class="fal fa-utensils"></i>
-                    </span>
-                </span>
-                <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Sightseeing">
-                    <span class="facility-icon-unavailable">
-                        <i class="fal fa-binoculars"></i>
-                    </span>
-                </span>
-                <span class="facility-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Accommodation">
-                    <span class="facility-icon">
-                        <i class="fal fa-hotel"></i>
-                    </span>
-                </span>
-            </div> --}}
         </div>
         <div class="destination-footer">
             <span class="price" style="color: var(--heading-color)"><span class="text-success">$1500</span>/person</span>
