@@ -1,7 +1,7 @@
 <div class="col-xl-4 col-md-6">
     <div class="destination-item style-two" data-aos="flip-up" data-aos-duration="1500" data-aos-offset="50">
         <div class="image">
-            <img src="assets/images/guides/guide-1.jpg" alt="Guide">
+            <img src="{{ asset('assets/images/guides/guide-1.jpg') }}" alt="Guide">
         </div>
         <div class="content">
             <h6><a href="{{route('guides.details', 1)}}">Sheikh Abdullah Adnan</a></h6>

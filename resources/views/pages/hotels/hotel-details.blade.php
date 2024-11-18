@@ -26,28 +26,28 @@
 
 
     <!-- Destination Gallery start -->
-    <div class="destination-gallery mt-4">
+    <div class="destination-gallery mt-100">
         <div class="container-fluid">
             <div class="row gap-10 justify-content-center rel">
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
-                        <img src="assets/images/destinations/destination-details1.jpg" alt="Destination">
+                        <img src="{{ asset('assets/images/destinations/destination-details1.jpg') }}" alt="Destination">
                     </div>
                     <div class="gallery-item">
-                        <img src="assets/images/destinations/destination-details4.jpg" alt="Destination">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-item">
-                        <img src="assets/images/destinations/destination-details2.jpg" alt="Destination">
+                        <img src="{{ asset('assets/images/destinations/destination-details4.jpg') }}" alt="Destination">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
-                        <img src="assets/images/destinations/destination-details3.jpg" alt="Destination">
+                        <img src="{{ asset('assets/images/destinations/destination-details2.jpg') }}" alt="Destination">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="{{ asset('assets/images/destinations/destination-details3.jpg') }}" alt="Destination">
                     </div>
                     <div class="gallery-item">
-                        <img src="assets/images/destinations/destination-details5.jpg" alt="Destination">
+                        <img src="{{ asset('assets/images/destinations/destination-details5.jpg') }}" alt="Destination">
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-3 text-xl-end">
                     <a href="tour-list.html" class="theme-btn style-two bgc-secondary mb-15">
-                        <span data-hover="Explore More Hotel">Explore More</span>
+                        <span data-hover="Explore More">Explore More</span>
                         <i class="fal fa-arrow-right"></i>
                     </a>
                 </div>

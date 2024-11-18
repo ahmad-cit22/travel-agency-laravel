@@ -70,4 +70,14 @@ class HomeController extends Controller
     {
         return view('pages.hotels.hotel-details');
     }
+
+    public function blog()
+    {
+        return view('pages.blogs.blogs');
+    }
+
+    public function blog_details($id)
+    {
+        return view('pages.blogs.blog-details');
+    }
 }

@@ -18,9 +18,18 @@ class RegisteredUserController extends Controller
     /**
      * Display the registration view.
      */
-    public function create(): View
+    // public function create(): View
+    // {
+    //     return view('auth.register');
+    // }
+    public function create_guide(): View
     {
-        return view('auth.register');
+        return view('auth.register-as-guide');
+    }
+
+    public function create_hajji(): View
+    {
+        return view('auth.register-as-hajji');
     }
 
     /**

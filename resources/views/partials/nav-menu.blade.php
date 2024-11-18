@@ -32,12 +32,7 @@
             </li>
             <li class="{{ Request::routeIs('guides') ? 'current' : '' }}"><a href="{{ route('guides') }}">Guides</a>
             </li>
-            <li class=""><a href="#">Hotels</a>
-                <ul>
-                    {{-- <li><a href="destination1.html">Destination 01</a></li>
-                    <li><a href="destination2.html">Destination 01</a></li>
-                    <li><a href="destination-details.html">Destination Details</a></li> --}}
-                </ul>
+            <li class=""><a href="{{ route('hotels') }}">Hotels</a>
             </li>
             <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Islamic Shop</a>
                 <ul>
@@ -49,7 +44,13 @@
             <li class="dropdown"><a href="#">Pages</a>
                 <ul>
                     <li><a href="{{ route('testt') }}">Test</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
+                    <li class="dropdown">
+                        <a href="#">Register</a>
+                        <ul>
+                            <li><a href="{{ route('register.guide') }}">Become a Guide</a></li>
+                            <li><a href="{{ route('register.hajji') }}">Become a Hajji</a></li>
+                        </ul>
+                    </li>
                     <li><a href="{{ route('login') }}">Login</a></li>
                     <li><a href="{{ route('booking', 1) }}">Booking Page</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
@@ -72,8 +73,8 @@
             </li>
             <li class="dropdown"><a href="#">blog</a>
                 <ul>
-                    <li><a href="blog.html">blog List</a></li>
-                    <li><a href="blog-details.html">blog details</a></li>
+                    <li><a href="{{ route('blogs') }}">blog List</a></li>
+                    <li><a href="{{ route('blogs.details', 1) }}">blog details</a></li>
                 </ul>
             </li>
         </ul>

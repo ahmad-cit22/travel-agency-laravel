@@ -32,7 +32,7 @@
 
                 <!-- Menu Button -->
                 <div class="menu-btns py-10">
-                    <a href="contact.html" class="theme-btn style-two bgc-secondary">
+                    <a href="{{ route('packages') }}" class="theme-btn style-two bgc-secondary">
                         <span data-hover="Book Now">Book Now</span>
                         <i class="fal fa-arrow-right"></i>
                     </a>

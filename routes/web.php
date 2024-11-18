@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/testt', function () {
-    return view('pages.hotel-details');
+    return view('pages.hotels.hotel-details');
 })->name('testt');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -29,6 +29,8 @@ Route::get('/hotels', [HomeController::class, 'hotels'])->name('hotels');
 Route::get('/hotels/{id}', [HomeController::class, 'hotel_details'])->name('hotels.details');
 Route::get('/islamic-shop/products', [HomeController::class, 'products'])->name('products');
 Route::get('/islamic-shop/products/{id}', [HomeController::class, 'product_details'])->name('products.details');
+Route::get('/blog', [HomeController::class, 'blog'])->name('blogs');
+Route::get('/blog/{id}', [HomeController::class, 'blog_details'])->name('blogs.details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/booking/{id}', [HomeController::class, 'booking'])->name('booking');
 Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');

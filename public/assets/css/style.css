@@ -185,7 +185,7 @@ textarea:focus,
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.5);
+    /* box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.5); */
 }
 input:focus::-webkit-input-placeholder,
 select:focus::-webkit-input-placeholder,
@@ -4901,7 +4901,7 @@ blockquote {
 }
 
 .main-header.white-menu.fixed-header .header-upper {
-    background: var(--heading-color);
+    background: rgb(var(--heading-rgb), 0.9);
 }
 
 .main-header.white-menu.header-one .main-menu .navbar-collapse {
