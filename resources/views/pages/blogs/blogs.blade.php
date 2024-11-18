@@ -25,97 +25,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <img src="assets/images/blog/blog-list1.jpg" alt="Blog List">
-                        </div>
-                        <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation</a></h5>
-                            <ul class="blog-meta">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
-                                <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
-                            </ul>
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking</p>
-                            <a href="blog-details.html" class="theme-btn style-two style-three">
-                                <span data-hover="Book Now">Read More</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <img src="assets/images/blog/blog-list2.jpg" alt="Blog List">
-                        </div>
-                        <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation</a></h5>
-                            <ul class="blog-meta">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
-                                <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
-                            </ul>
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking</p>
-                            <a href="blog-details.html" class="theme-btn style-two style-three">
-                                <span data-hover="Book Now">Read More</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <img src="assets/images/blog/blog-list3.jpg" alt="Blog List">
-                        </div>
-                        <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation</a></h5>
-                            <ul class="blog-meta">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
-                                <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
-                            </ul>
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking</p>
-                            <a href="blog-details.html" class="theme-btn style-two style-three">
-                                <span data-hover="Book Now">Read More</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <img src="assets/images/blog/blog-list4.jpg" alt="Blog List">
-                        </div>
-                        <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation</a></h5>
-                            <ul class="blog-meta">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
-                                <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
-                            </ul>
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking</p>
-                            <a href="blog-details.html" class="theme-btn style-two style-three">
-                                <span data-hover="Book Now">Read More</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <div class="image">
-                            <img src="assets/images/blog/blog-list5.jpg" alt="Blog List">
-                        </div>
-                        <div class="content">
-                            <a href="blog.html" class="category">Travel</a>
-                            <h5><a href="blog-details.html">Ultimate Guide to Planning Your Dream Vacation</a></h5>
-                            <ul class="blog-meta">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
-                                <li><i class="far fa-comments"></i> <a href="#">Comments (5)</a></li>
-                            </ul>
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking</p>
-                            <a href="blog-details.html" class="theme-btn style-two style-three">
-                                <span data-hover="Book Now">Read More</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
+                    @include('partials.blog-card')
+                    @include('partials.blog-card')
+                    @include('partials.blog-card')
+                    @include('partials.blog-card')
+                    @include('partials.blog-card')
                     <ul class="pagination pt-15 flex-wrap" data-aos="fade-up" data-aos-duration="1500"
                         data-aos-offset="50">
                         <li class="page-item disabled">
