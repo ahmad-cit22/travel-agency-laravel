@@ -40,7 +40,6 @@
                                 <p class="mb-0 text-muted">Dhanmondi, Dhaka</p>
                             </div>
                         </div>
-                        <br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 text-lg-end" data-aos="fade-right" data-aos-duration="1500"

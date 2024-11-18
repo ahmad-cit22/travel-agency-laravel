@@ -83,12 +83,6 @@
                         @include('partials.guide-card')
                         @include('partials.guide-card')
                     </div>
-                    <div class="text-center mt-40">
-                        <a href="destination2.html" class="theme-btn style-three">
-                            <span data-hover="Explore More Guides">Explore More Guides</span>
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

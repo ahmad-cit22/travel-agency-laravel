@@ -45,6 +45,7 @@
             <li class="dropdown"><a href="#">Pages</a>
                 <ul>
                     <li><a href="{{ route('testt') }}">Test</a></li>
+                    <li><a href="{{ route('visa_processes') }}">Visa Processes</a></li>
                     <li class="dropdown">
                         <a href="#">Register</a>
                         <ul>

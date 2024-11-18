@@ -71,6 +71,16 @@ class HomeController extends Controller
         return view('pages.hotels.hotel-details');
     }
 
+    public function visa_processes()
+    {
+        return view('pages.visa-processes.visa-processes');
+    }
+
+    public function visa_process_details($id)
+    {
+        return view('pages.visa-processes.visa-process-details');
+    }
+
     public function blog()
     {
         return view('pages.blogs.blogs');
