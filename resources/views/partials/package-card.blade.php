@@ -73,7 +73,7 @@
         </div>
         <div class="destination-footer">
             <span class="price"><span>$1500</span>/person</span>
-            <a href="#" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now
+            <a href="{{ route('packages.details', 1) }}" class="read-more theme-btn bgc-secondary" style="padding: 6px 12px !important;">Book Now
                 <i class="fal fa-angle-right"></i>
             </a>
         </div>

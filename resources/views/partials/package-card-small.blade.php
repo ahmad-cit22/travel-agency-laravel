@@ -76,8 +76,9 @@
         </div>
         <div class="destination-footer">
             <span class="price" style="color: var(--heading-color)"><span class="text-success">$1500</span>/person</span>
-            <a href="#" class=" theme-btn bgc-secondary text-center" style="padding: 6px !important;">
-                <i class="fal fa-angle-right"></i></a>
+            <a href="{{ route('packages.details', 1) }}" class="style-two style-three read-more" style="padding: 10px !important;">
+                <i class="fal fa-angle-right"></i>
+            </a>
         </div>
     </div>
 </div>

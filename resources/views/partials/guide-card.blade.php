@@ -26,11 +26,11 @@
 
             <!-- Button Links Section -->
             <div class="destination-footer py-3 px-0" style="display: flex; justify-content: space-between;">
-                <a href="blog-details.html" class="theme-btn p-2 px-4">
+                <a href="{{route('guides.details', 1)}}" class="theme-btn p-2 px-4">
                     <span data-hover="Learn More">Learn More</span>
                     <i class="fal fa-arrow-right"></i>
                 </a>
-                <a href="blog-details.html" class="theme-btn style-three p-2 px-4">
+                <a href="{{route('guides.details', 1)}}" class="theme-btn style-three p-2 px-4">
                     <span data-hover="Contact">Contact</span>
                     <i class="fal fa-arrow-right"></i>
                 </a>

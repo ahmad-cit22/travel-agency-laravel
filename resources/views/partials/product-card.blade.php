@@ -1,7 +1,7 @@
 <div class="col-xl-3 col-lg-4 col-sm-6">
     <div class="product-item" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="50">
         <div class="image">
-            <img src="assets/images/shop/product1.png" alt="Product">
+            <img src="{{ asset('assets/images/shop/product1.png') }}" alt="Product">
         </div>
         <div class="content">
             <div class="ratting">

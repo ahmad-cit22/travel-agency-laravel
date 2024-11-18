@@ -18,7 +18,7 @@
                 <span class="price">
                     <span>$85.00</span>/night
                 </span>
-                <a href="#" class="read-more ml-3">Book Now <i class="fal fa-angle-right"></i></a>
+                <a href="{{ route('hotels.details', 1) }}" class="read-more ml-3">Learn More <i class="fal fa-angle-right"></i></a>
             </div>
         </div>
     </div>

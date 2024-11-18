@@ -4,12 +4,12 @@
     </div>
     <div class="content">
         <a href="blog.html" class="category">Hajj</a>
-        <h5><a href="blog-details.html">Hajj: The Ultimate Pilgrimage for Muslims</a></h5>
+        <h5><a href="{{route('blogs.details', 1)}}">Hajj: The Ultimate Pilgrimage for Muslims</a></h5>
         <ul class="blog-meta">
             <li><i class="far fa-calendar-alt"></i> <a href="#">25 February 2024</a></li>
         </ul>
         <p>The Hajj is the fifth pillar of Islam and a once-in-a-lifetime experience for millions of Muslims around the world.</p>
-        <a href="blog-details.html" class="theme-btn style-two style-three">
+        <a href="{{route('blogs.details', 1)}}" class="theme-btn style-two style-three">
             <span data-hover="Read More">Read More</span>
             <i class="fal fa-arrow-right"></i>
         </a>
