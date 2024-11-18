@@ -34,7 +34,8 @@
             </li>
             <li class=""><a href="{{ route('hotels') }}">Hotels</a>
             </li>
-            <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Islamic Shop</a>
+            <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Islamic
+                    Shop</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
                     <li><a href="destination2.html">Destination 01</a></li>
@@ -71,11 +72,8 @@
                     <li><a href="{{ route('404') }}">404 Error</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#">blog</a>
-                <ul>
-                    <li><a href="{{ route('blogs') }}">blog List</a></li>
-                    <li><a href="{{ route('blogs.details', 1) }}">blog details</a></li>
-                </ul>
+            <li>
+                <a href="{{ route('blogs') }}">Blogs</a>
             </li>
         </ul>
     </div>
