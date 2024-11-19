@@ -32,12 +32,12 @@
 
                 <!-- Menu Button -->
                 <div class="menu-btns py-10">
-                    <a href="{{ route('packages') }}" class="theme-btn style-two bgc-secondary">
+                    {{-- <a href="{{ route('packages') }}" class="theme-btn style-two bgc-secondary d-none d-xl-block">
                         <span data-hover="Book Now">Book Now</span>
                         <i class="fal fa-arrow-right"></i>
-                    </a>
+                    </a> --}}
                     <!-- menu sidbar -->
-                    <div class="menu-sidebar d-none d-md-block">
+                    <div class="menu-sidebar d-none d-lg-block">
                         <button class="bg-transparent">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>

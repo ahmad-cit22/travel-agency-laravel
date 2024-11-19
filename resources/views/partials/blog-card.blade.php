@@ -1,6 +1,6 @@
 <div class="blog-item style-three" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
     <div class="image">
-        <img src="{{ asset('assets/images/blog/blog-list2.jpg') }}" alt="Blog List">
+        <img src="{{ asset('assets/images/blog/hotel3.jpg') }}" alt="Blog List">
     </div>
     <div class="content">
         <a href="blog.html" class="category">Hajj</a>

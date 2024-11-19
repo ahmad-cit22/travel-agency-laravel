@@ -20,7 +20,7 @@ Route::middleware('guest')->group(function () {
     Route::get('register-as-hajji', [RegisteredUserController::class, 'create_hajji'])
                 ->name('register.hajji');
 
-    Route::post('register', [RegisteredUserController::class, 'store']);
+    Route::post('register', [RegisteredUserController::class, 'store'])->name('register');
 
     Route::get('login', [AuthenticatedSessionController::class, 'create'])
                 ->name('login');

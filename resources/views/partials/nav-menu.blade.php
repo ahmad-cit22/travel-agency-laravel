@@ -34,8 +34,7 @@
             </li>
             <li class=""><a href="{{ route('hotels') }}">Hotels</a>
             </li>
-            <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Islamic
-                    Shop</a>
+            <li class="{{ Request::routeIs('products') ? 'current' : '' }}"><a href="{{ route('products') }}">Shop</a>
                 <ul>
                     {{-- <li><a href="destination1.html">Destination 01</a></li>
                     <li><a href="destination2.html">Destination 01</a></li>
@@ -70,6 +69,16 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                    @auth
+                        <li>
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <button type="submit" class="p-2">
+                                    {{ __('Log Out') }}
+                                </button>
+                            </form>
+                        </li>
+                    @endauth
                     <li><a href="{{ route('404') }}">404 Error</a></li>
                 </ul>
             </li>

@@ -61,7 +61,7 @@
                             </h6>
                         </div>
 
-                        <form action="#" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="row">
                                 <div class="col-md-12">
@@ -105,6 +105,21 @@
                                         <label for="zip">Zip Code</label>
                                     </div>
                                 </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" name="password" class="form-control" id="password"
+                                            placeholder="Password" required>
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation"
+                                            placeholder="Confirm Password" required>
+                                        <label for="password_confirmation">Confirm Password</label>
+                                    </div>
+                                </div>
+
                                 <div class="col-md-12">
                                     <div class=" mb-3">
                                         <input type="checkbox" name="terms" class="" id="terms" required>
