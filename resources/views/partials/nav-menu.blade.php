@@ -69,17 +69,17 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                    <li><a href="{{ route('404') }}">404 Error</a></li>
                     @auth
                         <li>
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
-                                <button type="submit" class="p-2">
+                                <button type="submit" class="p-1">
                                     {{ __('Log Out') }}
                                 </button>
                             </form>
                         </li>
                     @endauth
-                    <li><a href="{{ route('404') }}">404 Error</a></li>
                 </ul>
             </li>
             <li>
