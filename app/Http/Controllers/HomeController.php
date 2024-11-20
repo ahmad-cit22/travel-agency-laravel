@@ -36,6 +36,11 @@ class HomeController extends Controller
         return view('pages.booking');
     }
 
+    public function cart()
+    {
+        return view('pages.cart');
+    }
+
     public function not_found_page()
     {
         return view('pages.404');

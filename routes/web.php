@@ -22,6 +22,7 @@ Route::get('/testt', function () {
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/cart', [HomeController::class, 'cart'])->name('cart');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/booking/{id}', [HomeController::class, 'booking'])->name('booking');
 Route::get('/404-page', [HomeController::class, 'not_found_page'])->name('404');
