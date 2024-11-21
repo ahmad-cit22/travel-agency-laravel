@@ -73,19 +73,22 @@
                     </div>
                 </div>
                 <div class="col-lg-3 text-xl-end">
-                    <a href="tour-list.html" class="theme-btn style-two bgc-secondary mb-15">
+                    {{-- <a href="tour-list.html" class="theme-btn style-two bgc-secondary mb-15">
                         <span data-hover="Explore More Hotel">Explore More Hotel</span>
                         <i class="fal fa-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row justify-content-center">
+                <h3 class="mt-100 mb-50 text-center">Makkah</h3>
                 @include('partials.hotel-card-light')
                 @include('partials.hotel-card-light')
+                <h3 class="mt-100 mb-50 text-center">Medinah</h3>
                 @include('partials.hotel-card-light')
                 @include('partials.hotel-card-light')
+                <h3 class="mt-100 mb-50 text-center">Jeddah</h3>
                 @include('partials.hotel-card-light')
                 @include('partials.hotel-card-light')
             </div>
