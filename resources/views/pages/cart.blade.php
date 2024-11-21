@@ -17,7 +17,7 @@
 
         .cart-table tbody td {
             background-color: #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             vertical-align: middle;
             padding: 15px;
@@ -31,7 +31,7 @@
             background-color: #f8f9fa;
             border-radius: 10px;
             padding: 25px;
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .cart-summary h5 {
@@ -72,24 +72,11 @@
         }
 
         .coupon-box input {
-            width: 70%;
+            width: 72%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             margin-right: 10px;
-        }
-
-        .coupon-box button {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .coupon-box button:hover {
-            background-color: #0056b3;
         }
 
         .coupon-message {
@@ -134,8 +121,9 @@
             <div class="row">
                 <!-- Cart Table -->
                 <div class="col-lg-8">
+                    <h5>Cart Products</h5>
                     <div class="table-responsive">
-                        <table class="table cart-table table-bordered" data-aos="fade-right" data-aos-duration="1500"
+                        <table class="table cart-table table-stri" data-aos="fade-right" data-aos-duration="1500"
                             data-aos-offset="50">
                             <thead>
                                 <tr>
@@ -185,7 +173,6 @@
                         <h5>Cart Summary</h5>
                         <ul>
                             <li><span>Subtotal:</span> <span>$4200</span></li>
-                            <li><span>Tax (10%):</span> <span>$420</span></li>
                             <li><span>Discount:</span> <span>-$200</span></li>
                         </ul>
                         <h6>Total Payable: <span class="price text-success">$4420</span></h6>
@@ -195,7 +182,7 @@
                             <form action="#" method="POST">
                                 @csrf
                                 <input type="text" name="coupon_code" placeholder="Enter Coupon Code">
-                                <button type="submit">Apply</button>
+                                <button class="theme-btn style-three" type="submit" style="padding: 6px 16px;">Apply</button>
                             </form>
                             @if (session('coupon_message'))
                                 <div class="coupon-message {{ session('coupon_status') }}">
@@ -204,10 +191,10 @@
                             @endif
                         </div>
 
-                        <a href="#" class="theme-btn style-two w-100 mt-4">
+                        <button type="submit" class="theme-btn style-two w-100 mt-4">
                             <span data-hover="Proceed to Checkout">Proceed to Checkout</span>
                             <i class="fal fa-arrow-right"></i>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
