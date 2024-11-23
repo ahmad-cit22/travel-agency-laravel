@@ -122,7 +122,6 @@
                         </div>
                     </div>
                     <!-- Destination Gallery End -->
-                    
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-10 rmt-75">
                     <div class="blog-sidebar tour-sidebar">
