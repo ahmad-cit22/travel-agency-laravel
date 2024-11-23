@@ -87,6 +87,42 @@
                                 pilgrims have a safe, comfortable, and spiritually fulfilling experience.</li>
                         </ul>
                     </div>
+
+                    <!-- Destination Gallery start -->
+                    <div class="destination-gallery mt-100">
+                        <div class="container-fluid">
+                            <div class="row gap-10 justify-content-center rel">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('assets/images/destinations/destination-details1.jpg') }}"
+                                            alt="Destination">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('assets/images/destinations/destination-details4.jpg') }}"
+                                            alt="Destination">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('assets/images/destinations/destination-details2.jpg') }}"
+                                            alt="Destination">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('assets/images/destinations/destination-details3.jpg') }}"
+                                            alt="Destination">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="{{ asset('assets/images/destinations/destination-details5.jpg') }}"
+                                            alt="Destination">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Destination Gallery End -->
+                    
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-10 rmt-75">
                     <div class="blog-sidebar tour-sidebar">
@@ -119,7 +155,8 @@
                             </form>
                         </div>
 
-                        <div class="widget widget-contact" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
+                        <div class="widget widget-contact" data-aos="fade-up" data-aos-duration="1500"
+                            data-aos-offset="50">
                             <h5 class="widget-title">Need Help with Hajj?</h5>
                             <ul class="list-style-one">
                                 <li><i class="far fa-envelope"></i> <a
@@ -213,7 +250,8 @@
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
-                                        <div class="image"><img src="{{ asset('assets/images/testimonials/author1.jpg') }}"
+                                        <div class="image"><img
+                                                src="{{ asset('assets/images/testimonials/author1.jpg') }}"
                                                 alt="Author"></div>
                                         <div class="content">
                                             <h5>Randall V. Vasquez</h5>
@@ -237,7 +275,8 @@
                                         agency! They took care of every detail, from to accommodations, and even
                                         suggested incredible experiences"</div>
                                     <div class="author">
-                                        <div class="image"><img src="{{ asset('assets/images/testimonials/author1.jpg') }}"
+                                        <div class="image"><img
+                                                src="{{ asset('assets/images/testimonials/author1.jpg') }}"
                                                 alt="Author"></div>
                                         <div class="content">
                                             <h5>Randall V. Vasquez</h5>

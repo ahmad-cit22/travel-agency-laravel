@@ -92,7 +92,6 @@
     </section>
     <!-- Packages Area end -->
 
-
     <!-- About Us Area Start -->
     <section class="about-us-area py-100 rpb-90 rel z-1">
         <div class="container">
@@ -145,7 +144,6 @@
     </section>
     <!-- About Us Area End -->
 
-
     <!-- Guides start -->
     <section class="popular-destinations-area rel z-1">
         <div class="container-fluid">
@@ -180,7 +178,6 @@
         </div>
     </section>
     <!-- Guides end -->
-
 
     <!-- Features Area start -->
     <section class="features-area pt-100 pb-45 rel z-1">
@@ -396,7 +393,6 @@
         </div>
     </section> --}}
     <!-- CTA Area end -->
-
 
     <!-- Blog Area start -->
     <section class="blog-area py-70 rel z-1">
