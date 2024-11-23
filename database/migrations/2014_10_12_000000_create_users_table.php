@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('password');
             $table->boolean('is_admin')->default(false);
             $table->boolean('is_guide')->default(false);
+            $table->string('status')->default('pending')->comment('pending, approved, rejected, blocked');
             $table->rememberToken();
             $table->timestamps();
         });

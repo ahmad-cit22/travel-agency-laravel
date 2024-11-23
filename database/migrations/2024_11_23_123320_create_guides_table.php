@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('guides', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->string('guide_no')->unique();
+            $table->text('bio')->nullable();
+            $table->string('qualifications')->nullable();
+            $table->integer('total_tours')->default(0);
+            $table->float('comission_rate')->default(0.00);
+            $table->string('status')->default('pending')->comment('pending, approved, rejected, blocked');
             $table->timestamps();
         });
     }
