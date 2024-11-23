@@ -54,14 +54,6 @@
                     </li>
                     <li><a href="{{ route('login') }}">Login</a></li>
                     <li><a href="{{ route('booking', 1) }}">Booking Page</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="faqs.html">faqs</a></li>
-                    <li class="dropdown"><a href="#">Gallery</a>
-                        <ul>
-                            <li><a href="gellery-grid.html">Gallery Grid</a></li>
-                            <li><a href="gellery-slider.html">Gallery Slider</a></li>
-                        </ul>
-                    </li>
                     <li class="dropdown"><a href="#">products</a>
                         <ul>
                             <li><a href="{{ route('products') }}">Our Products</a></li>

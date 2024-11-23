@@ -28,25 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-10 rmb-75">
-                    @include('partials.shop-sidebar')
-
-                    {{-- <div class="widget widget-cta mt-30" data-aos="fade-up" data-aos-duration="1500"
-                        data-aos-offset="50">
-                        <div class="content text-white">
-                            <span class="h6">Explore The World</span>
-                            <h3>Best Tourist Place</h3>
-                            <a href="tour-list.html" class="theme-btn style-two bgc-secondary">
-                                <span data-hover="Explore Now">Explore Now</span>
-                                <i class="fal fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div class="image">
-                            <img src="assets/images/widgets/cta-widget.png" alt="CTA" />
-                        </div>
-                        <div class="cta-shape">
-                            <img src="assets/images/widgets/cta-shape2.png" alt="Shape" />
-                        </div>
-                    </div> --}}
+                    @include('partials.package-sidebar')
                 </div>
                 <div class="col-lg-9">
                     <div class="shop-shorter rel z-3 mb-20">
