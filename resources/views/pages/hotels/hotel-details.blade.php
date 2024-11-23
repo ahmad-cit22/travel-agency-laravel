@@ -185,52 +185,49 @@
             </table>
 
             <h3>Frequently Asked Questions</h3>
-                    <div class="accordion-one mt-25 mb-60" id="faq-accordion">
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne">
-                                    What is the best way to prepare for Hajj?
-                                </button>
-                            </h5>
-                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
-                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo">
-                                    What is the best way to prepare for Hajj?
-                                </button>
-                            </h5>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
-                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree">
-                                    What is the best way to prepare for Hajj?
-                                </button>
-                            </h5>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
-                                        recommended to start preparing at least 6 months before the pilgrimage.</p>
-                                </div>
-                            </div>
+            <div class="accordion-one mt-25 mb-60" id="faq-accordion">
+                <div class="accordion-item">
+                    <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What is the best way to prepare for Hajj?
+                        </button>
+                    </h5>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                            <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                recommended to start preparing at least 6 months before the pilgrimage.</p>
                         </div>
                     </div>
-
-
+                </div>
+                <div class="accordion-item">
+                    <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">
+                            What is the best way to prepare for Hajj?
+                        </button>
+                    </h5>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                            <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                recommended to start preparing at least 6 months before the pilgrimage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h5 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree">
+                            What is the best way to prepare for Hajj?
+                        </button>
+                    </h5>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                        <div class="accordion-body">
+                            <p>Preparing for Hajj requires physical, mental and spiritual preparation. It is
+                                recommended to start preparing at least 6 months before the pilgrimage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
