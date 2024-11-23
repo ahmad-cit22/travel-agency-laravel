@@ -782,6 +782,11 @@ a.theme-btn.style-four:hover {
     background: var(--secondary-color);
 }
 
+.table-dark {
+    --bs-table-bg: var(--primary-color) !important;
+    /* --bs-table-bg: #212529; */
+}
+
 /* Tab Style One */
 .tab-style-one {
     border-bottom: 1px solid var(--border-color);
