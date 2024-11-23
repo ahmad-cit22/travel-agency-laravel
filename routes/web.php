@@ -47,6 +47,10 @@ Route::get('/blog/{id}', [HomeController::class, 'blog_details'])->name('blogs.d
 
 Route::get('/dashboard', [AdminController::class, 'index'])->middleware(['auth'])->name('dashboard');
 
+//admin
+Route::get('/index', [AdminController::class, 'index'])->middleware(['auth'])->name('index');
+Route::get('/cache-clear', [AdminController::class, 'index'])->middleware(['auth'])->name('cache.clear');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

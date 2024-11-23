@@ -98,7 +98,7 @@
     <!-- Package Grid Area end -->
 
     <!-- Guides start -->
-    <section class="popular-destinations-area rel z-1">
+    <section class="popular-destinations-area rel z-1 mb-100">
         <div class="container-fluid">
             <div class="popular-destinations-wrap br-20 bgc-lighter pt-100 pb-70">
                 <div class="row justify-content-center">
