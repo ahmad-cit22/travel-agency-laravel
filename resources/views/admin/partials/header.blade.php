@@ -127,10 +127,18 @@
         .text-unpaid {
             color: rgb(201, 144, 0) !important;
         }
+
+        .main-sidebar, .main-header {
+            background: #0f2c18 !important;
+        }
+
+        .breadcrumb-item a {
+            color: #0f2c18 !important;
+        }
     </style>
 
     @yield('style')
-    
+
     <script src="https://cdn.tiny.cloud/1/yze2qblheth712tqw6y3f30283f8nch1bogp0jzpsm3rn79f/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
 </head>
