@@ -24,6 +24,8 @@ return new class extends Migration
             $table->integer('total_seats');
             $table->integer('booked_seats')->default(0);
             $table->string('status')->default('pending')->comment('pending, active, inactive');
+            $table->text('meta_title')->nullable();
+            $table->text('meta_description')->nullable();
             $table->timestamps();
         });
     }

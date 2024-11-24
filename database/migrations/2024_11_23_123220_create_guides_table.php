@@ -20,6 +20,8 @@ return new class extends Migration
             $table->integer('total_tours')->default(0);
             $table->float('comission_rate')->default(0.00);
             $table->string('status')->default('pending')->comment('pending, approved, rejected, blocked');
+            $table->text('meta_title')->nullable();
+            $table->text('meta_description')->nullable();
             $table->timestamps();
         });
     }
