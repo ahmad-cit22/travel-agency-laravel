@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('package_media', function (Blueprint $table) {
             $table->id();
             $table->foreignId('package_id')->constrained()->onDelete('cascade');
-            $table->string('media_type');
+            $table->string('media_type')->default('image')->comment('image, video');
             $table->string('media_url')->nullable();
             $table->string('media_name')->nullable();
             $table->string('media_description')->nullable();

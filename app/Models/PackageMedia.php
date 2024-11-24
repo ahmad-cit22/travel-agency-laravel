@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class PackageMedia extends Model
 {
     use HasFactory;
+
+    protected $guarded = ['id'];
+
+    public function package()
+    {
+        return $this->belongsTo(Package::class);
+    }
 }
