@@ -22,6 +22,8 @@ return new class extends Migration
             $table->decimal('price_adult', 8, 2);
             $table->decimal('price_child', 8, 2);
             $table->decimal('discount', 8, 2)->nullable();
+            $table->text('short_description');
+            $table->longText('long_description');
             $table->integer('total_seats');
             $table->integer('booked_seats')->default(0);
             $table->string('status')->default('pending')->comment('pending, active, inactive');

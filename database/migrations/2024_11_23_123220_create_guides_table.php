@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('guide_no')->unique();
-            $table->text('bio')->nullable();
-            $table->string('qualifications')->nullable();
+            $table->text('bio');
+            $table->string('qualifications');
+            $table->longText('long_description');
             $table->integer('total_tours')->default(0);
             $table->float('comission_rate')->default(0.00);
             $table->string('status')->default('pending')->comment('pending, approved, rejected, blocked');

@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
             $table->foreignId('package_id')->constrained()->onDelete('cascade');
+            $table->foreignId('guide_id')->constrained()->onDelete('cascade');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('booking_no')->unique();
             $table->date('booking_date');
@@ -21,8 +22,11 @@ return new class extends Migration
             $table->integer('total_children')->default(0);
             $table->decimal('total_price', 8, 2);
             $table->decimal('discount', 8, 2)->nullable();
-            $table->decimal('paid', 8, 2)->default(0);
             $table->string('status')->default('pending')->comment('pending, confirmed, cancelled, completed, refunded');
+            $table->string('payment_method');
+            $table->decimal('paid_amount', 8, 2)->default(0);
+            $table->string('transaction_id')->nullable();
+            $table->text('note')->nullable();
             $table->timestamps();
         });
     }
