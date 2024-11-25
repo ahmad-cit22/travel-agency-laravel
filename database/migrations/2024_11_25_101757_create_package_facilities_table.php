@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('package_facilities', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('icon');
+            $table->foreignId('package_id')->constrained()->onDelete('cascade');
+            $table->text('description')->nullable();
+            $table->boolean('status')->default(true);
             $table->timestamps();
         });
     }

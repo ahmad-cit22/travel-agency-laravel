@@ -19,7 +19,6 @@ return new class extends Migration
             $table->integer('capacity');
             $table->decimal('price', 8, 2);
             $table->string('facilities');
-            $table->string('status')->default('pending')->comment('pending, active, inactive');
             $table->integer('total_rooms');
             $table->integer('booked_rooms')->default(0);
             $table->timestamps();

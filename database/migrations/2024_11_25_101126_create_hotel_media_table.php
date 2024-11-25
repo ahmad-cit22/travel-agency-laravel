@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('hotel_media', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('hotel_id')->constrained()->onDelete('cascade');
+            $table->string('media_type')->default('image')->comment('image, video');
+            $table->string('media_url')->nullable();
+            $table->string('media_name')->nullable();
+            $table->string('media_description')->nullable();
             $table->timestamps();
         });
     }
