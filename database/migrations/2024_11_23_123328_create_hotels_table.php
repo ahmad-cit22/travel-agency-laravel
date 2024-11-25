@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('location');
+            $table->string('location_link');
             $table->text('short_description');
             $table->longText('long_description');
             $table->string('status')->default('pending')->comment('pending, active, inactive');

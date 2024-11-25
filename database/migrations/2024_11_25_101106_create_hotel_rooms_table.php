@@ -13,6 +13,15 @@ return new class extends Migration
     {
         Schema::create('hotel_rooms', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('hotel_id')->constrained()->onDelete('cascade');
+            $table->string('room_no');
+            $table->string('room_type');
+            $table->integer('capacity');
+            $table->decimal('price', 8, 2);
+            $table->string('facilities');
+            $table->string('status')->default('pending')->comment('pending, active, inactive');
+            $table->integer('total_rooms');
+            $table->integer('booked_rooms')->default(0);
             $table->timestamps();
         });
     }
