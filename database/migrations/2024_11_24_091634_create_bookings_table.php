@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('status')->default('pending')->comment('pending, confirmed, cancelled, completed, refunded');
             $table->string('payment_method');
             $table->decimal('paid_amount', 8, 2)->default(0);
-            $table->string('transaction_id')->nullable();
+            $table->string('txn_id')->nullable();
             $table->text('note')->nullable();
             $table->timestamps();
         });
