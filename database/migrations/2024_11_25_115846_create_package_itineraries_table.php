@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('package_itineraries', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('package_id')->constrained()->onDelete('cascade');
+            $table->string('title');
+            $table->text('description');
+            $table->string('status')->default('active')->comment('active, inactive');
             $table->timestamps();
         });
     }

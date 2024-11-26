@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('visa_processes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->text('short_description');
+            $table->longText('long_description');
+            $table->decimal('price', 8, 2);
+            $table->string('status')->default('active')->comment('active, inactive');
             $table->timestamps();
         });
     }
