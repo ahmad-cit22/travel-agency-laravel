@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('slug');
             $table->string('status')->default('active')->comment('active, inactive');
             $table->boolean('is_featured')->default(false);
+            
             $table->string('meta_title')->nullable();
             $table->string('meta_description')->nullable();
             $table->timestamps();
