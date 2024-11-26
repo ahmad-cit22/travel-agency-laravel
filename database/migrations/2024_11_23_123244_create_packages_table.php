@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->foreignId('guide_id')->constrained()->onDelete('cascade');
+            $table->foreignId('package_category_id')->constrained()->onDelete('cascade');
             $table->date('departure_date');
             $table->date('return_date');
             $table->string('departure_location');
@@ -27,6 +28,7 @@ return new class extends Migration
             $table->integer('total_seats');
             $table->integer('booked_seats')->default(0);
             $table->string('status')->default('pending')->comment('pending, active, inactive');
+            $table->boolean('is_featured')->default(false);
             $table->text('meta_title')->nullable();
             $table->text('meta_description')->nullable();
             $table->timestamps();

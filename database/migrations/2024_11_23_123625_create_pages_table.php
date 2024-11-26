@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('pages', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('content');
+            $table->string('slug');
+            $table->string('status')->default('active');
+            $table->string('meta_title')->nullable();
+            $table->string('meta_description')->nullable();
             $table->timestamps();
         });
     }

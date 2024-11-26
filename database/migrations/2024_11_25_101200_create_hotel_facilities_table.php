@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('icon');
             $table->foreignId('hotel_id')->constrained()->onDelete('cascade');
             $table->text('description')->nullable();
-            $table->boolean('status')->default(true);
+            $table->string('status')->default('active')->comment('active, inactive');
             $table->timestamps();
         });
     }

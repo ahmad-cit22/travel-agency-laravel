@@ -11,13 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('package_facilities', function (Blueprint $table) {
+        Schema::create('package_itineraries', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('icon');
-            $table->foreignId('package_id')->constrained()->onDelete('cascade');
-            $table->text('description')->nullable();
-            $table->string('status')->default('active')->comment('active, inactive');
             $table->timestamps();
         });
     }
@@ -27,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('package_facilities');
+        Schema::dropIfExists('package_itineraries');
     }
 };
