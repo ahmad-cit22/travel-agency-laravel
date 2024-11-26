@@ -11,12 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('visa_processes', function (Blueprint $table) {
+        Schema::create('product_categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('short_description');
-            $table->longText('long_description');
-            $table->decimal('price', 8, 2);
+            $table->string('image')->nullable();
+            $table->text('description')->nullable();
+            $table->string('slug');
             $table->string('status')->default('active')->comment('active, inactive');
             $table->boolean('is_featured')->default(false);
             $table->string('meta_title')->nullable();
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('visa_processes');
+        Schema::dropIfExists('product_categories');
     }
 };

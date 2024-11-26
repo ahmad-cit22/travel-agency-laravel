@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('status')->default('pending')->comment('pending, active, inactive');
             $table->boolean('is_featured')->default(false);
             $table->text('meta_title')->nullable();
+            $table->string('meta_image')->nullable();
             $table->text('meta_description')->nullable();
             $table->timestamps();
         });
