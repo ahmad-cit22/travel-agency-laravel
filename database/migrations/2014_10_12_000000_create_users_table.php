@@ -17,12 +17,11 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone')->unique()->nullable();
             $table->text('address')->nullable();
-            $table->integer('nid')->nullable();
-            $table->string('passport_no')->nullable();
+            $table->integer('nid')->unique()->nullable();
+            $table->string('passport_no')->unique()->nullable();
             $table->string('password');
             $table->boolean('is_admin')->default(false);
             $table->boolean('is_guide')->default(false);
-            $table->string('status')->default('pending')->comment('pending, approved, rejected, blocked');
             $table->rememberToken();
             $table->timestamps();
         });
