@@ -155,7 +155,7 @@
                 </li>
                 @if (!auth()->user()->vendor)
                     <li class="nav-item d-none d-sm-inline-block">
-                        <a href="{{ route('index') }}" class="nav-link" target="_blank"><i class="fas fa-home"></i> Visit Website</a>
+                        <a href="{{ route('home') }}" class="nav-link" target="_blank"><i class="fas fa-home"></i> Visit Website</a>
                     </li>
                 @endif
                 <li class="nav-item ml-2">

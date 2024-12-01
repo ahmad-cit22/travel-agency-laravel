@@ -26,8 +26,6 @@ return new class extends Migration
             $table->boolean('is_active')->default(true);
             $table->decimal('price', 8, 2);
             $table->decimal('discount_amount', 8, 2)->nullable();
-            $table->integer('quantity')->default(0);
-            $table->integer('sold_quantity')->default(0);
             $table->string('meta_title')->nullable();
             $table->string('meta_image')->nullable();
             $table->string('meta_description')->nullable();

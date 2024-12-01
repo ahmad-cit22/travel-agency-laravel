@@ -45,14 +45,18 @@
                 <ul>
                     <li><a href="{{ route('testt') }}">Test</a></li>
                     <li><a href="{{ route('visa_processes') }}">Visa Processes</a></li>
-                    <li class="dropdown">
-                        <a href="#">Register</a>
-                        <ul>
-                            <li><a href="{{ route('register.guide') }}">Become a Guide</a></li>
-                            <li><a href="{{ route('register.hajji') }}">Become a Hajji</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('login') }}">Login</a></li>
+                    @guest
+                        <li class="dropdown">
+                            <a href="#">Register</a>
+                            <ul>
+                                <li><a href="{{ route('register.guide') }}">Become a Guide</a></li>
+                                <li><a href="{{ route('register.hajji') }}">Become a Hajji</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ route('login') }}">Login</a></li>
+                    @else
+                        <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+                    @endguest
                     <li><a href="{{ route('booking', 1) }}">Booking Page</a></li>
                     <li class="dropdown"><a href="#">products</a>
                         <ul>

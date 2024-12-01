@@ -18,18 +18,6 @@
             </div>
         </div>
 
-        <!-- SidebarSearch Form -->
-        <!-- <div class="form-inline">
-      <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-sidebar">
-            <i class="fas fa-search fa-fw"></i>
-          </button>
-        </div>
-      </div>
-    </div> -->
-
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
@@ -44,6 +32,37 @@
                         </p>
                     </a>
                 </li>
+                @if (Auth::user()->is_admin)
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-user"></i>
+                            <p>
+                                User Management
+                                <i class="fas fa-angle-right right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('users.index') }}" class="nav-link">
+                                    <i class="fas fa-angle-right"></i>
+                                    <p>Admins</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fas fa-angle-right"></i>
+                                    <p>Guides</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('customers.index') }}" class="nav-link">
+                                    <i class="fas fa-angle-right"></i>
+                                    <p>Customers</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                @endif
                 @if (Auth::user()->type == 1)
                     @if (auth()->user()->can('supplier.index') || auth()->user()->can('customer.list'))
                         <li class="nav-item">

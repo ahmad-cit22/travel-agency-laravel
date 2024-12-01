@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone')->unique()->nullable();
             $table->text('address')->nullable();
-            $table->integer('nid')->unique()->nullable();
+            $table->bigInteger('nid')->unique()->nullable();
             $table->string('passport_no')->unique()->nullable();
             $table->string('password');
             $table->boolean('is_admin')->default(false);
