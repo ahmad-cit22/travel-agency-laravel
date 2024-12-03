@@ -27,6 +27,7 @@ class PackageFactory extends Factory
             'price_adult' => $this->faker->numberBetween(1000, 10000),
             'price_child' => $this->faker->numberBetween(1000, 10000),
             'discount' => $this->faker->optional()->numberBetween(100, 1000),
+            'minimum_advance' => $this->faker->numberBetween(1000, 10000),
             'short_description' => $this->faker->sentence(),
             'long_description' => $this->faker->paragraph(),
             'total_seats' => $this->faker->numberBetween(1, 100),

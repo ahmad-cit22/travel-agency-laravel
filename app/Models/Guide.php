@@ -20,4 +20,9 @@ class Guide extends Model
     {
         return $this->hasMany(Package::class);
     }
+
+    public function package_bookings()
+    {
+        return $this->hasMany(PackageBooking::class);
+    }
 }

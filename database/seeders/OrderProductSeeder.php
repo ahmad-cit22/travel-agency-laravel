@@ -2,17 +2,17 @@
 
 namespace Database\Seeders;
 
-use Database\Factories\PackageBookingFactory;
+use Database\Factories\OrderProductFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class PackageBookingSeeder extends Seeder
+class OrderProductSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        PackageBookingFactory::new()->count(10)->create();
+        OrderProductFactory::new()->count(10)->create();
     }
 }

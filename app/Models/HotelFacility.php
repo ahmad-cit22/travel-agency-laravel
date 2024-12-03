@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class HotelFacility extends Model
 {
     use HasFactory;
+
+    public function hotel()
+    {
+        return $this->belongsTo(Hotel::class,'hotel_id','id');
+    }
 }

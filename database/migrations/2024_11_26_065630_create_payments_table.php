@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('order_id')->constrained()->onDelete('cascade')->nullable();
-            $table->foreignId('package_booking_id')->constrained()->onDelete('cascade')->nullable();
+            $table->foreignId('order_id')->nullable()->constrained()->onDelete('cascade');
+            $table->foreignId('package_booking_id')->nullable()->constrained()->onDelete('cascade');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('type')->comment('order, package-booking');
             $table->string('txn_id');

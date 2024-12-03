@@ -13,4 +13,14 @@ class Product extends Model
     {
         return $this->belongsTo(ProductCategory::class, 'product_category_id', 'id');
     }
+
+    public function order_products()
+    {
+        return $this->hasMany(OrderProduct::class);
+    }
+
+    public function product_stock()
+    {
+        return $this->hasOne(ProductStock::class);
+    }
 }

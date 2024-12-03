@@ -32,9 +32,16 @@ class DatabaseSeeder extends Seeder
             // HotelSeeder::class,
             // HotelRoomSeeder::class,
             // OrderSeeder::class,
-            PackageCategorySeeder::class,
-            GuideSeeder::class,
-            PackageSeeder::class,
+            // PackageCategorySeeder::class,
+            // GuideSeeder::class,
+            // PackageSeeder::class,
+            // PackageBookingSeeder::class,
+            // OrderProductSeeder::class,
+            // PackageReviewSeeder::class,
+            // ProductStockSeeder::class,
+            // PaymentSeeder::class,
+            // HotelMediaSeeder::class,
+            HotelFacilitySeeder::class,
         ]);
     }
 }
