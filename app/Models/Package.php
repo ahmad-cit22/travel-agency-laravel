@@ -13,7 +13,7 @@ class Package extends Model
 
     public function guide()
     {
-        return $this->belongsTo(Guide::class);
+        return $this->belongsTo(Guide::class, 'guide_id', 'id');
     }
 
     public function reviews()
@@ -29,5 +29,10 @@ class Package extends Model
     public function videos()
     {
         return $this->hasMany(PackageMedia::class)->where('media_type', 'video');
+    }
+
+    public function package_category()
+    {
+        return $this->belongsTo(PackageCategory::class, 'package_category_id', 'id');
     }
 }

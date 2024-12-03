@@ -17,7 +17,15 @@ class PackageCategoryFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => $this->faker->word,
+            'image' => $this->faker->optional()->imageUrl(),
+            'description' => $this->faker->optional()->paragraph,
+            'slug' => $this->faker->unique()->slug,
+            'status' => $this->faker->randomElement(['active', 'inactive']),
+            'is_featured' => $this->faker->boolean,
+            'meta_title' => $this->faker->optional()->sentence,
+            'meta_image' => $this->faker->optional()->imageUrl(),
+            'meta_description' => $this->faker->optional()->paragraph,
         ];
     }
 }

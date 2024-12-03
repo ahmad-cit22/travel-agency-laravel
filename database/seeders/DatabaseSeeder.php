@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Hotel;
+use App\Models\Package;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -29,6 +30,11 @@ class DatabaseSeeder extends Seeder
             // BlogSeeder::class,
             // HotelLocationSeeder::class,
             // HotelSeeder::class,
+            // HotelRoomSeeder::class,
+            // OrderSeeder::class,
+            PackageCategorySeeder::class,
+            GuideSeeder::class,
+            PackageSeeder::class,
         ]);
     }
 }
