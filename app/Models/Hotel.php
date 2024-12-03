@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Hotel extends Model
 {
     use HasFactory;
+
+    public function location()
+    {
+        return $this->belongsTo(HotelLocation::class,'hotel_location_id','id');
+    }
+
+    public function rooms()
+    {
+        return $this->hasMany(HotelRoom::class);
+    }
 }
