@@ -40,4 +40,9 @@ class Package extends Model
     {
         return $this->hasMany(PackageBooking::class);
     }
+
+    public function package_itineraries()
+    {
+        return $this->hasMany(PackageItinerary::class);
+    }
 }

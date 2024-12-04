@@ -17,7 +17,10 @@ class PackageItineraryFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'package_id' => \App\Models\Package::factory(),
+            'title' => $this->faker->sentence(),
+            'description' => $this->faker->paragraph(),
+            'status' => $this->faker->randomElement(['active', 'inactive']),
         ];
     }
 }

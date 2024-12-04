@@ -19,9 +19,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/testt', function () {
+Route::get('/test', function () {
     return view('pages.hotels.hotel-details');
-})->name('testt');
+})->name('test');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
@@ -49,8 +49,9 @@ Route::get('/blog', [HomeController::class, 'blog'])->name('blogs');
 Route::get('/blog/{id}', [HomeController::class, 'blog_details'])->name('blogs.details');
 
 //admin
-Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', [AdminController::class, 'index'])->name('dashboard');
+Route::middleware('auth')->prefix('dashboard')->group(function () {
+    Route::get('/index', [AdminController::class, 'index'])->name('dashboard');
+    Route::get('/users/search', [UserController::class, 'search'])->name('users.search');
     Route::resource('users', UserController::class);
     // Route::resource('guides', GuideController::class);
     Route::resource('customers', CustomerController::class);

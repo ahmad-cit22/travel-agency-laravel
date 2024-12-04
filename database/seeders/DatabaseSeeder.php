@@ -42,6 +42,7 @@ class DatabaseSeeder extends Seeder
             // PaymentSeeder::class,
             // HotelMediaSeeder::class,
             // HotelFacilitySeeder::class,
+            // PackageItinerarySeeder::class,
         ]);
     }
 }

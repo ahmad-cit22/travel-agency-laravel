@@ -823,6 +823,105 @@
 
         </div><!-- /.container-fluid -->
     </section> --}}
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="{{ route('users.create') }}" class="btn btn-primary">Create <i
+                                    class="fas fa-plus"></i></a>
+                                </div>
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <form action="{{ route('users.search') }}" method="GET">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <input type="text" name="search" id="search" class="form-control">
+                                            </div>
+                                            <div class="col-md-3">
+                                                <button type="submit" class="btn btn-outline-primary">Search</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="example2" class="table table-bordered table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+                                            <th>Address</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach ($users as $user)
+                                            <tr>
+                                                <td>{{ $user->id }}</td>
+                                                <td>{{ $user->name }}</td>
+                                                <td>{{ $user->email }}</td>
+                                                <td>{{ $user->phone }}</td>
+                                                <td>{{ $user->address }}</td>
+                                                <td>
+                                                    <a href="{{ route('users.edit', $user->id) }}" class="btn btn-primary"
+                                                        title="Edit"><i class="fas fa-edit"></i></a>
+
+                                                    <a href="#deleteModal{{ $user->id }}" class="btn btn-danger"
+                                                        data-toggle="modal" title="Delete"><i class="fas fa-trash"></i></a>
+                                                </td>
+                                            </tr>
+                                            <!-- user Modal -->
+                                            <div class="modal fade" id="deleteModal{{ $user->id }}" tabindex="-1"
+                                                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Are you sure you
+                                                                want to delete ?</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="{{ route('users.destroy', $user->id) }}"
+                                                                method="POST">
+                                                                {{ csrf_field() }}
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-dismiss="modal">Cancel</button>
+                                                                <button type="submit" class="btn btn-danger">Permanent
+                                                                    Delete</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+
+                                    </tbody>
+                                </table>
+                                <div class="row justify-content-center">
+                                    {{ $users->links() }}
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- /.content -->
 @endsection
 
